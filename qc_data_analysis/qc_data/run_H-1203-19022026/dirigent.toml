@@ -1,0 +1,132 @@
+#
+#           44  44              44
+#           44  ""              ""                                         ,d
+#           44                                                             44
+#   ,adPPYb,44  44  8b,dPPYba,  44   ,adPPYb,d8   ,adPPYba,  8b,dPPYba,  MM44MMM
+#  a8"    `Y44  44  44P'   "Y8  44  a8"    `Y44  a8P_____44  44P'   `"8a   44
+#  8b       44  44  44          44  8b       44  8PP"""""""  44       44   44
+#  "8a,   ,d44  44  44          44  "8a,   ,d44  "8b,   ,aa  44       44   44,
+#   `"8bbdP"Y8  44  44          44   `"YbbdP"Y8   `"Ybbd8"'  44       44   "Y448
+#                                    aa,    ,44
+#                                     "Y8bbdP"
+# version 4.2.0
+# config file
+
+# Global options
+verbose = 1
+
+# Info related to modules and Ph2_ACF
+fc7_address = '192.168.50.5'
+module_json = 'modules.json'
+instruments = 'instruments.json'
+
+ph2_dir = ''  	# path to ph2_acf install folder - If empty, it is assumed, that ph2_acf is loaded already
+xml_file = ''	# path to CMSITminiDAQ XML file - If empty, 'CMSIT.xml' will be used
+firmware = 'TEPX_v5.0_l8' 	# name of the firmware on the SD card - If empty, current firmware will be used
+
+felis = false 	# indicates if Felis should be executed and uploads are to be performed
+
+
+# Options for Monitors in Monitoring
+# for more information check the documentation
+add_leakage_monitor = false
+add_supply_monitor = false
+add_climate_monitor = false
+add_coldbox_monitor = false
+
+
+### Calibration-specific Configurations ###
+# The entries here are completely optional as each calibration has its own default parameters
+# The below settings can also be overridden using command-line options
+
+[assembly_test]
+# These are just some examples
+    disable_iv = true
+    part = '1'            # 'FirstPart' = '1', 'SecondPart' = '2'
+
+[full_performance]
+    fast = false
+
+[iv_curve]
+    start_voltage = 0
+    max_voltage = -350
+    step_size = 5
+    delay = 2
+    plot = true
+    temp_mon = true
+    write_breakdowns = true
+
+[voltage_trimming]
+    initial_trim = 0
+    final_trim = 15
+    trim_step = 1
+    write_json = false
+
+[calibrate_module]
+    tests = "ROCTune"
+
+[custom_calibration]
+    scan_list = [
+        {name = "pixelalive", "INJtype"=1, "DoDataIntegrity"=1},
+        {name = "pixelalive", "INJtype"=2, "DoDataIntegrity"=1}
+    ]
+    write_xml = true
+
+[custom_sequence]
+    test_list = [
+        {name = "PixelAlive_Analog"},
+        {name = "ThresholdEqualization"},
+        {name = "InjectionDelay"},
+        {name = "ThresholdAdjustment_default_to_Th2000"},
+        {name = "ThresholdEqualization_1Step_Th2000"},
+        {name = "PixelAlive_Analog_Th2000"},
+        {name = "SCurveScan_VCal1100"},
+        {name = "NoiseScan_Th2000"},
+        {name = "ThresholdAdjustment_Th2000_to_Th1200"},
+        {name = "ThresholdEqualization_1Step_Th1200"},
+        {name = "PixelAlive_Analog_Th1200"},
+        {name = "SCurveScan"},
+        {name = "NoiseScan_Th1200"},
+        {name = "ThresholdAdjustment_Th1200_to_Th1000"},
+        {name = "ThresholdEqualization_1Step_Th1000"},
+        {name = "PixelAlive_Analog_Th1000"},
+        {name = "SCurveScan_VCal800"},
+        {name = "NoiseScan_Th1000"}
+    ] 
+
+[forward_bias_method]
+    target_voltage_reverse = -50
+    target_voltage_forward = 0.35
+    tuning = true
+    planar = true
+    preamp = 150
+    ldac = 140
+
+[crosstalk_method]
+
+[sldo_vi_curves]
+    final_current = 6.0
+    initial_current = 0.0
+    current_step = 0.2
+    start_monitoring_current = 5.0
+    delay = 1.0
+    expected = true
+
+[datamerging_quick]
+
+[sldo_vi_curves_GADC]
+    start_current = 0.0
+    stop_current = 6.0
+    delay = 1.0
+    step_size = 0.2
+    monitors = ["VINA", "VIND", "VDDA", "VDDD"]
+
+[voltage_trimming_GADC]
+    start_setting = 0
+    stop_setting = 15
+    monitors = ["VDDA", "VDDD"]
+
+### Tool-specific Configurations ###
+
+[get_module_info]
+    enable_e_fuse = 0

@@ -1,0 +1,166 @@
+2026-02-19 10:48:57 INFO dirigent_cli - CalibrationContext requested - now preparing components...
+2026-02-19 10:48:57 INFO dirigent_cli - 'CMSIT.xml' found in folder. This will be used for the following instance.
+2026-02-19 10:48:57 INFO dirigent_cli - 	> InstrumentCluster requested - now constructing.
+2026-02-19 10:48:57 INFO dirigent_cli - 	> CalibrationSet requested - now constructing.
+2026-02-19 10:48:57 INFO dirigent_cli - Assembling CalibrationContext...
+2026-02-19 10:48:57 INFO dirigent_cli - CalibrationContext created and ready for init...
+2026-02-19 10:48:57 INFO dirigent_cli - === Dirigent preparation done - handing off to calibration ===
+2026-02-19 10:48:57 INFO mqtt_instrument - Connected to MQTT broker: host: 192.168.50.3, port: 1883, clientID: PSIProbecard1::671138::139933843380032
+2026-02-19 10:48:57 INFO ph2acf_instance - Loading FC7 firmware
+2026-02-19 10:49:03 INFO ph2acf_instance - FC7 DDR reset requested - attempting.
+2026-02-19 10:49:06 INFO voltage_trimming - ===== voltage_trimming parameter values as configured: =====
+2026-02-19 10:49:06 INFO voltage_trimming - initial_trim = 0
+2026-02-19 10:49:06 INFO voltage_trimming - final_trim = 15
+2026-02-19 10:49:06 INFO voltage_trimming - trim_step = 1
+2026-02-19 10:49:06 INFO voltage_trimming - write_json = False
+2026-02-19 10:49:06 INFO voltage_trimming - write_xml = True
+2026-02-19 10:49:06 INFO voltage_trimming - ============================================================
+2026-02-19 10:49:06 INFO voltage_trimming - Trim bit settings: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] (16 steps)
+2026-02-19 10:49:06 INFO voltage_trimming - == Trimming module 0 ==
+2026-02-19 10:49:06 INFO voltage_trimming - Scanning Trim bit value 0
+2026-02-19 10:49:10 INFO voltage_trimming - VDDD_ROC0: 1.0081
+2026-02-19 10:49:10 INFO voltage_trimming - VDDA_ROC0: 1.0485
+2026-02-19 10:49:10 INFO voltage_trimming - VDDD_ROC1: 0.9787
+2026-02-19 10:49:10 INFO voltage_trimming - VDDA_ROC1: 0.9580
+2026-02-19 10:49:10 INFO voltage_trimming - VDDD_ROC2: 0.9427
+2026-02-19 10:49:10 INFO voltage_trimming - VDDA_ROC2: 0.9378
+2026-02-19 10:49:10 INFO voltage_trimming - VDDD_ROC3: 0.9579
+2026-02-19 10:49:10 INFO voltage_trimming - VDDA_ROC3: 1.0181
+2026-02-19 10:49:10 INFO voltage_trimming - Scanning Trim bit value 1
+2026-02-19 10:49:15 INFO voltage_trimming - VDDD_ROC0: 1.0329
+2026-02-19 10:49:15 INFO voltage_trimming - VDDA_ROC0: 1.0729
+2026-02-19 10:49:15 INFO voltage_trimming - VDDD_ROC1: 1.0037
+2026-02-19 10:49:15 INFO voltage_trimming - VDDA_ROC1: 0.9784
+2026-02-19 10:49:15 INFO voltage_trimming - VDDD_ROC2: 0.9589
+2026-02-19 10:49:15 INFO voltage_trimming - VDDA_ROC2: 0.9618
+2026-02-19 10:49:15 INFO voltage_trimming - VDDD_ROC3: 0.9807
+2026-02-19 10:49:15 INFO voltage_trimming - VDDA_ROC3: 1.0439
+2026-02-19 10:49:15 INFO voltage_trimming - Scanning Trim bit value 2
+2026-02-19 10:49:19 INFO voltage_trimming - VDDD_ROC0: 1.0575
+2026-02-19 10:49:19 INFO voltage_trimming - VDDA_ROC0: 1.0984
+2026-02-19 10:49:19 INFO voltage_trimming - VDDD_ROC1: 1.0264
+2026-02-19 10:49:19 INFO voltage_trimming - VDDA_ROC1: 1.0017
+2026-02-19 10:49:19 INFO voltage_trimming - VDDD_ROC2: 0.9852
+2026-02-19 10:49:19 INFO voltage_trimming - VDDA_ROC2: 0.9833
+2026-02-19 10:49:19 INFO voltage_trimming - VDDD_ROC3: 1.0051
+2026-02-19 10:49:19 INFO voltage_trimming - VDDA_ROC3: 1.0680
+2026-02-19 10:49:19 INFO voltage_trimming - Scanning Trim bit value 3
+2026-02-19 10:49:23 INFO voltage_trimming - VDDD_ROC0: 1.0840
+2026-02-19 10:49:23 INFO voltage_trimming - VDDA_ROC0: 1.1251
+2026-02-19 10:49:23 INFO voltage_trimming - VDDD_ROC1: 1.0509
+2026-02-19 10:49:23 INFO voltage_trimming - VDDA_ROC1: 1.0232
+2026-02-19 10:49:23 INFO voltage_trimming - VDDD_ROC2: 1.0074
+2026-02-19 10:49:23 INFO voltage_trimming - VDDA_ROC2: 1.0065
+2026-02-19 10:49:23 INFO voltage_trimming - VDDD_ROC3: 1.0269
+2026-02-19 10:49:23 INFO voltage_trimming - VDDA_ROC3: 1.0940
+2026-02-19 10:49:23 INFO voltage_trimming - Scanning Trim bit value 4
+2026-02-19 10:49:28 INFO voltage_trimming - VDDD_ROC0: 1.1042
+2026-02-19 10:49:28 INFO voltage_trimming - VDDA_ROC0: 1.1477
+2026-02-19 10:49:28 INFO voltage_trimming - VDDD_ROC1: 1.0757
+2026-02-19 10:49:28 INFO voltage_trimming - VDDA_ROC1: 1.0429
+2026-02-19 10:49:28 INFO voltage_trimming - VDDD_ROC2: 1.0317
+2026-02-19 10:49:28 INFO voltage_trimming - VDDA_ROC2: 1.0291
+2026-02-19 10:49:28 INFO voltage_trimming - VDDD_ROC3: 1.0494
+2026-02-19 10:49:28 INFO voltage_trimming - VDDA_ROC3: 1.1125
+2026-02-19 10:49:28 INFO voltage_trimming - Scanning Trim bit value 5
+2026-02-19 10:49:32 INFO voltage_trimming - VDDD_ROC0: 1.1287
+2026-02-19 10:49:32 INFO voltage_trimming - VDDA_ROC0: 1.1725
+2026-02-19 10:49:32 INFO voltage_trimming - VDDD_ROC1: 1.0981
+2026-02-19 10:49:32 INFO voltage_trimming - VDDA_ROC1: 1.0641
+2026-02-19 10:49:32 INFO voltage_trimming - VDDD_ROC2: 1.0492
+2026-02-19 10:49:32 INFO voltage_trimming - VDDA_ROC2: 1.0516
+2026-02-19 10:49:32 INFO voltage_trimming - VDDD_ROC3: 1.0711
+2026-02-19 10:49:32 INFO voltage_trimming - VDDA_ROC3: 1.1370
+2026-02-19 10:49:32 INFO voltage_trimming - Scanning Trim bit value 6
+2026-02-19 10:49:36 INFO voltage_trimming - VDDD_ROC0: 1.1538
+2026-02-19 10:49:36 INFO voltage_trimming - VDDA_ROC0: 1.1982
+2026-02-19 10:49:36 INFO voltage_trimming - VDDD_ROC1: 1.1236
+2026-02-19 10:49:36 INFO voltage_trimming - VDDA_ROC1: 1.0881
+2026-02-19 10:49:36 INFO voltage_trimming - VDDD_ROC2: 1.0704
+2026-02-19 10:49:36 INFO voltage_trimming - VDDA_ROC2: 1.0743
+2026-02-19 10:49:36 INFO voltage_trimming - VDDD_ROC3: 1.0947
+2026-02-19 10:49:36 INFO voltage_trimming - VDDA_ROC3: 1.1615
+2026-02-19 10:49:36 INFO voltage_trimming - Scanning Trim bit value 7
+2026-02-19 10:49:41 INFO voltage_trimming - VDDD_ROC0: 1.1803
+2026-02-19 10:49:41 INFO voltage_trimming - VDDA_ROC0: 1.2225
+2026-02-19 10:49:41 INFO voltage_trimming - VDDD_ROC1: 1.1485
+2026-02-19 10:49:41 INFO voltage_trimming - VDDA_ROC1: 1.1111
+2026-02-19 10:49:41 INFO voltage_trimming - VDDD_ROC2: 1.0994
+2026-02-19 10:49:41 INFO voltage_trimming - VDDA_ROC2: 1.0976
+2026-02-19 10:49:41 INFO voltage_trimming - VDDD_ROC3: 1.1176
+2026-02-19 10:49:41 INFO voltage_trimming - VDDA_ROC3: 1.1859
+2026-02-19 10:49:41 INFO voltage_trimming - Scanning Trim bit value 8
+2026-02-19 10:49:45 INFO voltage_trimming - VDDD_ROC0: 1.1988
+2026-02-19 10:49:45 INFO voltage_trimming - VDDA_ROC0: 1.2447
+2026-02-19 10:49:45 INFO voltage_trimming - VDDD_ROC1: 1.1712
+2026-02-19 10:49:45 INFO voltage_trimming - VDDA_ROC1: 1.1323
+2026-02-19 10:49:45 INFO voltage_trimming - VDDD_ROC2: 1.1218
+2026-02-19 10:49:45 INFO voltage_trimming - VDDA_ROC2: 1.1225
+2026-02-19 10:49:45 INFO voltage_trimming - VDDD_ROC3: 1.1404
+2026-02-19 10:49:45 INFO voltage_trimming - VDDA_ROC3: 1.2108
+2026-02-19 10:49:45 INFO voltage_trimming - Scanning Trim bit value 9
+2026-02-19 10:49:49 INFO voltage_trimming - VDDD_ROC0: 1.2253
+2026-02-19 10:49:49 INFO voltage_trimming - VDDA_ROC0: 1.2712
+2026-02-19 10:49:49 INFO voltage_trimming - VDDD_ROC1: 1.1955
+2026-02-19 10:49:49 INFO voltage_trimming - VDDA_ROC1: 1.1538
+2026-02-19 10:49:49 INFO voltage_trimming - VDDD_ROC2: 1.1391
+2026-02-19 10:49:49 INFO voltage_trimming - VDDA_ROC2: 1.1468
+2026-02-19 10:49:49 INFO voltage_trimming - VDDD_ROC3: 1.1630
+2026-02-19 10:49:49 INFO voltage_trimming - VDDA_ROC3: 1.2357
+2026-02-19 10:49:49 INFO voltage_trimming - Scanning Trim bit value 10
+2026-02-19 10:49:54 INFO voltage_trimming - VDDD_ROC0: 1.2495
+2026-02-19 10:49:54 INFO voltage_trimming - VDDA_ROC0: 1.2972
+2026-02-19 10:49:54 INFO voltage_trimming - VDDD_ROC1: 1.2203
+2026-02-19 10:49:54 INFO voltage_trimming - VDDA_ROC1: 1.1768
+2026-02-19 10:49:54 INFO voltage_trimming - VDDD_ROC2: 1.1666
+2026-02-19 10:49:54 INFO voltage_trimming - VDDA_ROC2: 1.1687
+2026-02-19 10:49:54 INFO voltage_trimming - VDDD_ROC3: 1.1860
+2026-02-19 10:49:54 INFO voltage_trimming - VDDA_ROC3: 1.2587
+2026-02-19 10:49:54 INFO voltage_trimming - Scanning Trim bit value 11
+2026-02-19 10:49:58 INFO voltage_trimming - VDDD_ROC0: 1.2747
+2026-02-19 10:49:58 INFO voltage_trimming - VDDA_ROC0: 1.3226
+2026-02-19 10:49:58 INFO voltage_trimming - VDDD_ROC1: 1.2447
+2026-02-19 10:49:58 INFO voltage_trimming - VDDA_ROC1: 1.1989
+2026-02-19 10:49:58 INFO voltage_trimming - VDDD_ROC2: 1.1886
+2026-02-19 10:49:58 INFO voltage_trimming - VDDA_ROC2: 1.1918
+2026-02-19 10:49:58 INFO voltage_trimming - VDDD_ROC3: 1.2090
+2026-02-19 10:49:58 INFO voltage_trimming - VDDA_ROC3: 1.2830
+2026-02-19 10:49:58 INFO voltage_trimming - Scanning Trim bit value 12
+2026-02-19 10:50:03 INFO voltage_trimming - VDDD_ROC0: 1.2950
+2026-02-19 10:50:03 INFO voltage_trimming - VDDA_ROC0: 1.3456
+2026-02-19 10:50:03 INFO voltage_trimming - VDDD_ROC1: 1.2678
+2026-02-19 10:50:03 INFO voltage_trimming - VDDA_ROC1: 1.2167
+2026-02-19 10:50:03 INFO voltage_trimming - VDDD_ROC2: 1.2118
+2026-02-19 10:50:03 INFO voltage_trimming - VDDA_ROC2: 1.2125
+2026-02-19 10:50:03 INFO voltage_trimming - VDDD_ROC3: 1.2309
+2026-02-19 10:50:03 INFO voltage_trimming - VDDA_ROC3: 1.3034
+2026-02-19 10:50:03 INFO voltage_trimming - Scanning Trim bit value 13
+2026-02-19 10:50:07 INFO voltage_trimming - VDDD_ROC0: 1.3199
+2026-02-19 10:50:07 INFO voltage_trimming - VDDA_ROC0: 1.3705
+2026-02-19 10:50:07 INFO voltage_trimming - VDDD_ROC1: 1.2923
+2026-02-19 10:50:07 INFO voltage_trimming - VDDA_ROC1: 1.2391
+2026-02-19 10:50:07 INFO voltage_trimming - VDDD_ROC2: 1.2293
+2026-02-19 10:50:07 INFO voltage_trimming - VDDA_ROC2: 1.2368
+2026-02-19 10:50:07 INFO voltage_trimming - VDDD_ROC3: 1.2523
+2026-02-19 10:50:07 INFO voltage_trimming - VDDA_ROC3: 1.3286
+2026-02-19 10:50:07 INFO voltage_trimming - Scanning Trim bit value 14
+2026-02-19 10:50:11 INFO voltage_trimming - VDDD_ROC0: 1.3442
+2026-02-19 10:50:11 INFO voltage_trimming - VDDA_ROC0: 1.3940
+2026-02-19 10:50:11 INFO voltage_trimming - VDDD_ROC1: 1.3160
+2026-02-19 10:50:11 INFO voltage_trimming - VDDA_ROC1: 1.2632
+2026-02-19 10:50:11 INFO voltage_trimming - VDDD_ROC2: 1.2562
+2026-02-19 10:50:11 INFO voltage_trimming - VDDA_ROC2: 1.2585
+2026-02-19 10:50:11 INFO voltage_trimming - VDDD_ROC3: 1.2760
+2026-02-19 10:50:11 INFO voltage_trimming - VDDA_ROC3: 1.3526
+2026-02-19 10:50:11 INFO voltage_trimming - Scanning Trim bit value 15
+2026-02-19 10:50:16 INFO voltage_trimming - VDDD_ROC0: 1.3692
+2026-02-19 10:50:16 INFO voltage_trimming - VDDA_ROC0: 1.4202
+2026-02-19 10:50:16 INFO voltage_trimming - VDDD_ROC1: 1.3390
+2026-02-19 10:50:16 INFO voltage_trimming - VDDA_ROC1: 1.2828
+2026-02-19 10:50:16 INFO voltage_trimming - VDDD_ROC2: 1.2799
+2026-02-19 10:50:16 INFO voltage_trimming - VDDA_ROC2: 1.2828
+2026-02-19 10:50:16 INFO voltage_trimming - VDDD_ROC3: 1.2967
+2026-02-19 10:50:16 INFO voltage_trimming - VDDA_ROC3: 1.3754
+2026-02-19 10:50:16 INFO voltage_trimming - == All V calibrated ==
+2026-02-19 10:50:16 ERROR calibration_config_base - Exception raised: <class 'KeyError'> '1'
+2026-02-19 10:50:16 ERROR calibration_config_base - <traceback object at 0x7f44dddc4b40>

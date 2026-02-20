@@ -1,0 +1,111 @@
+2026-02-19 10:42:08 INFO construct_logo -                                                                                  
+2026-02-19 10:42:08 INFO construct_logo -            04  02              00                                                
+2026-02-19 10:42:08 INFO construct_logo -            33  ''              ''                                         ,d     
+2026-02-19 10:42:08 INFO construct_logo -            33                                                             33     
+2026-02-19 10:42:08 INFO construct_logo -    ,a6385b,33  33  8b,d6538a,  33   ,a6654b,d8   ,a483fba,  8b,d0f17a,  M5bafMM  
+2026-02-19 10:42:08 INFO construct_logo -   a8'    `Y33  33  33P'   'Y8  33  a8'    `Y33  a8PMM?__33  33P'   `'8a   33     
+2026-02-19 10:42:08 INFO construct_logo -   8b       33  33  33          33  8b       33  8PP......'  33       33   33     
+2026-02-19 10:42:08 INFO construct_logo -   '8a,   ,d33  33  33          33  '8a,   ,d33  '8b,   ,aa  33       33   33,    
+2026-02-19 10:42:08 INFO construct_logo -    `'daf2P'Y8  33  33          33   `'8e47P'Y8   `'60cc8''  33       33   'Y338  
+2026-02-19 10:42:08 INFO construct_logo -                                     aa,    ,33                                   
+2026-02-19 10:42:08 INFO construct_logo -                                      '78d1dP'                       HEAD branch  
+2026-02-19 10:42:08 INFO dirigent_cli - version 4.2.0-pre.1
+2026-02-19 10:42:08 INFO dirigent_cli - ----------------------------------
+2026-02-19 10:42:08 INFO dirigent_cli - Ph2 ACF: v6-24 (HEAD)
+2026-02-19 10:42:08 INFO dirigent_cli - Felis: v1.1.12 (HEAD)
+2026-02-19 10:42:08 INFO dirigent_cli - ICICLE: 2.2.1-1-g8e4778d (HEAD)
+2026-02-19 10:42:08 INFO dirigent_cli - inner-tracker-tests: v1.0.4 (HEAD)
+2026-02-19 10:42:08 INFO dirigent_cli - RestHub API: 0f175ba (HEAD)
+2026-02-19 10:42:08 INFO dirigent_cli - ----------------------------------
+2026-02-19 10:42:08 INFO dirigent_cli - Dirigent preparation starting...
+2026-02-19 10:42:08 INFO dirigent_cli - CalibrationContext requested - now preparing components...
+2026-02-19 10:42:08 INFO dirigent_cli - 'CMSIT.xml' found in folder. This will be used for the following instance.
+2026-02-19 10:42:08 INFO dirigent_cli - Ensuring warnings and errors will be saved to Ph2 ACF log files...
+2026-02-19 10:42:08 INFO modify_ph2_logging - Backed up /home/muon/dirigent-production/dirigent/deps/Ph2_ACF/settings/logger.conf to /home/muon/dirigent-production/dirigent/deps/Ph2_ACF/settings/logger.conf.bak
+2026-02-19 10:42:08 INFO dirigent_cli - 	> InstrumentCluster requested - now constructing.
+2026-02-19 10:42:08 INFO mqtt_instrument - Connected to MQTT broker: host: 192.168.50.3, port: 1883, clientID: PSIColdbox::667484::139766907746112
+2026-02-19 10:42:08 INFO dirigent_cli - 	> Monitoring requested - now constructing...
+2026-02-19 10:42:08 INFO dirigent_cli - 	> CalibrationSet requested - now constructing.
+2026-02-19 10:42:08 INFO dirigent_cli - Assembling CalibrationContext...
+2026-02-19 10:42:08 INFO mqtt_instrument - Connected to MQTT broker: host: 192.168.50.3, port: 1883, clientID: PSIProbecard1::667484::139766907746112
+2026-02-19 10:42:08 INFO dirigent_cli - CalibrationContext created and ready for init...
+2026-02-19 10:42:08 INFO dirigent_cli - === Dirigent preparation done - handing off to calibration ===
+2026-02-19 10:42:08 INFO instrument_cluster - Loading PSI coldbox calibration
+2026-02-19 10:42:09 INFO ph2acf_instance - Loading FC7 firmware
+2026-02-19 10:42:15 INFO ph2acf_instance - FC7 DDR reset requested - attempting.
+2026-02-19 10:42:17 INFO assembly_test - ===== assembly_test parameter values as configured: =====
+2026-02-19 10:42:17 INFO assembly_test - disable_iv = True
+2026-02-19 10:42:17 INFO assembly_test - disable_needle = False
+2026-02-19 10:42:17 INFO assembly_test - disable_gadc = False
+2026-02-19 10:42:17 INFO assembly_test - fast = False
+2026-02-19 10:42:17 INFO assembly_test - part = 1
+2026-02-19 10:42:17 INFO assembly_test - =========================================================
+2026-02-19 10:42:17 INFO assembly_test - dirigent calibrations to perform in sequence: ['communication_test', 'sldo_vi_curves', 'sldo_vi_curves_GADC', 'voltage_trimming', 'voltage_trimming_GADC', 'check_iref_GADC', 'custom_sequence', 'datamerging_quick', 'crosstalk_method']
+2026-02-19 10:42:23 INFO psi_coldbox - Attempting to reach 14.5 < 15.0 < 15.5 C for TEC(s) [1] (within 600s).
+2026-02-19 10:42:23 INFO psi_coldbox - Dew point is -26.86 C. Setting the target temperature to 15.00 C.
+2026-02-19 10:42:28 INFO psi_coldbox - Temperature(s) in range: [14.6825, '-', '-', '-', '-', '-', '-', '-'] C. Waiting 20 s to verify...
+2026-02-19 10:42:48 INFO psi_coldbox - Temperature(s) in range for 20 s ([14.8401, '-', '-', '-', '-', '-', '-', '-'] C). Validation completed.
+2026-02-19 10:42:48 INFO calibration_sequence - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-02-19 10:42:48 INFO calibration_sequence - | Performing assembly_test calibration: communication_test (1/9) |
+2026-02-19 10:42:48 INFO calibration_sequence - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-02-19 10:43:17 INFO calibration_sequence - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-02-19 10:43:17 INFO calibration_sequence - | Performing assembly_test calibration: sldo_vi_curves (2/9) |
+2026-02-19 10:43:17 INFO calibration_sequence - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-02-19 10:45:07 INFO calibration_sequence - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-02-19 10:45:07 INFO calibration_sequence - | Performing assembly_test calibration: sldo_vi_curves_GADC (3/9) |
+2026-02-19 10:45:08 INFO calibration_sequence - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-02-19 10:48:52 INFO calibration_sequence - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-02-19 10:48:52 INFO calibration_sequence - | Performing assembly_test calibration: voltage_trimming (4/9) |
+2026-02-19 10:48:52 INFO calibration_sequence - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-02-19 10:50:23 INFO calibration_sequence - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-02-19 10:50:23 INFO calibration_sequence - | Performing assembly_test calibration: voltage_trimming_GADC (5/9) |
+2026-02-19 10:50:23 INFO calibration_sequence - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-02-19 11:00:02 INFO calibration_sequence - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-02-19 11:00:02 INFO calibration_sequence - | Performing assembly_test calibration: check_iref_GADC (6/9) |
+2026-02-19 11:00:02 INFO calibration_sequence - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-02-19 11:00:20 INFO calibration_sequence - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-02-19 11:00:20 INFO calibration_sequence - | Performing assembly_test calibration: custom_sequence (7/9) |
+2026-02-19 11:00:20 INFO calibration_sequence - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-02-19 11:00:22 INFO instrument - Time              	Step       	Voltage (V)	Current (A)	Meas. V (V)	Meas. I (A)
+2026-02-19 11:00:24 INFO instrument - 02/19/26 11:00:24 	0          	0.00       	0.00       	-0.01      	-3.94e-07  
+2026-02-19 11:00:26 INFO instrument - 02/19/26 11:00:26 	1          	-5.00      	0.00       	-4.98      	-6.52e-07  
+2026-02-19 11:00:29 INFO instrument - 02/19/26 11:00:29 	2          	-10.00     	0.00       	-9.98      	-6.93e-07  
+2026-02-19 11:00:31 INFO instrument - 02/19/26 11:00:31 	3          	-15.00     	0.00       	-14.99     	-7.10e-07  
+2026-02-19 11:00:33 INFO instrument - 02/19/26 11:00:33 	4          	-20.00     	0.00       	-19.99     	-7.22e-07  
+2026-02-19 11:00:36 INFO instrument - 02/19/26 11:00:36 	5          	-25.00     	0.00       	-24.99     	-7.28e-07  
+2026-02-19 11:00:38 INFO instrument - 02/19/26 11:00:38 	6          	-30.00     	0.00       	-29.97     	-7.34e-07  
+2026-02-19 11:00:40 INFO instrument - 02/19/26 11:00:40 	7          	-35.00     	0.00       	-34.98     	-7.37e-07  
+2026-02-19 11:00:43 INFO instrument - 02/19/26 11:00:43 	8          	-40.00     	0.00       	-39.98     	-7.40e-07  
+2026-02-19 11:00:45 INFO instrument - 02/19/26 11:00:45 	9          	-45.00     	0.00       	-44.98     	-7.42e-07  
+2026-02-19 11:00:47 INFO instrument - 02/19/26 11:00:47 	10         	-50.00     	0.00       	-49.98     	-7.45e-07  
+2026-02-19 11:00:50 INFO instrument - 02/19/26 11:00:50 	11         	-55.00     	0.00       	-54.99     	-7.47e-07  
+2026-02-19 11:00:52 INFO instrument - 02/19/26 11:00:52 	12         	-60.00     	0.00       	-59.99     	-7.49e-07  
+2026-02-19 11:00:54 INFO instrument - 02/19/26 11:00:54 	13         	-65.00     	0.00       	-64.99     	-7.52e-07  
+2026-02-19 11:00:57 INFO instrument - 02/19/26 11:00:57 	14         	-70.00     	0.00       	-69.98     	-7.54e-07  
+2026-02-19 11:00:59 INFO instrument - 02/19/26 11:00:59 	15         	-75.00     	0.00       	-74.98     	-7.56e-07  
+2026-02-19 11:01:02 INFO instrument - 02/19/26 11:01:02 	16         	-80.00     	0.00       	-79.98     	-7.58e-07  
+2026-02-19 11:02:54 INFO calibration_sequence - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-02-19 11:02:54 INFO calibration_sequence - | Performing assembly_test calibration: datamerging_quick (8/9) |
+2026-02-19 11:02:54 INFO calibration_sequence - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-02-19 11:08:05 INFO calibration_sequence - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-02-19 11:08:05 INFO calibration_sequence - | Performing assembly_test calibration: crosstalk_method (9/9) |
+2026-02-19 11:08:05 INFO calibration_sequence - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-02-19 11:10:22 INFO instrument - Time              	Step       	Voltage (V)	Current (A)	Meas. V (V)	Meas. I (A)
+2026-02-19 11:10:23 INFO instrument - 02/19/26 11:10:23 	0          	-80.00     	0.00       	-79.99     	-7.57e-07  
+2026-02-19 11:10:26 INFO instrument - 02/19/26 11:10:26 	1          	-75.00     	0.00       	-74.98     	-7.54e-07  
+2026-02-19 11:10:28 INFO instrument - 02/19/26 11:10:28 	2          	-70.00     	0.00       	-69.98     	-7.52e-07  
+2026-02-19 11:10:31 INFO instrument - 02/19/26 11:10:31 	3          	-65.00     	0.00       	-64.99     	-7.50e-07  
+2026-02-19 11:10:33 INFO instrument - 02/19/26 11:10:33 	4          	-60.00     	0.00       	-59.99     	-7.47e-07  
+2026-02-19 11:10:35 INFO instrument - 02/19/26 11:10:35 	5          	-55.00     	0.00       	-54.99     	-7.46e-07  
+2026-02-19 11:10:38 INFO instrument - 02/19/26 11:10:38 	6          	-50.00     	0.00       	-49.98     	-7.44e-07  
+2026-02-19 11:10:40 INFO instrument - 02/19/26 11:10:40 	7          	-45.00     	0.00       	-44.98     	-7.41e-07  
+2026-02-19 11:10:42 INFO instrument - 02/19/26 11:10:42 	8          	-40.00     	0.00       	-39.98     	-7.39e-07  
+2026-02-19 11:10:45 INFO instrument - 02/19/26 11:10:45 	9          	-35.00     	0.00       	-34.97     	-7.35e-07  
+2026-02-19 11:10:47 INFO instrument - 02/19/26 11:10:47 	10         	-30.00     	0.00       	-29.97     	-7.32e-07  
+2026-02-19 11:10:49 INFO instrument - 02/19/26 11:10:49 	11         	-25.00     	0.00       	-24.98     	-7.27e-07  
+2026-02-19 11:10:52 INFO instrument - 02/19/26 11:10:52 	12         	-20.00     	0.00       	-19.99     	-7.22e-07  
+2026-02-19 11:10:54 INFO instrument - 02/19/26 11:10:54 	13         	-15.00     	0.00       	-14.98     	-7.10e-07  
+2026-02-19 11:10:57 INFO instrument - 02/19/26 11:10:57 	14         	-10.00     	0.00       	-9.98      	-6.92e-07  
+2026-02-19 11:10:59 INFO instrument - 02/19/26 11:10:59 	15         	-5.00      	0.00       	-4.98      	-6.53e-07  
+2026-02-19 11:11:01 INFO instrument - 02/19/26 11:11:01 	16         	0.00       	0.00       	0.02       	-3.97e-07  
+2026-02-19 11:11:14 INFO modify_ph2_logging - /home/muon/dirigent-production/dirigent/deps/Ph2_ACF/settings/logger.conf restored.

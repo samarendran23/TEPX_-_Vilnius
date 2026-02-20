@@ -1,0 +1,23 @@
+
+dirigent:
+ M  config/dirigent.toml
+ M  config/instruments.json
+ M  config/modules.json
+ M  deps/Ph2_ACF
+ M  deps/felis
+ M  module_testing/calibrations/voltage_trimming.py
+ M  setup.sh
+??  run_H-1204-13022026/
+??  run_P-1009-17022026/
+
+Ph2 ACF:
+ M  settings/logger.conf
+
+Felis:
+??  felis.egg-info/
+
+ICICLE:
+
+inner-tracker-tests:
+
+RestHub API:

@@ -1,0 +1,35 @@
+2026-02-19 11:01:05 INFO dirigent_cli - CalibrationContext requested - now preparing components...
+2026-02-19 11:01:05 INFO dirigent_cli - 'CMSIT.xml' found in folder. This will be used for the following instance.
+2026-02-19 11:01:05 INFO dirigent_cli - 	> InstrumentCluster requested - now constructing.
+2026-02-19 11:01:05 INFO dirigent_cli - 	> CalibrationSet requested - now constructing.
+2026-02-19 11:01:05 INFO dirigent_cli - Assembling CalibrationContext...
+2026-02-19 11:01:05 INFO dirigent_cli - CalibrationContext created and ready for init...
+2026-02-19 11:01:05 INFO dirigent_cli - === Dirigent preparation done - handing off to calibration ===
+2026-02-19 11:01:05 INFO mqtt_instrument - Connected to MQTT broker: host: 192.168.50.3, port: 1883, clientID: PSIProbecard1::676728::140467782575936
+2026-02-19 11:01:05 INFO ph2acf_instance - Loading FC7 firmware
+2026-02-19 11:01:09 INFO ph2acf_instance - FC7 DDR reset requested - attempting.
+2026-02-19 11:01:12 INFO custom_sequence - ===== custom_sequence parameter values as configured: =====
+2026-02-19 11:01:12 INFO custom_sequence - sequence_dict = ["PixelAlive_Digital", "PixelAlive_Analog"]
+2026-02-19 11:01:12 INFO custom_sequence - test_list = [{'name': 'PixelAlive_Analog'}, {'name': 'ThresholdEqualization'}, {'name': 'InjectionDelay'}, {'name': 'ThresholdAdjustment_default_to_Th2000'}, {'name': 'ThresholdEqualization_1Step_Th2000'}, {'name': 'PixelAlive_Analog_Th2000'}, {'name': 'SCurveScan_VCal1100'}, {'name': 'NoiseScan_Th2000'}, {'name': 'ThresholdAdjustment_Th2000_to_Th1200'}, {'name': 'ThresholdEqualization_1Step_Th1200'}, {'name': 'PixelAlive_Analog_Th1200'}, {'name': 'SCurveScan'}, {'name': 'NoiseScan_Th1200'}, {'name': 'ThresholdAdjustment_Th1200_to_Th1000'}, {'name': 'ThresholdEqualization_1Step_Th1000'}, {'name': 'PixelAlive_Analog_Th1000'}, {'name': 'SCurveScan_VCal800'}, {'name': 'NoiseScan_Th1000'}]
+2026-02-19 11:01:12 INFO custom_sequence - write_xml = True
+2026-02-19 11:01:12 INFO custom_sequence - reset_board = True
+2026-02-19 11:01:12 INFO custom_sequence - ===========================================================
+2026-02-19 11:01:12 WARNING custom_sequence - Overriding test_list option with sequence_dict option.
+2026-02-19 11:01:12 INFO ph2acf_instance - FC7 DDR reset requested - attempting.
+2026-02-19 11:01:14 INFO custom_sequence - PixelAlive_Digital:
+2026-02-19 11:01:14 INFO performable_scans - === 1/2: pixelalive ===
+2026-02-19 11:01:56 INFO calibration_context - Checking logs/CMSITminiDAQ000000_pixelalive.log for aborts...
+2026-02-19 11:01:56 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-19 11:01:58 INFO performable_scans - = Chip 15 = 	 Pixels newly masked 0 	 total masked 0/145152 	 occupancy 1.005000
+2026-02-19 11:01:58 INFO performable_scans - = Chip 14 = 	 Pixels newly masked 0 	 total masked 0/145152 	 occupancy 1.005000
+2026-02-19 11:01:58 INFO performable_scans - = Chip 13 = 	 Pixels newly masked 0 	 total masked 0/145152 	 occupancy 1.005000
+2026-02-19 11:01:58 INFO performable_scans - = Chip 12 = 	 Pixels newly masked 0 	 total masked 0/145152 	 occupancy 1.005000
+2026-02-19 11:01:58 INFO custom_sequence - PixelAlive_Analog:
+2026-02-19 11:01:58 INFO performable_scans - === 2/2: pixelalive ===
+2026-02-19 11:02:41 INFO calibration_context - Checking logs/CMSITminiDAQ000001_pixelalive.log for aborts...
+2026-02-19 11:02:41 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-19 11:02:42 INFO performable_scans - = Chip 15 = 	 Pixels newly masked 2 	 total masked 2/145152 	 occupancy 1.005000
+2026-02-19 11:02:42 INFO performable_scans - = Chip 14 = 	 Pixels newly masked 188 	 total masked 188/145152 	 occupancy 1.004426
+2026-02-19 11:02:42 INFO performable_scans - = Chip 13 = 	 Pixels newly masked 3 	 total masked 3/145152 	 occupancy 1.005000
+2026-02-19 11:02:42 INFO performable_scans - = Chip 12 = 	 Pixels newly masked 16 	 total masked 16/145152 	 occupancy 1.004951
+2026-02-19 11:02:42 INFO custom_sequence - Clean up...

@@ -1,0 +1,40 @@
+2026-02-17 16:23:26 INFO dirigent_cli - CalibrationContext requested - now preparing components...
+2026-02-17 16:23:26 INFO dirigent_cli - 'CMSIT.xml' found in folder. This will be used for the following instance.
+2026-02-17 16:23:26 INFO dirigent_cli - 	> InstrumentCluster requested - now constructing.
+2026-02-17 16:23:26 INFO dirigent_cli - 	> CalibrationSet requested - now constructing.
+2026-02-17 16:23:26 INFO dirigent_cli - Assembling CalibrationContext...
+2026-02-17 16:23:26 INFO dirigent_cli - CalibrationContext created and ready for init...
+2026-02-17 16:23:26 INFO dirigent_cli - === Dirigent preparation done - handing off to calibration ===
+2026-02-17 16:23:26 INFO mqtt_instrument - Connected to MQTT broker: host: 192.168.50.3, port: 1883, clientID: PSIProbecard1::622493::140525280122688
+2026-02-17 16:23:26 INFO ph2acf_instance - Loading FC7 firmware
+2026-02-17 16:23:32 INFO ph2acf_instance - FC7 DDR reset requested - attempting.
+2026-02-17 16:23:34 INFO crosstalk_method - ===== crosstalk_method parameter values as configured: =====
+2026-02-17 16:23:34 INFO crosstalk_method - time_tuning = False
+2026-02-17 16:23:34 INFO crosstalk_method - reset_board = False
+2026-02-17 16:23:34 INFO crosstalk_method - debug = False
+2026-02-17 16:23:34 INFO crosstalk_method - ============================================================
+2026-02-17 16:23:34 INFO crosstalk_method - PixelAlive_highcharge_xtalk:
+2026-02-17 16:23:34 INFO performable_scans - === 1/3: pixelalive ===
+2026-02-17 16:24:12 INFO calibration_context - Checking logs/CMSITminiDAQ000000_pixelalive.log for aborts...
+2026-02-17 16:24:12 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 16:24:14 INFO performable_scans - = Chip 15 = 	 Pixels newly masked 0 	 total masked 130/145152 	 occupancy 1.004980
+2026-02-17 16:24:14 INFO performable_scans - = Chip 14 = 	 Pixels newly masked 0 	 total masked 0/145152 	 occupancy 1.005000
+2026-02-17 16:24:14 INFO performable_scans - = Chip 13 = 	 Pixels newly masked 0 	 total masked 100/145152 	 occupancy 1.005000
+2026-02-17 16:24:14 INFO performable_scans - = Chip 12 = 	 Pixels newly masked 0 	 total masked 142/145152 	 occupancy 1.004994
+2026-02-17 16:24:14 INFO crosstalk_method - PixelAlive_coupled_xtalk:
+2026-02-17 16:24:14 INFO performable_scans - === 2/3: pixelalive ===
+2026-02-17 16:24:52 INFO calibration_context - Checking logs/CMSITminiDAQ000001_pixelalive.log for aborts...
+2026-02-17 16:24:52 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 16:24:54 INFO performable_scans - = Chip 15 = 	 Pixels newly masked 79 	 total masked 79/145152 	 occupancy 1.004590
+2026-02-17 16:24:54 INFO performable_scans - = Chip 14 = 	 Pixels newly masked 263 	 total masked 263/145152 	 occupancy 1.004984
+2026-02-17 16:24:54 INFO performable_scans - = Chip 13 = 	 Pixels newly masked 7611 	 total masked 7611/145152 	 occupancy 1.004929
+2026-02-17 16:24:54 INFO performable_scans - = Chip 12 = 	 Pixels newly masked 191 	 total masked 191/145152 	 occupancy 1.004826
+2026-02-17 16:24:54 INFO crosstalk_method - PixelAlive_uncoupled_xtalk:
+2026-02-17 16:24:54 INFO performable_scans - === 3/3: pixelalive ===
+2026-02-17 16:25:27 INFO calibration_context - Checking logs/CMSITminiDAQ000002_pixelalive.log for aborts...
+2026-02-17 16:25:27 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 16:25:28 INFO performable_scans - = Chip 15 = 	 Pixels newly masked 50368 	 total masked 79/145152 	 occupancy 0.669754
+2026-02-17 16:25:29 INFO performable_scans - = Chip 14 = 	 Pixels newly masked 143836 	 total masked 263/145152 	 occupancy 0.548305
+2026-02-17 16:25:29 INFO performable_scans - = Chip 13 = 	 Pixels newly masked 100372 	 total masked 7611/145152 	 occupancy 0.523300
+2026-02-17 16:25:29 INFO performable_scans - = Chip 12 = 	 Pixels newly masked 62344 	 total masked 191/145152 	 occupancy 0.628324
+2026-02-17 16:25:29 INFO crosstalk_method - Clean up...

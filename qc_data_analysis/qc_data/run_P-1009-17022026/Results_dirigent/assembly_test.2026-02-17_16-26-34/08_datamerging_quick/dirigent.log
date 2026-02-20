@@ -1,0 +1,76 @@
+2026-02-17 16:18:17 INFO dirigent_cli - CalibrationContext requested - now preparing components...
+2026-02-17 16:18:17 INFO dirigent_cli - 'CMSIT.xml' found in folder. This will be used for the following instance.
+2026-02-17 16:18:17 INFO dirigent_cli - 	> InstrumentCluster requested - now constructing.
+2026-02-17 16:18:17 INFO dirigent_cli - 	> CalibrationSet requested - now constructing.
+2026-02-17 16:18:17 INFO dirigent_cli - Assembling CalibrationContext...
+2026-02-17 16:18:17 INFO dirigent_cli - CalibrationContext created and ready for init...
+2026-02-17 16:18:17 INFO dirigent_cli - === Dirigent preparation done - handing off to calibration ===
+2026-02-17 16:18:17 INFO mqtt_instrument - Connected to MQTT broker: host: 192.168.50.3, port: 1883, clientID: PSIProbecard1::621449::140077439067968
+2026-02-17 16:18:17 INFO ph2acf_instance - Loading FC7 firmware
+2026-02-17 16:18:23 INFO ph2acf_instance - FC7 DDR reset requested - attempting.
+2026-02-17 16:18:25 INFO datamerging_quick - ====== Datamerging Quick parameters: ======
+2026-02-17 16:18:25 INFO datamerging_quick - subdetector = 
+2026-02-17 16:18:25 INFO datamerging_quick - all_primary = True
+2026-02-17 16:18:25 INFO datamerging_quick - one_master = True
+2026-02-17 16:18:25 INFO datamerging_quick - two_master = True
+2026-02-17 16:18:25 INFO datamerging_quick - reset_board = True
+2026-02-17 16:18:25 INFO datamerging_quick - ===========================================
+2026-02-17 16:18:25 INFO datamerging_quick - running TEPX datamerging test with lane configurations  1--7
+2026-02-17 16:18:25 INFO ph2acf_instance - FC7 DDR reset requested - attempting.
+2026-02-17 16:18:33 INFO datamerging_quick - 1: analog scan in configuration DataMergingQuick_1_TEPX
+2026-02-17 16:18:33 INFO performable_scans - === 1/7: pixelalive ===
+2026-02-17 16:19:15 INFO calibration_context - Checking logs/CMSITminiDAQ000000_pixelalive.log for aborts...
+2026-02-17 16:19:15 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 16:19:16 INFO performable_scans - = Chip 15 = 	 Pixels newly masked 0 	 total masked 130/145152 	 occupancy 1.005000
+2026-02-17 16:19:16 INFO performable_scans - = Chip 14 = 	 Pixels newly masked 0 	 total masked 0/145152 	 occupancy 1.005000
+2026-02-17 16:19:16 INFO performable_scans - = Chip 13 = 	 Pixels newly masked 0 	 total masked 100/145152 	 occupancy 1.005000
+2026-02-17 16:19:16 INFO performable_scans - = Chip 12 = 	 Pixels newly masked 0 	 total masked 142/145152 	 occupancy 1.005000
+2026-02-17 16:19:16 INFO datamerging_quick - 2: analog scan in configuration DataMergingQuick_2_TEPX
+2026-02-17 16:19:16 INFO performable_scans - === 2/7: pixelalive ===
+2026-02-17 16:19:54 INFO calibration_context - Checking logs/CMSITminiDAQ000001_pixelalive.log for aborts...
+2026-02-17 16:19:54 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 16:19:55 INFO performable_scans - = Chip 15 = 	 Pixels newly masked 0 	 total masked 130/145152 	 occupancy 1.005000
+2026-02-17 16:19:55 INFO performable_scans - = Chip 14 = 	 Pixels newly masked 0 	 total masked 0/145152 	 occupancy 1.005000
+2026-02-17 16:19:55 INFO performable_scans - = Chip 13 = 	 Pixels newly masked 0 	 total masked 100/145152 	 occupancy 1.005000
+2026-02-17 16:19:55 INFO performable_scans - = Chip 12 = 	 Pixels newly masked 0 	 total masked 142/145152 	 occupancy 1.005000
+2026-02-17 16:19:55 INFO datamerging_quick - 3: analog scan in configuration DataMergingQuick_3_TEPX
+2026-02-17 16:19:55 INFO performable_scans - === 3/7: pixelalive ===
+2026-02-17 16:20:33 INFO calibration_context - Checking logs/CMSITminiDAQ000002_pixelalive.log for aborts...
+2026-02-17 16:20:33 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 16:20:34 INFO performable_scans - = Chip 15 = 	 Pixels newly masked 0 	 total masked 130/145152 	 occupancy 1.005000
+2026-02-17 16:20:34 INFO performable_scans - = Chip 14 = 	 Pixels newly masked 0 	 total masked 0/145152 	 occupancy 1.005000
+2026-02-17 16:20:34 INFO performable_scans - = Chip 13 = 	 Pixels newly masked 0 	 total masked 100/145152 	 occupancy 1.005000
+2026-02-17 16:20:34 INFO performable_scans - = Chip 12 = 	 Pixels newly masked 0 	 total masked 142/145152 	 occupancy 1.005000
+2026-02-17 16:20:34 INFO datamerging_quick - 4: analog scan in configuration DataMergingQuick_4_TEPX
+2026-02-17 16:20:34 INFO performable_scans - === 4/7: pixelalive ===
+2026-02-17 16:21:11 INFO calibration_context - Checking logs/CMSITminiDAQ000003_pixelalive.log for aborts...
+2026-02-17 16:21:11 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 16:21:12 INFO performable_scans - = Chip 15 = 	 Pixels newly masked 0 	 total masked 130/145152 	 occupancy 1.005000
+2026-02-17 16:21:12 INFO performable_scans - = Chip 14 = 	 Pixels newly masked 0 	 total masked 0/145152 	 occupancy 1.005000
+2026-02-17 16:21:12 INFO performable_scans - = Chip 13 = 	 Pixels newly masked 0 	 total masked 100/145152 	 occupancy 1.005000
+2026-02-17 16:21:12 INFO performable_scans - = Chip 12 = 	 Pixels newly masked 0 	 total masked 142/145152 	 occupancy 1.005000
+2026-02-17 16:21:12 INFO datamerging_quick - 5: analog scan in configuration DataMergingQuick_5_TEPX
+2026-02-17 16:21:12 INFO performable_scans - === 5/7: pixelalive ===
+2026-02-17 16:21:51 INFO calibration_context - Checking logs/CMSITminiDAQ000004_pixelalive.log for aborts...
+2026-02-17 16:21:51 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 16:21:52 INFO performable_scans - = Chip 15 = 	 Pixels newly masked 0 	 total masked 130/145152 	 occupancy 1.005000
+2026-02-17 16:21:52 INFO performable_scans - = Chip 14 = 	 Pixels newly masked 0 	 total masked 0/145152 	 occupancy 1.005000
+2026-02-17 16:21:52 INFO performable_scans - = Chip 13 = 	 Pixels newly masked 0 	 total masked 100/145152 	 occupancy 1.005000
+2026-02-17 16:21:52 INFO performable_scans - = Chip 12 = 	 Pixels newly masked 0 	 total masked 142/145152 	 occupancy 1.005000
+2026-02-17 16:21:52 INFO datamerging_quick - 6: analog scan in configuration DataMergingQuick_6_TEPX
+2026-02-17 16:21:52 INFO performable_scans - === 6/7: pixelalive ===
+2026-02-17 16:22:30 INFO calibration_context - Checking logs/CMSITminiDAQ000005_pixelalive.log for aborts...
+2026-02-17 16:22:30 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 16:22:31 INFO performable_scans - = Chip 15 = 	 Pixels newly masked 0 	 total masked 130/145152 	 occupancy 1.005000
+2026-02-17 16:22:31 INFO performable_scans - = Chip 14 = 	 Pixels newly masked 0 	 total masked 0/145152 	 occupancy 1.005000
+2026-02-17 16:22:31 INFO performable_scans - = Chip 13 = 	 Pixels newly masked 0 	 total masked 100/145152 	 occupancy 1.005000
+2026-02-17 16:22:31 INFO performable_scans - = Chip 12 = 	 Pixels newly masked 0 	 total masked 142/145152 	 occupancy 1.005000
+2026-02-17 16:22:31 INFO datamerging_quick - 7: analog scan in configuration DataMergingQuick_7_TEPX
+2026-02-17 16:22:31 INFO performable_scans - === 7/7: pixelalive ===
+2026-02-17 16:23:09 INFO calibration_context - Checking logs/CMSITminiDAQ000006_pixelalive.log for aborts...
+2026-02-17 16:23:09 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 16:23:10 INFO performable_scans - = Chip 15 = 	 Pixels newly masked 0 	 total masked 130/145152 	 occupancy 1.005000
+2026-02-17 16:23:10 INFO performable_scans - = Chip 14 = 	 Pixels newly masked 0 	 total masked 0/145152 	 occupancy 1.005000
+2026-02-17 16:23:10 INFO performable_scans - = Chip 13 = 	 Pixels newly masked 0 	 total masked 100/145152 	 occupancy 1.005000
+2026-02-17 16:23:10 INFO performable_scans - = Chip 12 = 	 Pixels newly masked 0 	 total masked 142/145152 	 occupancy 1.005000
+2026-02-17 16:23:10 INFO datamerging_quick - Clean up...

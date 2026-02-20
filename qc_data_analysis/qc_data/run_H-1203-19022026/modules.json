@@ -1,0 +1,13 @@
+{
+	"Hybrid": {
+		"1": {
+			"RD53Bv2": {
+				"info" : {"module_name" : "H-1203", "type" : "2x2", "subdetector" : "TEPX", "sensor" : true},
+				"15": {"Lane": 0, "eFuseCode": 32145, "LaneConfig": {"outputLanes": "0001"}, "Settings": {"VOLTAGE_TRIM_DIG": 11, "VOLTAGE_TRIM_ANA": 9, "VREF_ADC": 840}},
+				"14": {"Lane": 1, "eFuseCode": 29857, "LaneConfig": {"outputLanes": "0001"}, "Settings": {"VOLTAGE_TRIM_DIG": 6, "VOLTAGE_TRIM_ANA": 9, "VREF_ADC": 839}},
+				"13": {"Lane": 2, "eFuseCode": 30753, "LaneConfig": {"outputLanes": "0001"}, "Settings": {"VOLTAGE_TRIM_DIG": 7, "VOLTAGE_TRIM_ANA": 8, "VREF_ADC": 895}},
+				"12": {"Lane": 3, "eFuseCode": 32113, "LaneConfig": {"outputLanes": "0001"}, "Settings": {"VOLTAGE_TRIM_DIG": 11, "VOLTAGE_TRIM_ANA": 7, "VREF_ADC": 874}}
+			}
+		}
+	}
+}

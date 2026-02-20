@@ -1,0 +1,72 @@
+|04:58:38|I|[1m[32m       ____  _     ____         _    ____ _____[0m
+|04:58:38|I|[1m[32m      |  _ \| |__ |___ \       / \  / ___|  ___|[0m
+|04:58:38|I|[1m[32m      | |_) | '_ \  __) |____ / _ \| |   | |_[0m
+|04:58:38|I|[1m[32m      |  __/| | | |/ __/_____/ ___ \ |___|  _|[0m
+|04:58:38|I|[1m[32m      |_|   |_| |_|_____|   /_/   \_\____|_|
+[0m
+|04:58:38|I|[1m[32m  ____ __  __ ____ ___ _____          _       _ ____    _    ___[0m
+|04:58:38|I|[1m[32m / ___|  \/  / ___|_ _|_   _| __ ___ (_)_ __ (_)  _ \  / \  / _ \[0m
+|04:58:38|I|[1m[32m| |   | |\/| \___ \| |  | || '_ ` _ \| | '_ \| | | | |/ _ \| | | |[0m
+|04:58:38|I|[1m[32m| |___| |  | |___) | |  | || | | | | | | | | | | |_| / ___ \ |_| |[0m
+|04:58:38|I|[1m[32m \____|_|  |_|____/___| |_||_| |_| |_|_|_| |_|_|____/_/   \_\__\_\
+[0m
+|04:58:38|I|[32mBootstrapping TCP Server...[0m
+|04:58:38|I|[32mTrying to connect to the Power Supply Server...[0m
+|04:58:38|I|[1m[34m	--> Operation completed[0m
+|04:58:38|I|[1m[35mResetting the backend board... it may take a while[0m
+|04:58:39|E|[1m[31mvirtual bool Ph2_HwInterface::RegManager::WriteStackReg(const std::vector<std::pair<std::__cxx11::basic_string<char>, unsigned int> >&): Exception caught from controlhub: [1m[33mThe ControlHub did not receive any response from the target with URI "chtcp-2.0://localhost:10203?target=192.168.50.5:50001"
+ControlHub returned error code 3 = 'no reply to status packet'
+
+
+|04:58:39|E|[1m[31mRetrying, caught [1m[33m0[1m[31m controlhub exception out of the [1m[33m10[1m[31m acceptable[0m
+|04:58:40|E|[1m[31mvirtual bool Ph2_HwInterface::RegManager::WriteStackReg(const std::vector<std::pair<std::__cxx11::basic_string<char>, unsigned int> >&): Exception caught from controlhub: [1m[33mThe ControlHub did not receive any response from the target with URI "chtcp-2.0://localhost:10203?target=192.168.50.5:50001"
+ControlHub returned error code 3 = 'no reply to status packet'
+
+
+|04:58:40|E|[1m[31mRetrying, caught [1m[33m1[1m[31m controlhub exception out of the [1m[33m10[1m[31m acceptable[0m
+|04:58:41|E|[1m[31mvirtual bool Ph2_HwInterface::RegManager::WriteStackReg(const std::vector<std::pair<std::__cxx11::basic_string<char>, unsigned int> >&): Exception caught from controlhub: [1m[33mThe ControlHub did not receive any response from the target with URI "chtcp-2.0://localhost:10203?target=192.168.50.5:50001"
+ControlHub returned error code 3 = 'no reply to status packet'
+
+
+|04:58:41|E|[1m[31mRetrying, caught [1m[33m2[1m[31m controlhub exception out of the [1m[33m10[1m[31m acceptable[0m
+|04:58:42|E|[1m[31mvirtual bool Ph2_HwInterface::RegManager::WriteStackReg(const std::vector<std::pair<std::__cxx11::basic_string<char>, unsigned int> >&): Exception caught from controlhub: [1m[33mThe ControlHub did not receive any response from the target with URI "chtcp-2.0://localhost:10203?target=192.168.50.5:50001"
+ControlHub returned error code 3 = 'no reply to status packet'
+
+
+|04:58:42|E|[1m[31mRetrying, caught [1m[33m3[1m[31m controlhub exception out of the [1m[33m10[1m[31m acceptable[0m
+|04:58:43|E|[1m[31mvirtual bool Ph2_HwInterface::RegManager::WriteStackReg(const std::vector<std::pair<std::__cxx11::basic_string<char>, unsigned int> >&): Exception caught from controlhub: [1m[33mThe ControlHub did not receive any response from the target with URI "chtcp-2.0://localhost:10203?target=192.168.50.5:50001"
+ControlHub returned error code 3 = 'no reply to status packet'
+
+
+|04:58:43|E|[1m[31mRetrying, caught [1m[33m4[1m[31m controlhub exception out of the [1m[33m10[1m[31m acceptable[0m
+|04:58:44|E|[1m[31mvirtual bool Ph2_HwInterface::RegManager::WriteStackReg(const std::vector<std::pair<std::__cxx11::basic_string<char>, unsigned int> >&): Exception caught from controlhub: [1m[33mThe ControlHub did not receive any response from the target with URI "chtcp-2.0://localhost:10203?target=192.168.50.5:50001"
+ControlHub returned error code 3 = 'no reply to status packet'
+
+
+|04:58:44|E|[1m[31mRetrying, caught [1m[33m5[1m[31m controlhub exception out of the [1m[33m10[1m[31m acceptable[0m
+|04:58:45|E|[1m[31mvirtual bool Ph2_HwInterface::RegManager::WriteStackReg(const std::vector<std::pair<std::__cxx11::basic_string<char>, unsigned int> >&): Exception caught from controlhub: [1m[33mThe ControlHub did not receive any response from the target with URI "chtcp-2.0://localhost:10203?target=192.168.50.5:50001"
+ControlHub returned error code 3 = 'no reply to status packet'
+
+
+|04:58:45|E|[1m[31mRetrying, caught [1m[33m6[1m[31m controlhub exception out of the [1m[33m10[1m[31m acceptable[0m
+|04:58:46|E|[1m[31mvirtual bool Ph2_HwInterface::RegManager::WriteStackReg(const std::vector<std::pair<std::__cxx11::basic_string<char>, unsigned int> >&): Exception caught from controlhub: [1m[33mThe ControlHub did not receive any response from the target with URI "chtcp-2.0://localhost:10203?target=192.168.50.5:50001"
+ControlHub returned error code 3 = 'no reply to status packet'
+
+
+|04:58:46|E|[1m[31mRetrying, caught [1m[33m7[1m[31m controlhub exception out of the [1m[33m10[1m[31m acceptable[0m
+|04:58:47|E|[1m[31mvirtual bool Ph2_HwInterface::RegManager::WriteStackReg(const std::vector<std::pair<std::__cxx11::basic_string<char>, unsigned int> >&): Exception caught from controlhub: [1m[33mThe ControlHub did not receive any response from the target with URI "chtcp-2.0://localhost:10203?target=192.168.50.5:50001"
+ControlHub returned error code 3 = 'no reply to status packet'
+
+
+|04:58:47|E|[1m[31mRetrying, caught [1m[33m8[1m[31m controlhub exception out of the [1m[33m10[1m[31m acceptable[0m
+|04:58:49|E|[1m[31mvirtual bool Ph2_HwInterface::RegManager::WriteStackReg(const std::vector<std::pair<std::__cxx11::basic_string<char>, unsigned int> >&): Exception caught from controlhub: [1m[33mThe ControlHub did not receive any response from the target with URI "chtcp-2.0://localhost:10203?target=192.168.50.5:50001"
+ControlHub returned error code 3 = 'no reply to status packet'
+
+
+|04:58:49|E|[1m[31mRetrying, caught [1m[33m9[1m[31m controlhub exception out of the [1m[33m10[1m[31m acceptable[0m
+|04:58:50|E|[1m[31mvirtual bool Ph2_HwInterface::RegManager::WriteStackReg(const std::vector<std::pair<std::__cxx11::basic_string<char>, unsigned int> >&): Exception caught from controlhub: [1m[33mThe ControlHub did not receive any response from the target with URI "chtcp-2.0://localhost:10203?target=192.168.50.5:50001"
+ControlHub returned error code 3 = 'no reply to status packet'
+
+
+|04:58:50|E|[1m[31mMaximum number of acceptable errors ([1m[33m10[1m[31m) reached, throwing last exception[0m
+|04:58:50|E|[1m[31mPlease contact Fabio Ravera[0m

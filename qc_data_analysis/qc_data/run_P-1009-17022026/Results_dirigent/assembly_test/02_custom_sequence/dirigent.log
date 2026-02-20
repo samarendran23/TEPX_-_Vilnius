@@ -1,0 +1,131 @@
+2026-02-17 18:05:10 INFO dirigent_cli - CalibrationContext requested - now preparing components...
+2026-02-17 18:05:10 INFO dirigent_cli - 'CMSIT.xml' found in folder. This will be used for the following instance.
+2026-02-17 18:05:10 INFO dirigent_cli - 	> InstrumentCluster requested - now constructing.
+2026-02-17 18:05:10 INFO dirigent_cli - 	> CalibrationSet requested - now constructing.
+2026-02-17 18:05:10 INFO mqtt_instrument - Connected to MQTT broker: host: 192.168.50.3, port: 1883, clientID: PSIProbecard1::627918::139787396597568
+2026-02-17 18:05:10 INFO dirigent_cli - Assembling CalibrationContext...
+2026-02-17 18:05:10 INFO dirigent_cli - CalibrationContext created and ready for init...
+2026-02-17 18:05:10 INFO dirigent_cli - === Dirigent preparation done - handing off to calibration ===
+2026-02-17 18:05:10 INFO ph2acf_instance - Loading FC7 firmware
+2026-02-17 18:05:16 INFO ph2acf_instance - FC7 DDR reset requested - attempting.
+2026-02-17 18:05:18 INFO custom_sequence - ===== custom_sequence parameter values as configured: =====
+2026-02-17 18:05:18 INFO custom_sequence - sequence_dict = ["PixelAlive_Analog_After_Crosstalk", "ThresholdAdjustment_Th1200_to_Th1000", "ThresholdEqualization_1Step_Th1000", "PixelAlive_Analog_Th1000", "SCurveScan", "NoiseScan_ResetMask", "PixelAlive_Analog_FinalCheck", "ThresholdAdjustment_Th1000_to_Th950", "NoiseScan_Th950", "ThresholdAdjustment_Th950_to_Th900", "NoiseScan_Th900", "ThresholdAdjustment_Th900_to_Th850", "NoiseScan_Th850"]
+2026-02-17 18:05:18 INFO custom_sequence - test_list = [{'name': 'PixelAlive_Analog'}, {'name': 'ThresholdEqualization'}, {'name': 'InjectionDelay'}, {'name': 'ThresholdAdjustment_default_to_Th2000'}, {'name': 'ThresholdEqualization_1Step_Th2000'}, {'name': 'PixelAlive_Analog_Th2000'}, {'name': 'SCurveScan_VCal1100'}, {'name': 'NoiseScan_Th2000'}, {'name': 'ThresholdAdjustment_Th2000_to_Th1200'}, {'name': 'ThresholdEqualization_1Step_Th1200'}, {'name': 'PixelAlive_Analog_Th1200'}, {'name': 'SCurveScan'}, {'name': 'NoiseScan_Th1200'}, {'name': 'ThresholdAdjustment_Th1200_to_Th1000'}, {'name': 'ThresholdEqualization_1Step_Th1000'}, {'name': 'PixelAlive_Analog_Th1000'}, {'name': 'SCurveScan_VCal800'}, {'name': 'NoiseScan_Th1000'}]
+2026-02-17 18:05:18 INFO custom_sequence - write_xml = True
+2026-02-17 18:05:18 INFO custom_sequence - reset_board = True
+2026-02-17 18:05:18 INFO custom_sequence - ===========================================================
+2026-02-17 18:05:18 WARNING custom_sequence - Overriding test_list option with sequence_dict option.
+2026-02-17 18:05:18 INFO ph2acf_instance - FC7 DDR reset requested - attempting.
+2026-02-17 18:05:20 INFO custom_sequence - PixelAlive_Analog_After_Crosstalk:
+2026-02-17 18:05:20 INFO performable_scans - === 1/13: pixelalive ===
+2026-02-17 18:06:02 INFO calibration_context - Checking logs/CMSITminiDAQ000000_pixelalive.log for aborts...
+2026-02-17 18:06:02 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 18:06:04 INFO performable_scans - = Chip 15 = 	 Pixels newly masked 9 	 total masked 152/145152 	 occupancy 1.004993
+2026-02-17 18:06:04 INFO performable_scans - = Chip 14 = 	 Pixels newly masked 0 	 total masked 159/145152 	 occupancy 1.004999
+2026-02-17 18:06:04 INFO performable_scans - = Chip 13 = 	 Pixels newly masked 2 	 total masked 7598/145152 	 occupancy 1.004992
+2026-02-17 18:06:04 INFO performable_scans - = Chip 12 = 	 Pixels newly masked 5 	 total masked 164/145152 	 occupancy 1.004985
+2026-02-17 18:06:04 INFO custom_sequence - ThresholdAdjustment_Th1200_to_Th1000:
+2026-02-17 18:06:04 INFO performable_scans - === 2/13: thradj ===
+2026-02-17 18:13:56 INFO calibration_context - Checking logs/CMSITminiDAQ000001_thradj.log for aborts...
+2026-02-17 18:13:56 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 18:13:57 INFO performable_scans - = Chip 15 = 	 Found Threshold at GDAC value 430
+2026-02-17 18:13:57 INFO performable_scans - = Chip 14 = 	 Found Threshold at GDAC value 395
+2026-02-17 18:13:57 INFO performable_scans - = Chip 13 = 	 Found Threshold at GDAC value 415
+2026-02-17 18:13:57 INFO performable_scans - = Chip 12 = 	 Found Threshold at GDAC value 424
+2026-02-17 18:13:57 INFO custom_sequence - ThresholdEqualization_1Step_Th1000:
+2026-02-17 18:13:57 INFO performable_scans - === 3/13: threqu ===
+2026-02-17 18:21:37 INFO calibration_context - Checking logs/CMSITminiDAQ000002_threqu.log for aborts...
+2026-02-17 18:21:37 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 18:21:39 INFO performable_scans - = Chip 15 = 	 TDAC distribution: Mean at 16.270 	 lowest bin 131 	 highest bin 1260
+2026-02-17 18:21:39 INFO performable_scans - = Chip 14 = 	 TDAC distribution: Mean at 16.193 	 lowest bin 323 	 highest bin 1203
+2026-02-17 18:21:39 INFO performable_scans - = Chip 13 = 	 TDAC distribution: Mean at 16.116 	 lowest bin 206 	 highest bin 992
+2026-02-17 18:21:39 INFO performable_scans - = Chip 12 = 	 TDAC distribution: Mean at 16.256 	 lowest bin 282 	 highest bin 1506
+2026-02-17 18:21:39 INFO custom_sequence - PixelAlive_Analog_Th1000:
+2026-02-17 18:21:39 INFO performable_scans - === 4/13: pixelalive ===
+2026-02-17 18:22:21 INFO calibration_context - Checking logs/CMSITminiDAQ000003_pixelalive.log for aborts...
+2026-02-17 18:22:21 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 18:22:22 INFO performable_scans - = Chip 15 = 	 Pixels newly masked 108 	 total masked 108/145152 	 occupancy 1.004998
+2026-02-17 18:22:22 INFO performable_scans - = Chip 14 = 	 Pixels newly masked 2 	 total masked 2/145152 	 occupancy 1.004987
+2026-02-17 18:22:22 INFO performable_scans - = Chip 13 = 	 Pixels newly masked 100 	 total masked 100/145152 	 occupancy 1.004989
+2026-02-17 18:22:22 INFO performable_scans - = Chip 12 = 	 Pixels newly masked 140 	 total masked 140/145152 	 occupancy 1.004975
+2026-02-17 18:22:22 INFO custom_sequence - SCurveScan:
+2026-02-17 18:22:22 INFO performable_scans - === 5/13: scurve ===
+2026-02-17 18:43:30 INFO calibration_context - Checking logs/CMSITminiDAQ000004_scurve.log for aborts...
+2026-02-17 18:43:30 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 18:43:31 INFO performable_scans - = Chip 15 =
+2026-02-17 18:43:31 INFO performable_scans - Found SCurves 145044/145152 	 Fit errors: 0
+2026-02-17 18:43:31 INFO performable_scans - Threshold mean: 193.541 dVCal 	 sd: 10.078 dVCal 	 Noise mean: 21.229 dVCal 	 sd: 2.603 dVCal
+2026-02-17 18:43:31 INFO performable_scans - = Chip 14 =
+2026-02-17 18:43:31 INFO performable_scans - Found SCurves 145150/145152 	 Fit errors: 0
+2026-02-17 18:43:31 INFO performable_scans - Threshold mean: 180.050 dVCal 	 sd: 8.851 dVCal 	 Noise mean: 21.131 dVCal 	 sd: 3.558 dVCal
+2026-02-17 18:43:31 INFO performable_scans - = Chip 13 =
+2026-02-17 18:43:31 INFO performable_scans - Found SCurves 145052/145152 	 Fit errors: 0
+2026-02-17 18:43:31 INFO performable_scans - Threshold mean: 181.954 dVCal 	 sd: 8.883 dVCal 	 Noise mean: 19.593 dVCal 	 sd: 2.803 dVCal
+2026-02-17 18:43:31 INFO performable_scans - = Chip 12 =
+2026-02-17 18:43:31 INFO performable_scans - Found SCurves 145012/145152 	 Fit errors: 0
+2026-02-17 18:43:31 INFO performable_scans - Threshold mean: 182.852 dVCal 	 sd: 9.315 dVCal 	 Noise mean: 20.795 dVCal 	 sd: 2.827 dVCal
+2026-02-17 18:43:31 INFO custom_sequence - NoiseScan_ResetMask:
+2026-02-17 18:43:31 INFO performable_scans - === 6/13: noise ===
+2026-02-17 18:46:47 INFO calibration_context - Checking logs/CMSITminiDAQ000005_noise.log for aborts...
+2026-02-17 18:46:47 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 18:46:49 INFO performable_scans - = Chip 15 = 	 Pixels newly masked 174 	 total masked 174/145152 	 occupancy 0.000327
+2026-02-17 18:46:49 INFO performable_scans - = Chip 14 = 	 Pixels newly masked 675 	 total masked 675/145152 	 occupancy 0.000242
+2026-02-17 18:46:49 INFO performable_scans - = Chip 13 = 	 Pixels newly masked 278 	 total masked 278/145152 	 occupancy 0.000335
+2026-02-17 18:46:49 INFO performable_scans - = Chip 12 = 	 Pixels newly masked 279 	 total masked 279/145152 	 occupancy 0.000440
+2026-02-17 18:46:49 INFO custom_sequence - PixelAlive_Analog_FinalCheck:
+2026-02-17 18:46:49 INFO performable_scans - === 7/13: pixelalive ===
+2026-02-17 18:47:31 INFO calibration_context - Checking logs/CMSITminiDAQ000006_pixelalive.log for aborts...
+2026-02-17 18:47:31 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 18:47:33 INFO performable_scans - = Chip 15 = 	 Pixels newly masked 107 	 total masked 281/145152 	 occupancy 1.005000
+2026-02-17 18:47:33 INFO performable_scans - = Chip 14 = 	 Pixels newly masked 0 	 total masked 675/145152 	 occupancy 1.004999
+2026-02-17 18:47:33 INFO performable_scans - = Chip 13 = 	 Pixels newly masked 98 	 total masked 376/145152 	 occupancy 1.005000
+2026-02-17 18:47:33 INFO performable_scans - = Chip 12 = 	 Pixels newly masked 135 	 total masked 414/145152 	 occupancy 1.004986
+2026-02-17 18:47:33 INFO custom_sequence - ThresholdAdjustment_Th1000_to_Th950:
+2026-02-17 18:47:33 INFO performable_scans - === 8/13: thradj ===
+2026-02-17 18:54:29 INFO calibration_context - Checking logs/CMSITminiDAQ000007_thradj.log for aborts...
+2026-02-17 18:54:29 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 18:54:30 INFO performable_scans - = Chip 15 = 	 Found Threshold at GDAC value 428
+2026-02-17 18:54:30 INFO performable_scans - = Chip 14 = 	 Found Threshold at GDAC value 394
+2026-02-17 18:54:30 INFO performable_scans - = Chip 13 = 	 Found Threshold at GDAC value 414
+2026-02-17 18:54:30 INFO performable_scans - = Chip 12 = 	 Found Threshold at GDAC value 423
+2026-02-17 18:54:30 INFO custom_sequence - NoiseScan_Th950:
+2026-02-17 18:54:30 INFO performable_scans - === 9/13: noise ===
+2026-02-17 18:57:38 INFO calibration_context - Checking logs/CMSITminiDAQ000008_noise.log for aborts...
+2026-02-17 18:57:38 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 18:57:39 INFO performable_scans - = Chip 15 = 	 Pixels newly masked 176 	 total masked 457/145152 	 occupancy 0.000008
+2026-02-17 18:57:39 INFO performable_scans - = Chip 14 = 	 Pixels newly masked 392 	 total masked 1067/145152 	 occupancy 0.000006
+2026-02-17 18:57:39 INFO performable_scans - = Chip 13 = 	 Pixels newly masked 118 	 total masked 494/145152 	 occupancy 0.000005
+2026-02-17 18:57:39 INFO performable_scans - = Chip 12 = 	 Pixels newly masked 76 	 total masked 490/145152 	 occupancy 0.000004
+2026-02-17 18:57:39 INFO custom_sequence - ThresholdAdjustment_Th950_to_Th900:
+2026-02-17 18:57:39 INFO performable_scans - === 10/13: thradj ===
+2026-02-17 19:04:33 INFO calibration_context - Checking logs/CMSITminiDAQ000009_thradj.log for aborts...
+2026-02-17 19:04:33 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 19:04:35 INFO performable_scans - = Chip 15 = 	 Found Threshold at GDAC value 427
+2026-02-17 19:04:35 INFO performable_scans - = Chip 14 = 	 Found Threshold at GDAC value 393
+2026-02-17 19:04:35 INFO performable_scans - = Chip 13 = 	 Found Threshold at GDAC value 413
+2026-02-17 19:04:35 INFO performable_scans - = Chip 12 = 	 Found Threshold at GDAC value 422
+2026-02-17 19:04:35 INFO custom_sequence - NoiseScan_Th900:
+2026-02-17 19:04:35 INFO performable_scans - === 11/13: noise ===
+2026-02-17 19:07:42 INFO calibration_context - Checking logs/CMSITminiDAQ000010_noise.log for aborts...
+2026-02-17 19:07:42 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 19:07:44 INFO performable_scans - = Chip 15 = 	 Pixels newly masked 113 	 total masked 570/145152 	 occupancy 0.000004
+2026-02-17 19:07:44 INFO performable_scans - = Chip 14 = 	 Pixels newly masked 541 	 total masked 1608/145152 	 occupancy 0.000004
+2026-02-17 19:07:44 INFO performable_scans - = Chip 13 = 	 Pixels newly masked 179 	 total masked 673/145152 	 occupancy 0.000005
+2026-02-17 19:07:44 INFO performable_scans - = Chip 12 = 	 Pixels newly masked 155 	 total masked 645/145152 	 occupancy 0.000006
+2026-02-17 19:07:44 INFO custom_sequence - ThresholdAdjustment_Th900_to_Th850:
+2026-02-17 19:07:44 INFO performable_scans - === 12/13: thradj ===
+2026-02-17 19:14:36 INFO calibration_context - Checking logs/CMSITminiDAQ000011_thradj.log for aborts...
+2026-02-17 19:14:36 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 19:14:38 INFO performable_scans - = Chip 15 = 	 Found Threshold at GDAC value 426
+2026-02-17 19:14:38 INFO performable_scans - = Chip 14 = 	 Found Threshold at GDAC value 392
+2026-02-17 19:14:38 INFO performable_scans - = Chip 13 = 	 Found Threshold at GDAC value 412
+2026-02-17 19:14:38 INFO performable_scans - = Chip 12 = 	 Found Threshold at GDAC value 421
+2026-02-17 19:14:38 INFO custom_sequence - NoiseScan_Th850:
+2026-02-17 19:14:38 INFO performable_scans - === 13/13: noise ===
+2026-02-17 19:17:46 INFO calibration_context - Checking logs/CMSITminiDAQ000012_noise.log for aborts...
+2026-02-17 19:17:46 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 19:17:47 INFO performable_scans - = Chip 15 = 	 Pixels newly masked 274 	 total masked 844/145152 	 occupancy 0.000006
+2026-02-17 19:17:47 INFO performable_scans - = Chip 14 = 	 Pixels newly masked 839 	 total masked 2447/145152 	 occupancy 0.000004
+2026-02-17 19:17:47 INFO performable_scans - = Chip 13 = 	 Pixels newly masked 383 	 total masked 1056/145152 	 occupancy 0.000006
+2026-02-17 19:17:47 INFO performable_scans - = Chip 12 = 	 Pixels newly masked 237 	 total masked 882/145152 	 occupancy 0.000006
+2026-02-17 19:17:47 INFO custom_sequence - Clean up...

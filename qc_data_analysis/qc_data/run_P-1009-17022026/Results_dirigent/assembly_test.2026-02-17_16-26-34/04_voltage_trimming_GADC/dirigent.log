@@ -1,0 +1,133 @@
+2026-02-17 16:05:38 INFO dirigent_cli - CalibrationContext requested - now preparing components...
+2026-02-17 16:05:38 INFO dirigent_cli - 'CMSIT.xml' found in folder. This will be used for the following instance.
+2026-02-17 16:05:38 INFO dirigent_cli - 	> InstrumentCluster requested - now constructing.
+2026-02-17 16:05:38 INFO dirigent_cli - 	> CalibrationSet requested - now constructing.
+2026-02-17 16:05:38 INFO dirigent_cli - Assembling CalibrationContext...
+2026-02-17 16:05:38 INFO dirigent_cli - CalibrationContext created and ready for init...
+2026-02-17 16:05:38 INFO dirigent_cli - === Dirigent preparation done - handing off to calibration ===
+2026-02-17 16:05:38 INFO mqtt_instrument - Connected to MQTT broker: host: 192.168.50.3, port: 1883, clientID: PSIProbecard1::617195::140222922823488
+2026-02-17 16:05:38 INFO ph2acf_instance - Loading FC7 firmware
+2026-02-17 16:05:43 INFO ph2acf_instance - FC7 DDR reset requested - attempting.
+2026-02-17 16:05:46 INFO voltage_trimming_GADC - ===== voltage_trimming_GADC parameter values as configured: =====
+2026-02-17 16:05:46 INFO voltage_trimming_GADC - start_setting = 0
+2026-02-17 16:05:46 INFO voltage_trimming_GADC - stop_setting = 15
+2026-02-17 16:05:46 INFO voltage_trimming_GADC - monitors = ('VDDA', 'VDDD')
+2026-02-17 16:05:46 INFO voltage_trimming_GADC - =================================================================
+2026-02-17 16:05:46 INFO voltage_trimming_GADC - Storing trim bit settings from XML file
+2026-02-17 16:05:46 INFO voltage_trimming_GADC - [[['10', '10'], ['9', '9'], ['11', '7'], ['10', '8']]]
+2026-02-17 16:05:46 INFO performable_scans - N_modules = 1
+2026-02-17 16:05:46 INFO performable_scans - N_ROCs = [4] ([[0, 1, 2, 3]])
+2026-02-17 16:05:47 INFO performable_scans - Setting trimbit to 0
+2026-02-17 16:05:51 INFO performable_scans - Configuring chip with new settings...
+2026-02-17 16:05:51 INFO performable_scans - === 1/16: physics ===
+2026-02-17 16:06:19 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-17 16:06:19 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 16:06:21 INFO performable_scans -            VDDA_ROC0   VDDD_ROC0   VDDA_ROC1   VDDD_ROC1   VDDA_ROC2   VDDD_ROC2   VDDA_ROC3   VDDD_ROC3  
+2026-02-17 16:06:21 INFO performable_scans - Module 0   1.121       1.086       1.077       1.085       1.118       1.042       1.142       1.077      
+2026-02-17 16:06:21 INFO performable_scans - Setting trimbit to 1
+2026-02-17 16:06:25 INFO performable_scans - Configuring chip with new settings...
+2026-02-17 16:06:26 INFO performable_scans - === 2/16: physics ===
+2026-02-17 16:06:54 INFO calibration_context - Checking logs/CMSITminiDAQ000001_physics.log for aborts...
+2026-02-17 16:06:54 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 16:06:56 INFO performable_scans -            VDDA_ROC0   VDDD_ROC0   VDDA_ROC1   VDDD_ROC1   VDDA_ROC2   VDDD_ROC2   VDDA_ROC3   VDDD_ROC3  
+2026-02-17 16:06:56 INFO performable_scans - Module 0   1.141       1.108       1.093       1.103       1.139       1.061       1.164       1.097      
+2026-02-17 16:06:56 INFO performable_scans - Setting trimbit to 2
+2026-02-17 16:07:00 INFO performable_scans - Configuring chip with new settings...
+2026-02-17 16:07:01 INFO performable_scans - === 3/16: physics ===
+2026-02-17 16:07:28 INFO calibration_context - Checking logs/CMSITminiDAQ000002_physics.log for aborts...
+2026-02-17 16:07:28 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 16:07:31 INFO performable_scans -            VDDA_ROC0   VDDD_ROC0   VDDA_ROC1   VDDD_ROC1   VDDA_ROC2   VDDD_ROC2   VDDA_ROC3   VDDD_ROC3  
+2026-02-17 16:07:31 INFO performable_scans - Module 0   1.163       1.130       1.113       1.120       1.164       1.083       1.187       1.123      
+2026-02-17 16:07:31 INFO performable_scans - Setting trimbit to 3
+2026-02-17 16:07:35 INFO performable_scans - Configuring chip with new settings...
+2026-02-17 16:07:35 INFO performable_scans - === 4/16: physics ===
+2026-02-17 16:08:03 INFO calibration_context - Checking logs/CMSITminiDAQ000003_physics.log for aborts...
+2026-02-17 16:08:03 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 16:08:06 INFO performable_scans -            VDDA_ROC0   VDDD_ROC0   VDDA_ROC1   VDDD_ROC1   VDDA_ROC2   VDDD_ROC2   VDDA_ROC3   VDDD_ROC3  
+2026-02-17 16:08:06 INFO performable_scans - Module 0   1.187       1.157       1.134       1.142       1.187       1.102       1.210       1.147      
+2026-02-17 16:08:06 INFO performable_scans - Setting trimbit to 4
+2026-02-17 16:08:10 INFO performable_scans - Configuring chip with new settings...
+2026-02-17 16:08:10 INFO performable_scans - === 5/16: physics ===
+2026-02-17 16:08:38 INFO calibration_context - Checking logs/CMSITminiDAQ000004_physics.log for aborts...
+2026-02-17 16:08:38 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 16:08:41 INFO performable_scans -            VDDA_ROC0   VDDD_ROC0   VDDA_ROC1   VDDD_ROC1   VDDA_ROC2   VDDD_ROC2   VDDA_ROC3   VDDD_ROC3  
+2026-02-17 16:08:41 INFO performable_scans - Module 0   1.209       1.180       1.156       1.163       1.205       1.131       1.233       1.169      
+2026-02-17 16:08:41 INFO performable_scans - Setting trimbit to 5
+2026-02-17 16:08:45 INFO performable_scans - Configuring chip with new settings...
+2026-02-17 16:08:45 INFO performable_scans - === 6/16: physics ===
+2026-02-17 16:09:13 INFO calibration_context - Checking logs/CMSITminiDAQ000005_physics.log for aborts...
+2026-02-17 16:09:13 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 16:09:16 INFO performable_scans -            VDDA_ROC0   VDDD_ROC0   VDDA_ROC1   VDDD_ROC1   VDDA_ROC2   VDDD_ROC2   VDDA_ROC3   VDDD_ROC3  
+2026-02-17 16:09:16 INFO performable_scans - Module 0   1.234       1.207       1.179       1.189       1.229       1.152       1.256       1.193      
+2026-02-17 16:09:16 INFO performable_scans - Setting trimbit to 6
+2026-02-17 16:09:20 INFO performable_scans - Configuring chip with new settings...
+2026-02-17 16:09:20 INFO performable_scans - === 7/16: physics ===
+2026-02-17 16:09:49 INFO calibration_context - Checking logs/CMSITminiDAQ000006_physics.log for aborts...
+2026-02-17 16:09:49 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 16:09:51 INFO performable_scans -            VDDA_ROC0   VDDD_ROC0   VDDA_ROC1   VDDD_ROC1   VDDA_ROC2   VDDD_ROC2   VDDA_ROC3   VDDD_ROC3  
+2026-02-17 16:09:51 INFO performable_scans - Module 0   1.258       1.232       1.206       1.210       1.257       1.176       1.281       1.221      
+2026-02-17 16:09:51 INFO performable_scans - Setting trimbit to 7
+2026-02-17 16:09:55 INFO performable_scans - Configuring chip with new settings...
+2026-02-17 16:09:56 INFO performable_scans - === 8/16: physics ===
+2026-02-17 16:10:23 INFO calibration_context - Checking logs/CMSITminiDAQ000007_physics.log for aborts...
+2026-02-17 16:10:23 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 16:10:26 INFO performable_scans -            VDDA_ROC0   VDDD_ROC0   VDDA_ROC1   VDDD_ROC1   VDDA_ROC2   VDDD_ROC2   VDDA_ROC3   VDDD_ROC3  
+2026-02-17 16:10:26 INFO performable_scans - Module 0   1.284       1.259       1.228       1.235       1.282       1.199       1.306       1.245      
+2026-02-17 16:10:26 INFO performable_scans - Setting trimbit to 8
+2026-02-17 16:10:30 INFO performable_scans - Configuring chip with new settings...
+2026-02-17 16:10:30 INFO performable_scans - === 9/16: physics ===
+2026-02-17 16:10:58 INFO calibration_context - Checking logs/CMSITminiDAQ000008_physics.log for aborts...
+2026-02-17 16:10:58 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 16:11:00 INFO performable_scans -            VDDA_ROC0   VDDD_ROC0   VDDA_ROC1   VDDD_ROC1   VDDA_ROC2   VDDD_ROC2   VDDA_ROC3   VDDD_ROC3  
+2026-02-17 16:11:00 INFO performable_scans - Module 0   1.310       1.289       1.249       1.257       1.304       1.221       1.329       1.267      
+2026-02-17 16:11:00 INFO performable_scans - Setting trimbit to 9
+2026-02-17 16:11:04 INFO performable_scans - Configuring chip with new settings...
+2026-02-17 16:11:05 INFO performable_scans - === 10/16: physics ===
+2026-02-17 16:11:33 INFO calibration_context - Checking logs/CMSITminiDAQ000009_physics.log for aborts...
+2026-02-17 16:11:33 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 16:11:35 INFO performable_scans -            VDDA_ROC0   VDDD_ROC0   VDDA_ROC1   VDDD_ROC1   VDDA_ROC2   VDDD_ROC2   VDDA_ROC3   VDDD_ROC3  
+2026-02-17 16:11:35 INFO performable_scans - Module 0   1.334       1.315       1.274       1.283       1.328       1.243       1.354       1.291      
+2026-02-17 16:11:35 INFO performable_scans - Setting trimbit to 10
+2026-02-17 16:11:39 INFO performable_scans - Configuring chip with new settings...
+2026-02-17 16:11:40 INFO performable_scans - === 11/16: physics ===
+2026-02-17 16:12:06 INFO calibration_context - Checking logs/CMSITminiDAQ000010_physics.log for aborts...
+2026-02-17 16:12:06 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 16:12:09 INFO performable_scans -            VDDA_ROC0   VDDD_ROC0   VDDA_ROC1   VDDD_ROC1   VDDA_ROC2   VDDD_ROC2   VDDA_ROC3   VDDD_ROC3  
+2026-02-17 16:12:09 INFO performable_scans - Module 0   1.360       1.339       1.300       1.306       1.355       1.267       1.376       1.319      
+2026-02-17 16:12:09 INFO performable_scans - Setting trimbit to 11
+2026-02-17 16:12:13 INFO performable_scans - Configuring chip with new settings...
+2026-02-17 16:12:13 INFO performable_scans - === 12/16: physics ===
+2026-02-17 16:12:41 INFO calibration_context - Checking logs/CMSITminiDAQ000011_physics.log for aborts...
+2026-02-17 16:12:41 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 16:12:44 INFO performable_scans -            VDDA_ROC0   VDDD_ROC0   VDDA_ROC1   VDDD_ROC1   VDDA_ROC2   VDDD_ROC2   VDDA_ROC3   VDDD_ROC3  
+2026-02-17 16:12:44 INFO performable_scans - Module 0   1.383       1.366       1.324       1.331       1.382       1.289       1.402       1.343      
+2026-02-17 16:12:44 INFO performable_scans - Setting trimbit to 12
+2026-02-17 16:12:48 INFO performable_scans - Configuring chip with new settings...
+2026-02-17 16:12:48 INFO performable_scans - === 13/16: physics ===
+2026-02-17 16:13:18 INFO calibration_context - Checking logs/CMSITminiDAQ000012_physics.log for aborts...
+2026-02-17 16:13:18 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 16:13:20 INFO performable_scans -            VDDA_ROC0   VDDD_ROC0   VDDA_ROC1   VDDD_ROC1   VDDA_ROC2   VDDD_ROC2   VDDA_ROC3   VDDD_ROC3  
+2026-02-17 16:13:20 INFO performable_scans - Module 0   1.408       1.392       1.349       1.354       1.399       1.318       1.425       1.365      
+2026-02-17 16:13:20 INFO performable_scans - Setting trimbit to 13
+2026-02-17 16:13:25 INFO performable_scans - Configuring chip with new settings...
+2026-02-17 16:13:25 INFO performable_scans - === 14/16: physics ===
+2026-02-17 16:13:53 INFO calibration_context - Checking logs/CMSITminiDAQ000013_physics.log for aborts...
+2026-02-17 16:13:53 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 16:13:56 INFO performable_scans -            VDDA_ROC0   VDDD_ROC0   VDDA_ROC1   VDDD_ROC1   VDDA_ROC2   VDDD_ROC2   VDDA_ROC3   VDDD_ROC3  
+2026-02-17 16:13:56 INFO performable_scans - Module 0   1.434       1.419       1.371       1.379       1.426       1.340       1.449       1.389      
+2026-02-17 16:13:56 INFO performable_scans - Setting trimbit to 14
+2026-02-17 16:14:00 INFO performable_scans - Configuring chip with new settings...
+2026-02-17 16:14:00 INFO performable_scans - === 15/16: physics ===
+2026-02-17 16:14:29 INFO calibration_context - Checking logs/CMSITminiDAQ000014_physics.log for aborts...
+2026-02-17 16:14:29 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 16:14:31 INFO performable_scans -            VDDA_ROC0   VDDD_ROC0   VDDA_ROC1   VDDD_ROC1   VDDA_ROC2   VDDD_ROC2   VDDA_ROC3   VDDD_ROC3  
+2026-02-17 16:14:31 INFO performable_scans - Module 0   1.458       1.444       1.398       1.402       1.452       1.364       1.473       1.418      
+2026-02-17 16:14:31 INFO performable_scans - Setting trimbit to 15
+2026-02-17 16:14:35 INFO performable_scans - Configuring chip with new settings...
+2026-02-17 16:14:36 INFO performable_scans - === 16/16: physics ===
+2026-02-17 16:15:03 INFO calibration_context - Checking logs/CMSITminiDAQ000015_physics.log for aborts...
+2026-02-17 16:15:03 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 16:15:06 INFO performable_scans -            VDDA_ROC0   VDDD_ROC0   VDDA_ROC1   VDDD_ROC1   VDDA_ROC2   VDDD_ROC2   VDDA_ROC3   VDDD_ROC3  
+2026-02-17 16:15:06 INFO performable_scans - Module 0   1.481       1.470       1.421       1.429       1.479       1.386       1.498       1.440      
+2026-02-17 16:15:06 INFO performable_scans - Data saved for module 0.
+2026-02-17 16:15:06 INFO voltage_trimming_GADC - Resetting trim bit settings in XML file

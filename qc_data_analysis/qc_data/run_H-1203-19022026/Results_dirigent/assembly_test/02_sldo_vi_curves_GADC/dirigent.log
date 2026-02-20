@@ -1,0 +1,268 @@
+2026-02-19 10:45:11 INFO dirigent_cli - CalibrationContext requested - now preparing components...
+2026-02-19 10:45:11 INFO dirigent_cli - 'CMSIT.xml' found in folder. This will be used for the following instance.
+2026-02-19 10:45:11 INFO dirigent_cli - 	> InstrumentCluster requested - now constructing.
+2026-02-19 10:45:11 INFO dirigent_cli - 	> CalibrationSet requested - now constructing.
+2026-02-19 10:45:11 INFO dirigent_cli - Assembling CalibrationContext...
+2026-02-19 10:45:11 INFO dirigent_cli - CalibrationContext created and ready for init...
+2026-02-19 10:45:11 INFO dirigent_cli - === Dirigent preparation done - handing off to calibration ===
+2026-02-19 10:45:11 INFO mqtt_instrument - Connected to MQTT broker: host: 192.168.50.3, port: 1883, clientID: PSIProbecard1::668409::139879574894400
+2026-02-19 10:45:11 INFO ph2acf_instance - Loading FC7 firmware
+2026-02-19 10:45:17 INFO ph2acf_instance - FC7 DDR reset requested - attempting.
+2026-02-19 10:45:19 INFO sldo_vi_curves_GADC - ===== sldo_vi_curves_GADC parameter values as configured: =====
+2026-02-19 10:45:19 INFO sldo_vi_curves_GADC - start_current = 0.0
+2026-02-19 10:45:19 INFO sldo_vi_curves_GADC - stop_current = 6.0
+2026-02-19 10:45:19 INFO sldo_vi_curves_GADC - step_size = 0.2
+2026-02-19 10:45:19 INFO sldo_vi_curves_GADC - delay = 1.0
+2026-02-19 10:45:19 INFO sldo_vi_curves_GADC - monitors = ('VINA', 'VIND', 'VDDA', 'VDDD')
+2026-02-19 10:45:19 INFO sldo_vi_curves_GADC - ===============================================================
+2026-02-19 10:45:19 INFO performable_scans - N_modules = 1
+2026-02-19 10:45:19 INFO performable_scans - N_ROCs = [4] ([[0, 1, 2, 3]])
+2026-02-19 10:45:20 INFO performable_scans - Setting current to 0.0 A
+2026-02-19 10:45:23 INFO performable_scans - === 1/31: physics ===
+2026-02-19 10:45:26 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:45:26 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:45:26 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:45:26 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:45:27 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:45:27 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:45:27 INFO performable_scans - Setting current to 0.2 A
+2026-02-19 10:45:30 INFO performable_scans - === 2/31: physics ===
+2026-02-19 10:45:33 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:45:33 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:45:33 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:45:33 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:45:34 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:45:34 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:45:34 INFO performable_scans - Setting current to 0.4 A
+2026-02-19 10:45:36 INFO performable_scans - === 3/31: physics ===
+2026-02-19 10:45:39 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:45:39 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:45:39 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:45:39 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:45:40 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:45:40 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:45:40 INFO performable_scans - Setting current to 0.6 A
+2026-02-19 10:45:43 INFO performable_scans - === 4/31: physics ===
+2026-02-19 10:45:46 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:45:46 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:45:46 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:45:46 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:45:47 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:45:47 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:45:47 INFO performable_scans - Setting current to 0.8 A
+2026-02-19 10:45:49 INFO performable_scans - === 5/31: physics ===
+2026-02-19 10:45:52 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:45:52 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:45:52 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:45:52 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:45:53 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:45:53 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:45:53 INFO performable_scans - Setting current to 1.0 A
+2026-02-19 10:45:56 INFO performable_scans - === 6/31: physics ===
+2026-02-19 10:45:59 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:45:59 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:45:59 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:45:59 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:46:00 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:46:00 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:46:00 INFO performable_scans - Setting current to 1.2 A
+2026-02-19 10:46:03 INFO performable_scans - === 7/31: physics ===
+2026-02-19 10:46:05 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:46:05 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:46:05 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:46:05 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:46:06 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:46:06 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:46:06 INFO performable_scans - Setting current to 1.4 A
+2026-02-19 10:46:09 INFO performable_scans - === 8/31: physics ===
+2026-02-19 10:46:12 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:46:12 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:46:12 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:46:12 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:46:13 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:46:13 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:46:13 INFO performable_scans - Setting current to 1.6 A
+2026-02-19 10:46:16 INFO performable_scans - === 9/31: physics ===
+2026-02-19 10:46:18 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:46:18 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:46:18 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:46:18 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:46:19 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:46:19 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:46:19 INFO performable_scans - Setting current to 1.8 A
+2026-02-19 10:46:22 INFO performable_scans - === 10/31: physics ===
+2026-02-19 10:46:25 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:46:25 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:46:25 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:46:25 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:46:26 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:46:26 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:46:26 INFO performable_scans - Setting current to 2.0 A
+2026-02-19 10:46:29 INFO performable_scans - === 11/31: physics ===
+2026-02-19 10:46:31 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:46:31 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:46:31 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:46:31 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:46:32 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:46:32 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:46:32 INFO performable_scans - Setting current to 2.2 A
+2026-02-19 10:46:35 INFO performable_scans - === 12/31: physics ===
+2026-02-19 10:46:38 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:46:38 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:46:38 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:46:38 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:46:39 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:46:39 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:46:39 INFO performable_scans - Setting current to 2.4 A
+2026-02-19 10:46:42 INFO performable_scans - === 13/31: physics ===
+2026-02-19 10:46:45 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:46:45 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:46:45 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:46:45 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:46:46 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:46:46 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:46:46 INFO performable_scans - Setting current to 2.6 A
+2026-02-19 10:46:48 INFO performable_scans - === 14/31: physics ===
+2026-02-19 10:46:51 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:46:51 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:46:51 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:46:51 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:46:52 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:46:52 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:46:52 INFO performable_scans - Setting current to 2.8 A
+2026-02-19 10:46:55 INFO performable_scans - === 15/31: physics ===
+2026-02-19 10:46:58 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:46:58 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:46:58 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:46:58 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:46:59 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:46:59 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:46:59 INFO performable_scans - Setting current to 3.0 A
+2026-02-19 10:47:01 INFO performable_scans - === 16/31: physics ===
+2026-02-19 10:47:04 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:47:04 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:47:04 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:47:04 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:47:05 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:47:05 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:47:05 INFO performable_scans - Setting current to 3.2 A
+2026-02-19 10:47:08 INFO performable_scans - === 17/31: physics ===
+2026-02-19 10:47:11 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:47:11 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:47:11 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:47:11 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:47:12 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:47:12 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:47:12 INFO performable_scans - Setting current to 3.4 A
+2026-02-19 10:47:14 INFO performable_scans - === 18/31: physics ===
+2026-02-19 10:47:17 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:47:17 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:47:17 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:47:17 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:47:18 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:47:18 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:47:18 INFO performable_scans - Setting current to 3.6 A
+2026-02-19 10:47:21 INFO performable_scans - === 19/31: physics ===
+2026-02-19 10:47:24 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:47:24 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:47:24 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:47:24 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:47:25 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:47:25 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:47:25 INFO performable_scans - Setting current to 3.8 A
+2026-02-19 10:47:27 INFO performable_scans - === 20/31: physics ===
+2026-02-19 10:47:30 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:47:30 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:47:30 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:47:30 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:47:31 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:47:31 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:47:31 INFO performable_scans - Setting current to 4.0 A
+2026-02-19 10:47:34 INFO performable_scans - === 21/31: physics ===
+2026-02-19 10:47:37 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:47:37 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:47:37 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:47:37 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:47:38 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:47:38 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:47:38 INFO performable_scans - Setting current to 4.2 A
+2026-02-19 10:47:40 INFO performable_scans - === 22/31: physics ===
+2026-02-19 10:47:43 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:47:43 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:47:43 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:47:43 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:47:44 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:47:44 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:47:44 INFO performable_scans - Setting current to 4.4 A
+2026-02-19 10:47:47 INFO performable_scans - === 23/31: physics ===
+2026-02-19 10:47:50 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:47:50 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:47:50 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:47:50 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:47:51 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:47:51 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:47:51 INFO performable_scans - Setting current to 4.6 A
+2026-02-19 10:47:53 INFO performable_scans - === 24/31: physics ===
+2026-02-19 10:47:56 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:47:56 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:47:56 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:47:56 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:47:57 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:47:57 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:47:57 INFO performable_scans - Setting current to 4.8 A
+2026-02-19 10:48:00 INFO performable_scans - === 25/31: physics ===
+2026-02-19 10:48:03 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:48:03 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:48:03 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:48:03 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:48:04 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:48:04 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:48:04 INFO performable_scans - Setting current to 5.0 A
+2026-02-19 10:48:06 INFO performable_scans - === 26/31: physics ===
+2026-02-19 10:48:09 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:48:09 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:48:09 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:48:09 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:48:10 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:48:10 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:48:10 INFO performable_scans - Setting current to 5.2 A
+2026-02-19 10:48:13 INFO performable_scans - === 27/31: physics ===
+2026-02-19 10:48:16 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:48:16 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:48:16 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:48:16 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:48:17 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:48:17 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:48:17 INFO performable_scans - Setting current to 5.4 A
+2026-02-19 10:48:19 INFO performable_scans - === 28/31: physics ===
+2026-02-19 10:48:22 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:48:22 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:48:22 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:48:22 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:48:23 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:48:23 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:48:23 INFO performable_scans - Setting current to 5.6 A
+2026-02-19 10:48:26 INFO performable_scans - === 29/31: physics ===
+2026-02-19 10:48:29 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:48:29 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:48:29 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:48:29 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:48:30 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:48:30 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:48:30 INFO performable_scans - Setting current to 5.8 A
+2026-02-19 10:48:32 INFO performable_scans - === 30/31: physics ===
+2026-02-19 10:48:35 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:48:35 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:48:35 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:48:35 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:48:36 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:48:36 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:48:36 INFO performable_scans - Setting current to 6.0 A
+2026-02-19 10:48:39 INFO performable_scans - === 31/31: physics ===
+2026-02-19 10:48:42 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-19 10:48:42 INFO detect_ph2_acf_failure - Detected that some data lanes are enabled but inactive.
+2026-02-19 10:48:42 INFO detect_ph2_acf_failure - Likely that CMSITminiDAQ aborted erroneously.
+2026-02-19 10:48:42 INFO calibration_context - Ph2 ACF abort detected
+2026-02-19 10:48:43 INFO performable_scans - [Errno 2] No such file or directory: 'RunNumber.txt'
+2026-02-19 10:48:43 INFO performable_scans - Likely that RunNumber.txt cannot be found because Ph2 ACF did not run successfully. This may be due to low operating current.
+2026-02-19 10:48:45 INFO performable_scans - Data saved for module 0.

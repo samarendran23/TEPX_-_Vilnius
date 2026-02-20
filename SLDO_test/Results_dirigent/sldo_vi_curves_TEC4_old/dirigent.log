@@ -1,0 +1,430 @@
+2026-02-05 16:58:36 INFO construct_logo -                                                                                  
+2026-02-05 16:58:36 INFO construct_logo -            04  02              00                                                
+2026-02-05 16:58:36 INFO construct_logo -            33  ''              ''                                         ,d     
+2026-02-05 16:58:36 INFO construct_logo -            33                                                             33     
+2026-02-05 16:58:36 INFO construct_logo -    ,a433fb,33  33  8b,d117fa,  33   ,a432cb,d8   ,ad34fba,  8b,d0f17a,  M5bafMM  
+2026-02-05 16:58:36 INFO construct_logo -   a8'    `Y33  33  33P'   'Y8  33  a8'    `Y33  a8PMM?__33  33P'   `'8a   33     
+2026-02-05 16:58:36 INFO construct_logo -   8b       33  33  33          33  8b       33  8PP......'  33       33   33     
+2026-02-05 16:58:36 INFO construct_logo -   '8a,   ,d33  33  33          33  '8a,   ,d33  '8b,   ,aa  33       33   33,    
+2026-02-05 16:58:36 INFO construct_logo -    `'7690P'Y8  33  33          33   `'8e47P'Y8   `'5ea48''  33       33   'Y338  
+2026-02-05 16:58:36 INFO construct_logo -                                     aa,    ,33                                   
+2026-02-05 16:58:36 INFO construct_logo -                                      '78d1dP'                       HEAD branch  
+2026-02-05 16:58:36 INFO dirigent_cli - version 4.2.0-commonsequences.4
+2026-02-05 16:58:36 INFO dirigent_cli - ----------------------------------
+2026-02-05 16:58:36 INFO dirigent_cli - Ph2 ACF: v6-21 (HEAD)
+2026-02-05 16:58:36 INFO dirigent_cli - Felis: v1.1.8 (HEAD)
+2026-02-05 16:58:36 INFO dirigent_cli - ICICLE: 2.2.1-1-g8e4778d (HEAD)
+2026-02-05 16:58:36 INFO dirigent_cli - inner-tracker-tests: v1.0.2 (HEAD)
+2026-02-05 16:58:36 INFO dirigent_cli - RestHub API: 0f175ba (HEAD)
+2026-02-05 16:58:36 INFO dirigent_cli - ----------------------------------
+2026-02-05 16:58:36 INFO dirigent_cli - Dirigent preparation starting...
+2026-02-05 16:58:36 INFO dirigent_cli - CalibrationContext requested - now preparing components...
+2026-02-05 16:58:36 INFO dirigent_cli - 'CMSIT.xml' found in folder. This will be used for the following instance.
+2026-02-05 16:58:36 INFO dirigent_cli - Ensuring warnings and errors will be saved to Ph2 ACF log files...
+2026-02-05 16:58:36 INFO modify_ph2_logging - Backed up /home/muon/dirigent/dirigent-4.2.0_4/deps/Ph2_ACF/settings/logger.conf to /home/muon/dirigent/dirigent-4.2.0_4/deps/Ph2_ACF/settings/logger.conf.bak
+2026-02-05 16:58:36 INFO dirigent_cli - 	> InstrumentCluster requested - now constructing.
+2026-02-05 16:58:36 INFO mqtt_instrument - Connected to MQTT broker: host: 192.168.50.3, port: 1883, clientID: PSIColdbox::398834::140208199046144
+2026-02-05 16:58:36 INFO dirigent_cli - 	> Monitoring requested - now constructing...
+2026-02-05 16:58:36 INFO dirigent_cli - 	> CalibrationSet requested - now constructing.
+2026-02-05 16:58:36 INFO dirigent_cli - Assembling CalibrationContext...
+2026-02-05 16:58:36 INFO dirigent_cli - CalibrationContext created and ready for init...
+2026-02-05 16:58:36 INFO dirigent_cli - === Dirigent preparation done - handing off to calibration ===
+2026-02-05 16:58:36 INFO mqtt_instrument - Connected to MQTT broker: host: 192.168.50.3, port: 1883, clientID: PSIProbecard4::398834::140208199046144
+2026-02-05 16:58:36 INFO instrument_cluster - Loading PSI coldbox calibration
+2026-02-05 16:58:37 INFO ph2acf_instance - Loading FC7 firmware
+2026-02-05 16:58:38 INFO ph2acf_instance - FC7 DDR reset requested - attempting.
+2026-02-05 16:58:51 INFO sldo_vi_curves - ===== sldo_vi_curves parameter values as configured: =====
+2026-02-05 16:58:51 INFO sldo_vi_curves - final_current = 6.0
+2026-02-05 16:58:51 INFO sldo_vi_curves - initial_current = 0.0
+2026-02-05 16:58:51 INFO sldo_vi_curves - delay = 1.0
+2026-02-05 16:58:51 INFO sldo_vi_curves - current_step = 0.2
+2026-02-05 16:58:51 INFO sldo_vi_curves - expected = True
+2026-02-05 16:58:51 INFO sldo_vi_curves - active = False
+2026-02-05 16:58:51 INFO sldo_vi_curves - start_monitoring_current = 5.0
+2026-02-05 16:58:51 INFO sldo_vi_curves - hdi_version = 3
+2026-02-05 16:58:51 INFO sldo_vi_curves - ==========================================================
+2026-02-05 16:58:56 INFO psi_coldbox - Attempting to reach -20.5 < -20.0 < -19.5 C for TEC(s) [4] (within 600s).
+2026-02-05 16:59:01 INFO psi_coldbox - Dew point is -8.18 C. Setting the target temperature to -7.18 C.
+2026-02-05 16:59:07 INFO psi_coldbox - Dew point is -12.4 C. Setting the target temperature to -11.40 C.
+2026-02-05 16:59:12 INFO psi_coldbox - Dew point is -14.15 C. Setting the target temperature to -13.15 C.
+2026-02-05 16:59:17 INFO psi_coldbox - Dew point is -17.67 C. Setting the target temperature to -16.67 C.
+2026-02-05 16:59:22 INFO psi_coldbox - Dew point is -18.95 C. Setting the target temperature to -17.95 C.
+2026-02-05 16:59:27 INFO psi_coldbox - Dew point is -21.6 C. Setting the target temperature to -20.00 C.
+2026-02-05 16:59:44 INFO psi_coldbox - Temperature(s) in range: ['-', '-', '-', -19.5666, '-', '-', '-', '-'] C. Waiting 20 s to verify...
+2026-02-05 16:59:54 INFO psi_coldbox - At least one temperature dropped out of range. Retrying...
+2026-02-05 17:00:50 INFO psi_coldbox - Temperature(s) in range: ['-', '-', '-', -20.4713, '-', '-', '-', '-'] C. Waiting 20 s to verify...
+2026-02-05 17:01:10 INFO psi_coldbox - Temperature(s) in range for 20 s (['-', '-', '-', -20.2842, '-', '-', '-', '-'] C). Validation completed.
+2026-02-05 17:01:13 INFO sldo_vi_curves - == Setting Current to 0.0A
+2026-02-05 17:01:13 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:01:14 INFO sldo_vi_curves - VIN           0.4590
+2026-02-05 17:01:14 INFO sldo_vi_curves - VOFS          0.1888
+2026-02-05 17:01:14 INFO sldo_vi_curves - VDDD_ROC0    -0.8241
+2026-02-05 17:01:14 INFO sldo_vi_curves - VDDA_ROC0    -0.8241
+2026-02-05 17:01:14 INFO sldo_vi_curves - VDDD_ROC1    -0.0001
+2026-02-05 17:01:14 INFO sldo_vi_curves - VDDA_ROC1     0.0002
+2026-02-05 17:01:14 INFO sldo_vi_curves - VDDD_ROC2     0.0000
+2026-02-05 17:01:14 INFO sldo_vi_curves - VDDA_ROC2     0.0001
+2026-02-05 17:01:14 INFO sldo_vi_curves - VDDD_ROC3     0.8262
+2026-02-05 17:01:14 INFO sldo_vi_curves - VDDA_ROC3     0.0001
+2026-02-05 17:01:16 INFO sldo_vi_curves - == Setting Current to 0.2A
+2026-02-05 17:01:16 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:01:17 INFO sldo_vi_curves - VIN           0.6938
+2026-02-05 17:01:17 INFO sldo_vi_curves - VOFS          0.4574
+2026-02-05 17:01:17 INFO sldo_vi_curves - VDDD_ROC0    -0.2998
+2026-02-05 17:01:17 INFO sldo_vi_curves - VDDA_ROC0    -0.2978
+2026-02-05 17:01:17 INFO sldo_vi_curves - VDDD_ROC1     0.5683
+2026-02-05 17:01:17 INFO sldo_vi_curves - VDDA_ROC1     0.5502
+2026-02-05 17:01:17 INFO sldo_vi_curves - VDDD_ROC2     0.5599
+2026-02-05 17:01:17 INFO sldo_vi_curves - VDDA_ROC2     0.5829
+2026-02-05 17:01:17 INFO sldo_vi_curves - VDDD_ROC3     0.8543
+2026-02-05 17:01:17 INFO sldo_vi_curves - VDDA_ROC3     0.5706
+2026-02-05 17:01:19 INFO sldo_vi_curves - == Setting Current to 0.4A
+2026-02-05 17:01:19 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:01:20 INFO sldo_vi_curves - VIN           0.7150
+2026-02-05 17:01:20 INFO sldo_vi_curves - VOFS          0.4775
+2026-02-05 17:01:20 INFO sldo_vi_curves - VDDD_ROC0    -0.2208
+2026-02-05 17:01:20 INFO sldo_vi_curves - VDDA_ROC0    -0.2433
+2026-02-05 17:01:20 INFO sldo_vi_curves - VDDD_ROC1     0.6550
+2026-02-05 17:01:20 INFO sldo_vi_curves - VDDA_ROC1     0.6113
+2026-02-05 17:01:20 INFO sldo_vi_curves - VDDD_ROC2     0.6368
+2026-02-05 17:01:20 INFO sldo_vi_curves - VDDA_ROC2     0.6301
+2026-02-05 17:01:20 INFO sldo_vi_curves - VDDD_ROC3     0.8581
+2026-02-05 17:01:20 INFO sldo_vi_curves - VDDA_ROC3     0.6236
+2026-02-05 17:01:22 INFO sldo_vi_curves - == Setting Current to 0.6A
+2026-02-05 17:01:22 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:01:22 INFO sldo_vi_curves - VIN           0.7340
+2026-02-05 17:01:22 INFO sldo_vi_curves - VOFS          0.4963
+2026-02-05 17:01:22 INFO sldo_vi_curves - VDDD_ROC0    -0.1615
+2026-02-05 17:01:22 INFO sldo_vi_curves - VDDA_ROC0    -0.2143
+2026-02-05 17:01:22 INFO sldo_vi_curves - VDDD_ROC1     0.7079
+2026-02-05 17:01:22 INFO sldo_vi_curves - VDDA_ROC1     0.6414
+2026-02-05 17:01:22 INFO sldo_vi_curves - VDDD_ROC2     0.6995
+2026-02-05 17:01:22 INFO sldo_vi_curves - VDDA_ROC2     0.6518
+2026-02-05 17:01:22 INFO sldo_vi_curves - VDDD_ROC3     0.8587
+2026-02-05 17:01:22 INFO sldo_vi_curves - VDDA_ROC3     0.6499
+2026-02-05 17:01:25 INFO sldo_vi_curves - == Setting Current to 0.8A
+2026-02-05 17:01:25 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:01:25 INFO sldo_vi_curves - VIN           0.7525
+2026-02-05 17:01:25 INFO sldo_vi_curves - VOFS          0.5128
+2026-02-05 17:01:25 INFO sldo_vi_curves - VDDD_ROC0    -0.1275
+2026-02-05 17:01:25 INFO sldo_vi_curves - VDDA_ROC0    -0.1958
+2026-02-05 17:01:25 INFO sldo_vi_curves - VDDD_ROC1     0.7354
+2026-02-05 17:01:25 INFO sldo_vi_curves - VDDA_ROC1     0.6610
+2026-02-05 17:01:25 INFO sldo_vi_curves - VDDD_ROC2     0.7262
+2026-02-05 17:01:25 INFO sldo_vi_curves - VDDA_ROC2     0.6716
+2026-02-05 17:01:25 INFO sldo_vi_curves - VDDD_ROC3     0.8598
+2026-02-05 17:01:25 INFO sldo_vi_curves - VDDA_ROC3     0.6714
+2026-02-05 17:01:27 INFO sldo_vi_curves - == Setting Current to 1.0A
+2026-02-05 17:01:27 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:01:28 INFO sldo_vi_curves - VIN           0.7720
+2026-02-05 17:01:28 INFO sldo_vi_curves - VOFS          0.5304
+2026-02-05 17:01:28 INFO sldo_vi_curves - VDDD_ROC0    -0.1030
+2026-02-05 17:01:28 INFO sldo_vi_curves - VDDA_ROC0    -0.1724
+2026-02-05 17:01:28 INFO sldo_vi_curves - VDDD_ROC1     0.7600
+2026-02-05 17:01:28 INFO sldo_vi_curves - VDDA_ROC1     0.6839
+2026-02-05 17:01:28 INFO sldo_vi_curves - VDDD_ROC2     0.7508
+2026-02-05 17:01:28 INFO sldo_vi_curves - VDDA_ROC2     0.6944
+2026-02-05 17:01:28 INFO sldo_vi_curves - VDDD_ROC3     0.8606
+2026-02-05 17:01:28 INFO sldo_vi_curves - VDDA_ROC3     0.6948
+2026-02-05 17:01:30 INFO sldo_vi_curves - == Setting Current to 1.2A
+2026-02-05 17:01:30 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:01:31 INFO sldo_vi_curves - VIN           0.7918
+2026-02-05 17:01:31 INFO sldo_vi_curves - VOFS          0.5500
+2026-02-05 17:01:31 INFO sldo_vi_curves - VDDD_ROC0    -0.0803
+2026-02-05 17:01:31 INFO sldo_vi_curves - VDDA_ROC0    -0.1467
+2026-02-05 17:01:31 INFO sldo_vi_curves - VDDD_ROC1     0.7804
+2026-02-05 17:01:31 INFO sldo_vi_curves - VDDA_ROC1     0.7098
+2026-02-05 17:01:31 INFO sldo_vi_curves - VDDD_ROC2     0.7784
+2026-02-05 17:01:31 INFO sldo_vi_curves - VDDA_ROC2     0.7199
+2026-02-05 17:01:31 INFO sldo_vi_curves - VDDD_ROC3     0.8615
+2026-02-05 17:01:31 INFO sldo_vi_curves - VDDA_ROC3     0.7213
+2026-02-05 17:01:33 INFO sldo_vi_curves - == Setting Current to 1.4A
+2026-02-05 17:01:33 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:01:34 INFO sldo_vi_curves - VIN           0.8135
+2026-02-05 17:01:34 INFO sldo_vi_curves - VOFS          0.5689
+2026-02-05 17:01:34 INFO sldo_vi_curves - VDDD_ROC0    -0.0575
+2026-02-05 17:01:34 INFO sldo_vi_curves - VDDA_ROC0    -0.1169
+2026-02-05 17:01:34 INFO sldo_vi_curves - VDDD_ROC1     0.8035
+2026-02-05 17:01:34 INFO sldo_vi_curves - VDDA_ROC1     0.7381
+2026-02-05 17:01:34 INFO sldo_vi_curves - VDDD_ROC2     0.8016
+2026-02-05 17:01:34 INFO sldo_vi_curves - VDDA_ROC2     0.7484
+2026-02-05 17:01:34 INFO sldo_vi_curves - VDDD_ROC3     0.8630
+2026-02-05 17:01:34 INFO sldo_vi_curves - VDDA_ROC3     0.7502
+2026-02-05 17:01:36 INFO sldo_vi_curves - == Setting Current to 1.6A
+2026-02-05 17:01:36 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:01:36 INFO sldo_vi_curves - VIN           0.8363
+2026-02-05 17:01:36 INFO sldo_vi_curves - VOFS          0.5922
+2026-02-05 17:01:36 INFO sldo_vi_curves - VDDD_ROC0    -0.0339
+2026-02-05 17:01:36 INFO sldo_vi_curves - VDDA_ROC0    -0.0872
+2026-02-05 17:01:36 INFO sldo_vi_curves - VDDD_ROC1     0.8267
+2026-02-05 17:01:36 INFO sldo_vi_curves - VDDA_ROC1     0.7693
+2026-02-05 17:01:36 INFO sldo_vi_curves - VDDD_ROC2     0.8278
+2026-02-05 17:01:36 INFO sldo_vi_curves - VDDA_ROC2     0.7768
+2026-02-05 17:01:36 INFO sldo_vi_curves - VDDD_ROC3     0.8638
+2026-02-05 17:01:36 INFO sldo_vi_curves - VDDA_ROC3     0.7784
+2026-02-05 17:01:39 INFO sldo_vi_curves - == Setting Current to 1.8A
+2026-02-05 17:01:39 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:01:39 INFO sldo_vi_curves - VIN           0.8600
+2026-02-05 17:01:39 INFO sldo_vi_curves - VOFS          0.6132
+2026-02-05 17:01:39 INFO sldo_vi_curves - VDDD_ROC0    -0.0134
+2026-02-05 17:01:39 INFO sldo_vi_curves - VDDA_ROC0    -0.0648
+2026-02-05 17:01:39 INFO sldo_vi_curves - VDDD_ROC1     0.8512
+2026-02-05 17:01:39 INFO sldo_vi_curves - VDDA_ROC1     0.7960
+2026-02-05 17:01:39 INFO sldo_vi_curves - VDDD_ROC2     0.8509
+2026-02-05 17:01:39 INFO sldo_vi_curves - VDDA_ROC2     0.8016
+2026-02-05 17:01:39 INFO sldo_vi_curves - VDDD_ROC3     0.8629
+2026-02-05 17:01:39 INFO sldo_vi_curves - VDDA_ROC3     0.8053
+2026-02-05 17:01:41 INFO sldo_vi_curves - == Setting Current to 2.0A
+2026-02-05 17:01:41 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:01:42 INFO sldo_vi_curves - VIN           0.8922
+2026-02-05 17:01:42 INFO sldo_vi_curves - VOFS          0.6440
+2026-02-05 17:01:42 INFO sldo_vi_curves - VDDD_ROC0     0.0188
+2026-02-05 17:01:42 INFO sldo_vi_curves - VDDA_ROC0    -0.0266
+2026-02-05 17:01:42 INFO sldo_vi_curves - VDDD_ROC1     0.8819
+2026-02-05 17:01:42 INFO sldo_vi_curves - VDDA_ROC1     0.8338
+2026-02-05 17:01:42 INFO sldo_vi_curves - VDDD_ROC2     0.8825
+2026-02-05 17:01:42 INFO sldo_vi_curves - VDDA_ROC2     0.8454
+2026-02-05 17:01:42 INFO sldo_vi_curves - VDDD_ROC3     0.8667
+2026-02-05 17:01:42 INFO sldo_vi_curves - VDDA_ROC3     0.8406
+2026-02-05 17:01:44 INFO sldo_vi_curves - == Setting Current to 2.2A
+2026-02-05 17:01:44 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:01:45 INFO sldo_vi_curves - VIN           0.9314
+2026-02-05 17:01:45 INFO sldo_vi_curves - VOFS          0.6801
+2026-02-05 17:01:45 INFO sldo_vi_curves - VDDD_ROC0     0.0566
+2026-02-05 17:01:45 INFO sldo_vi_curves - VDDA_ROC0     0.0146
+2026-02-05 17:01:45 INFO sldo_vi_curves - VDDD_ROC1     0.9225
+2026-02-05 17:01:45 INFO sldo_vi_curves - VDDA_ROC1     0.8781
+2026-02-05 17:01:45 INFO sldo_vi_curves - VDDD_ROC2     0.9220
+2026-02-05 17:01:45 INFO sldo_vi_curves - VDDA_ROC2     0.8890
+2026-02-05 17:01:45 INFO sldo_vi_curves - VDDD_ROC3     0.8674
+2026-02-05 17:01:45 INFO sldo_vi_curves - VDDA_ROC3     0.8861
+2026-02-05 17:01:47 INFO sldo_vi_curves - == Setting Current to 2.4A
+2026-02-05 17:01:47 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:01:48 INFO sldo_vi_curves - VIN           0.9778
+2026-02-05 17:01:48 INFO sldo_vi_curves - VOFS          0.7211
+2026-02-05 17:01:48 INFO sldo_vi_curves - VDDD_ROC0     0.1011
+2026-02-05 17:01:48 INFO sldo_vi_curves - VDDA_ROC0     0.0632
+2026-02-05 17:01:48 INFO sldo_vi_curves - VDDD_ROC1     0.9675
+2026-02-05 17:01:48 INFO sldo_vi_curves - VDDA_ROC1     0.9288
+2026-02-05 17:01:48 INFO sldo_vi_curves - VDDD_ROC2     0.9684
+2026-02-05 17:01:48 INFO sldo_vi_curves - VDDA_ROC2     0.9414
+2026-02-05 17:01:48 INFO sldo_vi_curves - VDDD_ROC3     0.8704
+2026-02-05 17:01:48 INFO sldo_vi_curves - VDDA_ROC3     0.9381
+2026-02-05 17:01:50 INFO sldo_vi_curves - == Setting Current to 2.6A
+2026-02-05 17:01:50 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:01:50 INFO sldo_vi_curves - VIN           1.0341
+2026-02-05 17:01:50 INFO sldo_vi_curves - VOFS          0.7687
+2026-02-05 17:01:50 INFO sldo_vi_curves - VDDD_ROC0     0.1535
+2026-02-05 17:01:50 INFO sldo_vi_curves - VDDA_ROC0     0.1196
+2026-02-05 17:01:50 INFO sldo_vi_curves - VDDD_ROC1     1.0252
+2026-02-05 17:01:50 INFO sldo_vi_curves - VDDA_ROC1     0.9898
+2026-02-05 17:01:50 INFO sldo_vi_curves - VDDD_ROC2     1.0243
+2026-02-05 17:01:50 INFO sldo_vi_curves - VDDA_ROC2     1.0007
+2026-02-05 17:01:50 INFO sldo_vi_curves - VDDD_ROC3     0.8724
+2026-02-05 17:01:50 INFO sldo_vi_curves - VDDA_ROC3     0.9977
+2026-02-05 17:01:53 INFO sldo_vi_curves - == Setting Current to 2.8A
+2026-02-05 17:01:53 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:01:53 INFO sldo_vi_curves - VIN           1.0957
+2026-02-05 17:01:53 INFO sldo_vi_curves - VOFS          0.8067
+2026-02-05 17:01:53 INFO sldo_vi_curves - VDDD_ROC0     0.2111
+2026-02-05 17:01:53 INFO sldo_vi_curves - VDDA_ROC0     0.1815
+2026-02-05 17:01:53 INFO sldo_vi_curves - VDDD_ROC1     1.0858
+2026-02-05 17:01:53 INFO sldo_vi_curves - VDDA_ROC1     1.0522
+2026-02-05 17:01:53 INFO sldo_vi_curves - VDDD_ROC2     1.0841
+2026-02-05 17:01:53 INFO sldo_vi_curves - VDDA_ROC2     1.0651
+2026-02-05 17:01:53 INFO sldo_vi_curves - VDDD_ROC3     0.8757
+2026-02-05 17:01:53 INFO sldo_vi_curves - VDDA_ROC3     1.0617
+2026-02-05 17:01:55 INFO sldo_vi_curves - == Setting Current to 3.0A
+2026-02-05 17:01:55 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:01:56 INFO sldo_vi_curves - VIN           1.1623
+2026-02-05 17:01:56 INFO sldo_vi_curves - VOFS          0.3585
+2026-02-05 17:01:56 INFO sldo_vi_curves - VDDD_ROC0     0.2310
+2026-02-05 17:01:56 INFO sldo_vi_curves - VDDA_ROC0     0.2401
+2026-02-05 17:01:56 INFO sldo_vi_curves - VDDD_ROC1     1.1443
+2026-02-05 17:01:56 INFO sldo_vi_curves - VDDA_ROC1     1.1195
+2026-02-05 17:01:56 INFO sldo_vi_curves - VDDD_ROC2     1.1125
+2026-02-05 17:01:56 INFO sldo_vi_curves - VDDA_ROC2     1.1311
+2026-02-05 17:01:56 INFO sldo_vi_curves - VDDD_ROC3     0.8747
+2026-02-05 17:01:56 INFO sldo_vi_curves - VDDA_ROC3     1.1271
+2026-02-05 17:01:58 INFO sldo_vi_curves - == Setting Current to 3.2A
+2026-02-05 17:01:58 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:01:59 INFO sldo_vi_curves - VIN           1.1713
+2026-02-05 17:01:59 INFO sldo_vi_curves - VOFS          0.3251
+2026-02-05 17:01:59 INFO sldo_vi_curves - VDDD_ROC0     0.2344
+2026-02-05 17:01:59 INFO sldo_vi_curves - VDDA_ROC0     0.2481
+2026-02-05 17:01:59 INFO sldo_vi_curves - VDDD_ROC1     1.1443
+2026-02-05 17:01:59 INFO sldo_vi_curves - VDDA_ROC1     1.1244
+2026-02-05 17:01:59 INFO sldo_vi_curves - VDDD_ROC2     1.1206
+2026-02-05 17:01:59 INFO sldo_vi_curves - VDDA_ROC2     1.1404
+2026-02-05 17:01:59 INFO sldo_vi_curves - VDDD_ROC3     0.8743
+2026-02-05 17:01:59 INFO sldo_vi_curves - VDDA_ROC3     1.1354
+2026-02-05 17:02:01 INFO sldo_vi_curves - == Setting Current to 3.4A
+2026-02-05 17:02:01 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:02:02 INFO sldo_vi_curves - VIN           1.2016
+2026-02-05 17:02:02 INFO sldo_vi_curves - VOFS          0.3190
+2026-02-05 17:02:02 INFO sldo_vi_curves - VDDD_ROC0     0.2412
+2026-02-05 17:02:02 INFO sldo_vi_curves - VDDA_ROC0     0.2585
+2026-02-05 17:02:02 INFO sldo_vi_curves - VDDD_ROC1     1.1504
+2026-02-05 17:02:02 INFO sldo_vi_curves - VDDA_ROC1     1.1467
+2026-02-05 17:02:02 INFO sldo_vi_curves - VDDD_ROC2     1.1228
+2026-02-05 17:02:02 INFO sldo_vi_curves - VDDA_ROC2     1.1659
+2026-02-05 17:02:02 INFO sldo_vi_curves - VDDD_ROC3     0.8742
+2026-02-05 17:02:02 INFO sldo_vi_curves - VDDA_ROC3     1.1624
+2026-02-05 17:02:04 INFO sldo_vi_curves - == Setting Current to 3.6A
+2026-02-05 17:02:04 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:02:04 INFO sldo_vi_curves - VIN           1.2401
+2026-02-05 17:02:04 INFO sldo_vi_curves - VOFS          0.3163
+2026-02-05 17:02:04 INFO sldo_vi_curves - VDDD_ROC0     0.2447
+2026-02-05 17:02:04 INFO sldo_vi_curves - VDDA_ROC0     0.2631
+2026-02-05 17:02:04 INFO sldo_vi_curves - VDDD_ROC1     1.1565
+2026-02-05 17:02:04 INFO sldo_vi_curves - VDDA_ROC1     1.1549
+2026-02-05 17:02:04 INFO sldo_vi_curves - VDDD_ROC2     1.1144
+2026-02-05 17:02:04 INFO sldo_vi_curves - VDDA_ROC2     1.1967
+2026-02-05 17:02:04 INFO sldo_vi_curves - VDDD_ROC3     0.8752
+2026-02-05 17:02:04 INFO sldo_vi_curves - VDDA_ROC3     1.1917
+2026-02-05 17:02:07 INFO sldo_vi_curves - == Setting Current to 3.8A
+2026-02-05 17:02:07 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:02:07 INFO sldo_vi_curves - VIN           1.2836
+2026-02-05 17:02:07 INFO sldo_vi_curves - VOFS          0.3176
+2026-02-05 17:02:07 INFO sldo_vi_curves - VDDD_ROC0     0.2470
+2026-02-05 17:02:07 INFO sldo_vi_curves - VDDA_ROC0     0.2647
+2026-02-05 17:02:07 INFO sldo_vi_curves - VDDD_ROC1     1.1596
+2026-02-05 17:02:07 INFO sldo_vi_curves - VDDA_ROC1     1.1592
+2026-02-05 17:02:07 INFO sldo_vi_curves - VDDD_ROC2     1.1167
+2026-02-05 17:02:07 INFO sldo_vi_curves - VDDA_ROC2     1.2112
+2026-02-05 17:02:07 INFO sldo_vi_curves - VDDD_ROC3     0.8742
+2026-02-05 17:02:07 INFO sldo_vi_curves - VDDA_ROC3     1.1869
+2026-02-05 17:02:09 INFO sldo_vi_curves - == Setting Current to 4.0A
+2026-02-05 17:02:09 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:02:10 INFO sldo_vi_curves - VIN           1.3285
+2026-02-05 17:02:10 INFO sldo_vi_curves - VOFS          0.3176
+2026-02-05 17:02:10 INFO sldo_vi_curves - VDDD_ROC0     0.2496
+2026-02-05 17:02:10 INFO sldo_vi_curves - VDDA_ROC0     0.2666
+2026-02-05 17:02:10 INFO sldo_vi_curves - VDDD_ROC1     1.1596
+2026-02-05 17:02:10 INFO sldo_vi_curves - VDDA_ROC1     1.1578
+2026-02-05 17:02:10 INFO sldo_vi_curves - VDDD_ROC2     1.1148
+2026-02-05 17:02:10 INFO sldo_vi_curves - VDDA_ROC2     1.2106
+2026-02-05 17:02:10 INFO sldo_vi_curves - VDDD_ROC3     0.8751
+2026-02-05 17:02:10 INFO sldo_vi_curves - VDDA_ROC3     1.1909
+2026-02-05 17:02:12 INFO sldo_vi_curves - == Setting Current to 4.2A
+2026-02-05 17:02:12 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:02:13 INFO sldo_vi_curves - VIN           1.3679
+2026-02-05 17:02:13 INFO sldo_vi_curves - VOFS          0.3174
+2026-02-05 17:02:13 INFO sldo_vi_curves - VDDD_ROC0     0.2515
+2026-02-05 17:02:13 INFO sldo_vi_curves - VDDA_ROC0     0.2659
+2026-02-05 17:02:13 INFO sldo_vi_curves - VDDD_ROC1     1.1625
+2026-02-05 17:02:13 INFO sldo_vi_curves - VDDA_ROC1     1.1591
+2026-02-05 17:02:13 INFO sldo_vi_curves - VDDD_ROC2     1.1156
+2026-02-05 17:02:13 INFO sldo_vi_curves - VDDA_ROC2     1.2106
+2026-02-05 17:02:13 INFO sldo_vi_curves - VDDD_ROC3     0.8756
+2026-02-05 17:02:13 INFO sldo_vi_curves - VDDA_ROC3     1.1909
+2026-02-05 17:02:15 INFO sldo_vi_curves - == Setting Current to 4.4A
+2026-02-05 17:02:15 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:02:16 INFO sldo_vi_curves - VIN           1.4042
+2026-02-05 17:02:16 INFO sldo_vi_curves - VOFS          0.3177
+2026-02-05 17:02:16 INFO sldo_vi_curves - VDDD_ROC0     0.2509
+2026-02-05 17:02:16 INFO sldo_vi_curves - VDDA_ROC0     0.2669
+2026-02-05 17:02:16 INFO sldo_vi_curves - VDDD_ROC1     1.1631
+2026-02-05 17:02:16 INFO sldo_vi_curves - VDDA_ROC1     1.1605
+2026-02-05 17:02:16 INFO sldo_vi_curves - VDDD_ROC2     1.1237
+2026-02-05 17:02:16 INFO sldo_vi_curves - VDDA_ROC2     1.2111
+2026-02-05 17:02:16 INFO sldo_vi_curves - VDDD_ROC3     0.8734
+2026-02-05 17:02:16 INFO sldo_vi_curves - VDDA_ROC3     1.1911
+2026-02-05 17:02:18 INFO sldo_vi_curves - == Setting Current to 4.6A
+2026-02-05 17:02:18 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:02:18 INFO sldo_vi_curves - VIN           1.4262
+2026-02-05 17:02:18 INFO sldo_vi_curves - VOFS          0.3175
+2026-02-05 17:02:18 INFO sldo_vi_curves - VDDD_ROC0     0.2520
+2026-02-05 17:02:18 INFO sldo_vi_curves - VDDA_ROC0     0.2670
+2026-02-05 17:02:18 INFO sldo_vi_curves - VDDD_ROC1     1.1653
+2026-02-05 17:02:18 INFO sldo_vi_curves - VDDA_ROC1     1.1605
+2026-02-05 17:02:18 INFO sldo_vi_curves - VDDD_ROC2     1.1241
+2026-02-05 17:02:18 INFO sldo_vi_curves - VDDA_ROC2     1.2097
+2026-02-05 17:02:18 INFO sldo_vi_curves - VDDD_ROC3     0.8737
+2026-02-05 17:02:18 INFO sldo_vi_curves - VDDA_ROC3     1.1873
+2026-02-05 17:02:20 INFO sldo_vi_curves - == Setting Current to 4.8A
+2026-02-05 17:02:20 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:02:21 INFO sldo_vi_curves - VIN           1.4440
+2026-02-05 17:02:21 INFO sldo_vi_curves - VOFS          0.3175
+2026-02-05 17:02:21 INFO sldo_vi_curves - VDDD_ROC0     0.2529
+2026-02-05 17:02:21 INFO sldo_vi_curves - VDDA_ROC0     0.2697
+2026-02-05 17:02:21 INFO sldo_vi_curves - VDDD_ROC1     1.1625
+2026-02-05 17:02:21 INFO sldo_vi_curves - VDDA_ROC1     1.1594
+2026-02-05 17:02:21 INFO sldo_vi_curves - VDDD_ROC2     1.1220
+2026-02-05 17:02:21 INFO sldo_vi_curves - VDDA_ROC2     1.2113
+2026-02-05 17:02:21 INFO sldo_vi_curves - VDDD_ROC3     0.8726
+2026-02-05 17:02:21 INFO sldo_vi_curves - VDDA_ROC3     1.1871
+2026-02-05 17:02:23 INFO sldo_vi_curves - == Setting Current to 5.0A
+2026-02-05 17:02:23 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:02:24 INFO sldo_vi_curves - VIN           1.4604
+2026-02-05 17:02:24 INFO sldo_vi_curves - VOFS          0.3172
+2026-02-05 17:02:24 INFO sldo_vi_curves - VDDD_ROC0     0.2550
+2026-02-05 17:02:24 INFO sldo_vi_curves - VDDA_ROC0     0.2699
+2026-02-05 17:02:24 INFO sldo_vi_curves - VDDD_ROC1     1.1666
+2026-02-05 17:02:24 INFO sldo_vi_curves - VDDA_ROC1     1.1605
+2026-02-05 17:02:24 INFO sldo_vi_curves - VDDD_ROC2     1.1236
+2026-02-05 17:02:24 INFO sldo_vi_curves - VDDA_ROC2     1.2096
+2026-02-05 17:02:24 INFO sldo_vi_curves - VDDD_ROC3     0.8728
+2026-02-05 17:02:24 INFO sldo_vi_curves - VDDA_ROC3     1.1888
+2026-02-05 17:02:26 INFO sldo_vi_curves - == Setting Current to 5.2A
+2026-02-05 17:02:26 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:02:27 INFO sldo_vi_curves - VIN           1.4767
+2026-02-05 17:02:27 INFO sldo_vi_curves - VOFS          0.3185
+2026-02-05 17:02:27 INFO sldo_vi_curves - VDDD_ROC0     0.2568
+2026-02-05 17:02:27 INFO sldo_vi_curves - VDDA_ROC0     0.2708
+2026-02-05 17:02:27 INFO sldo_vi_curves - VDDD_ROC1     1.1670
+2026-02-05 17:02:27 INFO sldo_vi_curves - VDDA_ROC1     1.1610
+2026-02-05 17:02:27 INFO sldo_vi_curves - VDDD_ROC2     1.1223
+2026-02-05 17:02:27 INFO sldo_vi_curves - VDDA_ROC2     1.2115
+2026-02-05 17:02:27 INFO sldo_vi_curves - VDDD_ROC3     0.8718
+2026-02-05 17:02:27 INFO sldo_vi_curves - VDDA_ROC3     1.1888
+2026-02-05 17:02:29 INFO sldo_vi_curves - == Setting Current to 5.4A
+2026-02-05 17:02:29 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:02:29 INFO sldo_vi_curves - VIN           1.4940
+2026-02-05 17:02:29 INFO sldo_vi_curves - VOFS          0.3196
+2026-02-05 17:02:29 INFO sldo_vi_curves - VDDD_ROC0     0.2542
+2026-02-05 17:02:29 INFO sldo_vi_curves - VDDA_ROC0     0.2735
+2026-02-05 17:02:29 INFO sldo_vi_curves - VDDD_ROC1     1.1680
+2026-02-05 17:02:29 INFO sldo_vi_curves - VDDA_ROC1     1.1624
+2026-02-05 17:02:29 INFO sldo_vi_curves - VDDD_ROC2     1.1312
+2026-02-05 17:02:29 INFO sldo_vi_curves - VDDA_ROC2     1.2193
+2026-02-05 17:02:29 INFO sldo_vi_curves - VDDD_ROC3     0.8713
+2026-02-05 17:02:29 INFO sldo_vi_curves - VDDA_ROC3     1.1891
+2026-02-05 17:02:31 INFO sldo_vi_curves - == Setting Current to 5.6A
+2026-02-05 17:02:31 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:02:32 INFO sldo_vi_curves - VIN           1.5081
+2026-02-05 17:02:32 INFO sldo_vi_curves - VOFS          0.3206
+2026-02-05 17:02:32 INFO sldo_vi_curves - VDDD_ROC0     0.2555
+2026-02-05 17:02:32 INFO sldo_vi_curves - VDDA_ROC0     0.2690
+2026-02-05 17:02:32 INFO sldo_vi_curves - VDDD_ROC1     1.1684
+2026-02-05 17:02:32 INFO sldo_vi_curves - VDDA_ROC1     1.1620
+2026-02-05 17:02:32 INFO sldo_vi_curves - VDDD_ROC2     1.1293
+2026-02-05 17:02:32 INFO sldo_vi_curves - VDDA_ROC2     1.2173
+2026-02-05 17:02:32 INFO sldo_vi_curves - VDDD_ROC3     0.8707
+2026-02-05 17:02:32 INFO sldo_vi_curves - VDDA_ROC3     1.1907
+2026-02-05 17:02:34 INFO sldo_vi_curves - == Setting Current to 5.8A
+2026-02-05 17:02:34 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:02:35 INFO sldo_vi_curves - VIN           1.5273
+2026-02-05 17:02:35 INFO sldo_vi_curves - VOFS          0.3204
+2026-02-05 17:02:35 INFO sldo_vi_curves - VDDD_ROC0     0.2585
+2026-02-05 17:02:35 INFO sldo_vi_curves - VDDA_ROC0     0.2707
+2026-02-05 17:02:35 INFO sldo_vi_curves - VDDD_ROC1     1.1696
+2026-02-05 17:02:35 INFO sldo_vi_curves - VDDA_ROC1     1.1618
+2026-02-05 17:02:35 INFO sldo_vi_curves - VDDD_ROC2     1.1246
+2026-02-05 17:02:35 INFO sldo_vi_curves - VDDA_ROC2     1.2176
+2026-02-05 17:02:35 INFO sldo_vi_curves - VDDD_ROC3     0.8710
+2026-02-05 17:02:35 INFO sldo_vi_curves - VDDA_ROC3     1.1890
+2026-02-05 17:02:37 INFO sldo_vi_curves - == Setting Current to 6.0A
+2026-02-05 17:02:37 INFO sldo_vi_curves - Values Module 4
+2026-02-05 17:02:38 INFO sldo_vi_curves - VIN           1.5418
+2026-02-05 17:02:38 INFO sldo_vi_curves - VOFS          0.3203
+2026-02-05 17:02:38 INFO sldo_vi_curves - VDDD_ROC0     0.2604
+2026-02-05 17:02:38 INFO sldo_vi_curves - VDDA_ROC0     0.2745
+2026-02-05 17:02:38 INFO sldo_vi_curves - VDDD_ROC1     1.1705
+2026-02-05 17:02:38 INFO sldo_vi_curves - VDDA_ROC1     1.1627
+2026-02-05 17:02:38 INFO sldo_vi_curves - VDDD_ROC2     1.1272
+2026-02-05 17:02:38 INFO sldo_vi_curves - VDDA_ROC2     1.2161
+2026-02-05 17:02:38 INFO sldo_vi_curves - VDDD_ROC3     0.8710
+2026-02-05 17:02:38 INFO sldo_vi_curves - VDDA_ROC3     1.1919
+2026-02-05 17:02:40 INFO sldo_vi_curves - Saving data...
+2026-02-05 17:02:40 INFO modify_ph2_logging - /home/muon/dirigent/dirigent-4.2.0_4/deps/Ph2_ACF/settings/logger.conf restored.

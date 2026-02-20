@@ -1,0 +1,54 @@
+{
+	"## AvailableInstruments": {
+		"LV": "TTI, HMP4040, KeysightE3633A",
+		"HV": "Keithley2410, CaenDT8033N",
+		"RelayBoard": "PSIProbecard, ETHProbecard, AdcBoard",
+		"Coldbox": "PSIColdbox",
+		"ClimateChamber": "Binder (Not updated currently)" 
+	},
+	"instruments": {
+		"lv_1": {
+            "class": "HMP4040",
+            "resource": "ASRL/dev/ttyUSBlv0::INSTR",
+            "sim": false,
+            "default_voltage": 2.5,
+            "default_current": 7.2
+		},
+		"lv_2": {
+            "class": "HMP4040",
+            "resource": "ASRL/dev/ttyUSBlv1::INSTR",
+            "sim": false,
+            "default_voltage": 2.5,
+            "default_current": 7.2
+		},
+		"coldbox": {
+			"class": "PSIColdbox",
+			"resource": "TCPIP::192.168.50.3::1883::SOCKET",
+			"default_temperature": 15,
+			"temperature_tolerance": 0.5,
+			"validation_time": 20,
+			"validation_timeout": 600
+		},
+		"hv_1": {
+			"class": "Keithley2470",
+			"resource": "TCPIP::192.168.50.10::5025::SOCKET",
+			"sim": false,
+			"default_voltage": -80,
+			"default_current": 5e-6,
+			"default_range": 1000
+		},
+		"ab_1": {
+			"class": "PSIProbecard",
+			"resource": "TCPIP1::192.168.50.3::1883::SOCKET"
+		}
+	},
+	"channels":{
+		"1":{
+			"lv": {"instrument":"lv_1", "channel":1},
+			"hv": {"instrument":"hv_1", "channel":1},
+			"cb": {"instrument":"coldbox", "channel":1},
+			"ab": {"instrument":"ab_1", "channel":1}
+		}
+
+	}
+}

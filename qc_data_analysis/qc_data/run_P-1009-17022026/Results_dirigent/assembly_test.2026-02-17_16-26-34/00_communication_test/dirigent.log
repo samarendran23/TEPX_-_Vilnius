@@ -1,0 +1,18 @@
+2026-02-17 15:54:23 INFO dirigent_cli - CalibrationContext requested - now preparing components...
+2026-02-17 15:54:23 INFO dirigent_cli - 'CMSIT.xml' found in folder. This will be used for the following instance.
+2026-02-17 15:54:23 INFO dirigent_cli - 	> InstrumentCluster requested - now constructing.
+2026-02-17 15:54:23 INFO dirigent_cli - 	> CalibrationSet requested - now constructing.
+2026-02-17 15:54:23 INFO dirigent_cli - Assembling CalibrationContext...
+2026-02-17 15:54:23 INFO dirigent_cli - CalibrationContext created and ready for init...
+2026-02-17 15:54:23 INFO dirigent_cli - === Dirigent preparation done - handing off to calibration ===
+2026-02-17 15:54:23 INFO mqtt_instrument - Connected to MQTT broker: host: 192.168.50.3, port: 1883, clientID: PSIProbecard1::612130::140065307342656
+2026-02-17 15:54:23 INFO ph2acf_instance - Loading FC7 firmware
+2026-02-17 15:54:29 INFO ph2acf_instance - FC7 DDR reset requested - attempting.
+2026-02-17 15:54:31 INFO communication_test - ===== communication_test parameter values as configured: =====
+2026-02-17 15:54:31 INFO communication_test - communication_attempts = 1
+2026-02-17 15:54:31 INFO communication_test - ==============================================================
+2026-02-17 15:54:31 INFO performable_scans - Attempting to establish that 'All enabled data lanes are active'
+2026-02-17 15:54:31 INFO performable_scans - Will program system components maximum 1 times...
+2026-02-17 15:54:31 INFO ph2acf_instance - Programming system components
+2026-02-17 15:54:34 INFO read_ph2_acf_log - Checking 'logs/CMSITminiDAQ000000.log' for '--> All enabled data lanes are active'.
+2026-02-17 15:54:34 INFO read_ph2_acf_log - '--> All enabled data lanes are active' found in 'logs/CMSITminiDAQ000000.log'.

@@ -1,0 +1,25 @@
+
+dirigent:
+ M  deps/Ph2_ACF
+ M  deps/felis
+??  SLDO_test_at_8_TEC/
+??  run_H-1203/
+??  run_H1204/
+??  run_P1009/
+??  run_P1009_test_SN/
+??  run_multi-modules_1FC7_LV/
+
+Ph2 ACF:
+ M  settings/logger.conf
+??  LV_TEC_Test/
+??  run_SCC/
+??  run_SCC_Samar/
+
+Felis:
+??  felis.egg-info/
+
+ICICLE:
+
+inner-tracker-tests:
+
+RestHub API:

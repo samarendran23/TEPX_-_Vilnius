@@ -1,0 +1,1088 @@
+|07:04:35|I|[1m[32m       ____  _     ____         _    ____ _____[0m
+|07:04:35|I|[1m[32m      |  _ \| |__ |___ \       / \  / ___|  ___|[0m
+|07:04:35|I|[1m[32m      | |_) | '_ \  __) |____ / _ \| |   | |_[0m
+|07:04:35|I|[1m[32m      |  __/| | | |/ __/_____/ ___ \ |___|  _|[0m
+|07:04:35|I|[1m[32m      |_|   |_| |_|_____|   /_/   \_\____|_|
+[0m
+|07:04:35|I|[1m[32m  ____ __  __ ____ ___ _____          _       _ ____    _    ___[0m
+|07:04:35|I|[1m[32m / ___|  \/  / ___|_ _|_   _| __ ___ (_)_ __ (_)  _ \  / \  / _ \[0m
+|07:04:35|I|[1m[32m| |   | |\/| \___ \| |  | || '_ ` _ \| | '_ \| | | | |/ _ \| | | |[0m
+|07:04:35|I|[1m[32m| |___| |  | |___) | |  | || | | | | | | | | | | |_| / ___ \ |_| |[0m
+|07:04:35|I|[1m[32m \____|_|  |_|____/___| |_||_| |_| |_|_|_| |_|_|____/_/   \_\__\_\
+[0m
+|07:04:35|I|[1m[35m@@@ Initializing the Hardware @@@[0m
+|07:04:35|I|[32mBootstrapping TCP Server...[0m
+|07:04:36|I|[32mTrying to connect to the Power Supply Server...[0m
+|07:04:36|I|[1m[34m	--> Operation completed[0m
+|07:04:36|I|[1m[35m@@@ Configuring HW parsed from XML file @@@[0m
+|07:04:36|I|[32mFound an [1m[33mInner Tracker[0m[32m Readout-board[0m
+|07:04:36|I|[1m[34m	--> SW commit number : [1m[33m6385daf271b0cbdb97d5be6ae61558ab123f3f48[1m[34m -- SW tag : [1m[33mv6-24[0m
+|07:04:36|I|[1m[34m	--> FW version : [1m[33m5.0[1m[34m -- Date (yy/mm/dd) : [1m[33m25/1/20[1m[34m -- Time (hour:minute:sec) : [1m[33m19:25:43[0m
+|07:04:36|I|[1m[34m	--> Link type : [1m[33melectrical[1m[34m -- Optical speed : [1m[33m10 Gbit/s[1m[34m -- Frontend type : [1m[33mRD53B[0m
+|07:04:36|I|[1m[34m	--> L12 FMC type : [1m[33m1[1m[34m -- L08 FMC type : [1m[33m1[1m[34m (1=KSU, 2=CERN, 3=DIO5, 4=OPTO, 5=FERMI, 7=NONE, 0=Unspecified)[0m
+|07:04:36|I|[32mInitializing DIO5[0m
+|07:04:36|I|[1m[34m	--> Done[0m
+|07:04:36|I|[32mReading clock generator (CDCE62005) configuration[0m
+|07:04:36|I|[1m[34m	--> SPI register content: 0x[1m[33mEB020320[0m
+|07:04:36|I|[1m[34m	--> SPI register content: 0x[1m[33mEB020321[0m
+|07:04:36|I|[1m[34m	--> SPI register content: 0x[1m[33mEB840302[0m
+|07:04:36|I|[1m[34m	--> SPI register content: 0x[1m[33mEB840303[0m
+|07:04:36|I|[1m[34m	--> SPI register content: 0x[1m[33mEB140334[0m
+|07:04:36|I|[1m[34m	--> SPI register content: 0x[1m[33m10000EB5[0m
+|07:04:36|I|[1m[34m	--> SPI register content: 0x[1m[33m030E02E6[0m
+|07:04:36|I|[1m[34m	--> SPI register content: 0x[1m[33mBD800DF7[0m
+|07:04:36|I|[1m[34m	--> SPI register content: 0x[1m[33m40009D78[0m
+|07:04:36|W|[32mOptical link tx slow control status: [1m[31mnot ready[0m
+|07:04:36|W|[32mOptical link rx slow control status: [1m[31mnot ready[0m
+|07:04:36|I|[32mAurora speed set to: [1m[33m1.28 Gbit/s[0m
+|07:04:36|I|[32mInput clock frequency (could be either internal or external, should be ~40 MHz): [1m[33m40.078 MHz[0m
+|07:04:36|I|[32mGTX receiver clock frequency (~160 MHz (~320 MHz) for electrical (optical) readout): [1m[33m160.314 MHz[0m
+|07:04:36|I|[1m[35m@@@ Configuring frontend for Board Id: [1m[33m0[1m[35m @@@[0m
+|07:04:36|I|[32mInternal trigger frequency (if enabled): [1m[33m7682 Hz[0m
+|07:04:36|I|[36m=== Configuring FSM fast command block ===[0m
+|07:04:36|I|[32mChecking firmware status:[0m
+|07:04:36|I|[1m[34m	--> Clock generator is [1m[33mlocked[0m
+|07:04:36|I|[32mFast command block trigger source: [1m[33m2[0m[32m (1=IPBus, 2=Test-FSM, 3=TTC, 4=TLU, 5=External, 6=Hit-Or, 7=User-defined frequency)[0m
+|07:04:36|I|[32mFast command block trigger state: [1m[33m0[0m[32m (0=Idle, 2=Running)[0m
+|07:04:36|I|[32mFast command block check if configuraiton registers have been set: [1m[33mconfigured[0m
+|07:04:36|I|[32mFast command block error code (0=No error): [1m[33m0[0m
+|07:04:36|I|[32mTrigger counter: [1m[33m0[0m
+|07:04:36|I|[32mHybrid type: [1m[33m4[0m[32m (1=Single chip, 2=Dual chip, 4=Quad chip)[0m
+|07:04:36|I|[32mNumber of hybrids which can be potentially readout: [1m[33m5[0m
+|07:04:36|I|[36m================== Done ==================[0m
+|07:04:36|I|[32mInitializing board's registers[0m
+|07:04:36|I|[1m[34m	--> user.ctrl_regs.Aurora_block.self_trigger_en: 0x[1m[33m0 (0)[0m
+|07:04:36|I|[1m[34m	--> user.ctrl_regs.cnf_cmd_ctrl.nb_slow_cmd_before_pll: 0x[1m[33m0 (0)[0m
+|07:04:36|I|[1m[34m	--> user.ctrl_regs.cnf_cmd_ctrl.nb_slow_cmd_before_sync: 0x[1m[33m0 (0)[0m
+|07:04:36|I|[1m[34m	--> user.ctrl_regs.ext_tlu_reg1.dio5_ch1_thr: 0x[1m[33m80 (128)[0m
+|07:04:36|I|[1m[34m	--> user.ctrl_regs.ext_tlu_reg1.dio5_ch2_thr: 0x[1m[33m28 (40)[0m
+|07:04:36|I|[1m[34m	--> user.ctrl_regs.ext_tlu_reg2.dio5_ch3_thr: 0x[1m[33m80 (128)[0m
+|07:04:36|I|[1m[34m	--> user.ctrl_regs.ext_tlu_reg2.dio5_ch4_thr: 0x[1m[33m80 (128)[0m
+|07:04:36|I|[1m[34m	--> user.ctrl_regs.ext_tlu_reg2.dio5_ch5_thr: 0x[1m[33m80 (128)[0m
+|07:04:36|I|[1m[34m	--> user.ctrl_regs.ext_tlu_reg2.tlu_delay: 0x[1m[33m0 (0)[0m
+|07:04:36|I|[1m[34m	--> user.ctrl_regs.fast_cmd_reg_2.HitOr_enable_l12: 0x[1m[33m0 (0)[0m
+|07:04:36|I|[1m[34m	--> user.ctrl_regs.fast_cmd_reg_2.trigger_source: 0x[1m[33m2 (2)[0m
+|07:04:36|I|[1m[34m	--> user.ctrl_regs.fast_cmd_reg_3.triggers_to_accept: 0x[1m[33mA (10)[0m
+|07:04:36|I|[1m[34m	--> user.ctrl_regs.fast_cmd_reg_7.autozero_freq: 0x[1m[33m3E8 (1000)[0m
+|07:04:36|I|[1m[34m	--> user.ctrl_regs.reset_reg.ext_clk_en: 0x[1m[33m0 (0)[0m
+|07:04:36|I|[1m[34m	--> user.ctrl_regs.reset_reg.nb_of_pll_words: 0x[1m[33m2 (2)[0m
+|07:04:36|I|[1m[34m	--> user.ctrl_regs.reset_reg.nb_of_sync_words: 0x[1m[33m2 (2)[0m
+|07:04:36|I|[1m[34m	--> Done[0m
+|07:04:36|I|[32mChecking status of the optical links:[0m
+|07:04:36|I|[1m[34m	--> Optical link n. active LpGBT chip tx:  [1m[33m  0[1m[34m, i.e.: [1m[33m00000000[0m
+|07:04:36|I|[1m[34m	--> Optical link n. active LpGBT chip rx:  [1m[33m  0[1m[34m, i.e.: [1m[33m00000000[0m
+|07:04:36|I|[1m[34m	--> Optical link n. active LpGBT chip mgt: [1m[33m  0[1m[34m, i.e.: [1m[33m00000000[0m
+|07:04:36|I|[36m=== Configuring frontend chip communication ===[0m
+|07:04:36|I|[32mDown-link phase initialization...[0m
+|07:04:36|I|[1m[34m	--> Done[0m
+|07:04:36|I|[32mInitializing chip communication of hybrid: [1m[33m0[0m
+|07:04:36|I|[32mInitializing communication to/from RD53: [1m[33m15[0m
+|07:04:36|I|[32mConfiguring up-link lanes and monitoring...[0m
+|07:04:36|I|[1m[34m	--> Done[0m
+|07:04:36|I|[32mInitializing communication to/from RD53: [1m[33m14[0m
+|07:04:36|I|[32mConfiguring up-link lanes and monitoring...[0m
+|07:04:36|I|[1m[34m	--> Done[0m
+|07:04:36|I|[32mInitializing communication to/from RD53: [1m[33m13[0m
+|07:04:36|I|[32mConfiguring up-link lanes and monitoring...[0m
+|07:04:36|I|[1m[34m	--> Done[0m
+|07:04:36|I|[32mInitializing communication to/from RD53: [1m[33m12[0m
+|07:04:36|I|[32mConfiguring up-link lanes and monitoring...[0m
+|07:04:36|I|[1m[34m	--> Done[0m
+|07:04:36|I|[36m==================== Done =====================[0m
+|07:04:36|I|[32mChecking status communication RD53 --> FW[0m
+|07:04:36|I|[1m[34m	--> Total number of [1m[33mrequired[1m[34m data lanes: [1m[33m4[1m[34m, i.e. [1m[33m00000000000000000000000000001111[0m
+|07:04:36|I|[1m[34m	--> Total number of [1m[33mactive[1m[34m data lanes:   [1m[33m4[1m[34m, i.e. [1m[33m00000000000000000000000000001111[0m
+|07:04:36|I|[1m[34m	--> All enabled data lanes are active[0m
+|07:04:36|I|[36m===== Configuring frontend chip registers =====[0m
+|07:04:36|I|[32mConfiguring chips of hybrid: [1m[33m0[0m
+|07:04:36|I|[32mConfiguring RD53: [1m[33m15[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mDataConcentratorConf[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mCoreColEncoderConf[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mRingOscConfig[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mRingOscConfig[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mSelfTriggerMultiplier[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mCLK_DATA_DELAY[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIX_MODE[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_EN_OUT[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_2[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_0[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mToTDualEdgeCount[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mSEL_CAL_RANGE[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mHIT_SAMPLE_MODE[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mCDR_CONFIG_SEL_PD[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnOutputDataChipId[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mVOLTAGE_TRIM_ANA[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_3[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_ROUTE_1[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mToT6to4Mapping[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_0[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_1[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_GDAC_M_LIN[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_0[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_1[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mSelfTriggerEn[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_3[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_2_CNT[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_0[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_1[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_FC_LIN[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_2[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_2[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_1[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_0[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_COMP_TA_LIN[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_1[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_TR_LIN[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_0[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mSelfTriggerDelay[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_3[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_3[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_0[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_3[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIXELSEU_CNT[0m
+|07:04:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mANALOG_INJ_MODE[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_3[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mTriggerConfig[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_2[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_GDAC_R_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mVCAL_HIGH[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mRDWRFIFOERROR_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_T_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_LDAC_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_R_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_REF_KRUM_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mCAL_EDGE_FINE_DELAY[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_1[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mHitOrPatternLUT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_2[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_TL_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mSKIPPED_TRIGGER_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mREADTRIG_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_3[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mLOCKLOSS_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mBITFLIP_WNG_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mBITFLIP_ERR_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mCMDERR_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_ROUTE_0[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_M_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_3_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_1_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_0_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGLOBALCONFIGSEU_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_2[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mVCAL_MED[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_SEU_COUNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mVOLTAGE_TRIM_DIG[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_GDAC_L_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_1[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_L_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_COMP_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_2[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mMON_ADC_TRIM[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_KRUM_CURR_LIN[0m
+|07:04:37|I|[1m[34mParameters that the user should check from the database:[0m
+|07:04:37|I|[1m[34m	--> VOLTAGE_TRIM_DIG = [1m[33m10[0m
+|07:04:37|I|[1m[34m	--> VOLTAGE_TRIM_ANA = [1m[33m10[0m
+|07:04:37|I|[1m[34m	--> Wire bonded chip ID = [1m[33m15[0m
+|07:04:37|D|[32mChip Iref code: [1m[33m6[0m
+|07:04:37|I|[1m[34m	--> Wire bonded Iref = [1m[33m6[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIX_MODE[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEfusesConfig[0m
+|07:04:37|I|[1m[34m	--> Done[0m
+|07:04:37|I|[32me-fuse code: [1m[33m34913[0m
+|07:04:37|I|[32mNumber of masked pixels: [1m[33m145152[0m
+|07:04:37|I|[32mConfiguring RD53: [1m[33m14[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDataConcentratorConf[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mCoreColEncoderConf[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mRingOscConfig[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mRingOscConfig[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mSelfTriggerMultiplier[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mCLK_DATA_DELAY[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIX_MODE[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_EN_OUT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_2[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_0[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mToTDualEdgeCount[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mSEL_CAL_RANGE[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mHIT_SAMPLE_MODE[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mCDR_CONFIG_SEL_PD[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnOutputDataChipId[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mVOLTAGE_TRIM_ANA[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_3[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_ROUTE_1[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mToT6to4Mapping[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_0[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_1[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_GDAC_M_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_0[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_1[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mSelfTriggerEn[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_3[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_2_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_0[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_1[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_FC_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_2[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_2[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_1[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_0[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_COMP_TA_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_1[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_TR_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_0[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mSelfTriggerDelay[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_3[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_3[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_0[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_3[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIXELSEU_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mANALOG_INJ_MODE[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_3[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mTriggerConfig[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_2[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_GDAC_R_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mVCAL_HIGH[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mRDWRFIFOERROR_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_T_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_LDAC_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_R_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_REF_KRUM_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mCAL_EDGE_FINE_DELAY[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_1[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mHitOrPatternLUT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_2[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_TL_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mSKIPPED_TRIGGER_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mREADTRIG_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_3[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mLOCKLOSS_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mBITFLIP_WNG_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mBITFLIP_ERR_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mCMDERR_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_ROUTE_0[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_M_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_3_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_1_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_0_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGLOBALCONFIGSEU_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_2[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mVCAL_MED[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_SEU_COUNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mVOLTAGE_TRIM_DIG[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_GDAC_L_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_1[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_L_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_COMP_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_2[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mMON_ADC_TRIM[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_KRUM_CURR_LIN[0m
+|07:04:37|I|[1m[34mParameters that the user should check from the database:[0m
+|07:04:37|I|[1m[34m	--> VOLTAGE_TRIM_DIG = [1m[33m9[0m
+|07:04:37|I|[1m[34m	--> VOLTAGE_TRIM_ANA = [1m[33m9[0m
+|07:04:37|I|[1m[34m	--> Wire bonded chip ID = [1m[33m14[0m
+|07:04:37|D|[32mChip Iref code: [1m[33m6[0m
+|07:04:37|I|[1m[34m	--> Wire bonded Iref = [1m[33m6[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIX_MODE[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEfusesConfig[0m
+|07:04:37|I|[1m[34m	--> Done[0m
+|07:04:37|I|[32me-fuse code: [1m[33m34881[0m
+|07:04:37|I|[32mNumber of masked pixels: [1m[33m145152[0m
+|07:04:37|I|[32mConfiguring RD53: [1m[33m13[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDataConcentratorConf[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mCoreColEncoderConf[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mRingOscConfig[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mRingOscConfig[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mSelfTriggerMultiplier[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mCLK_DATA_DELAY[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIX_MODE[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_EN_OUT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_2[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_0[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mToTDualEdgeCount[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mSEL_CAL_RANGE[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mHIT_SAMPLE_MODE[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mCDR_CONFIG_SEL_PD[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnOutputDataChipId[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mVOLTAGE_TRIM_ANA[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_3[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_ROUTE_1[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mToT6to4Mapping[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_0[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_1[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_GDAC_M_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_0[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_1[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mSelfTriggerEn[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_3[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_2_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_0[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_1[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_FC_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_2[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_2[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_1[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_0[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_COMP_TA_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_1[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_TR_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_0[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mSelfTriggerDelay[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_3[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_3[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_0[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_3[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIXELSEU_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mANALOG_INJ_MODE[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_3[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mTriggerConfig[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_2[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_GDAC_R_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mVCAL_HIGH[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mRDWRFIFOERROR_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_T_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_LDAC_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_R_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_REF_KRUM_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mCAL_EDGE_FINE_DELAY[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_1[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mHitOrPatternLUT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_2[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_TL_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mSKIPPED_TRIGGER_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mREADTRIG_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_3[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mLOCKLOSS_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mBITFLIP_WNG_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mBITFLIP_ERR_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mCMDERR_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_ROUTE_0[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_M_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_3_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_1_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_0_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGLOBALCONFIGSEU_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_2[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mVCAL_MED[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_SEU_COUNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mVOLTAGE_TRIM_DIG[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_GDAC_L_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_1[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_L_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_COMP_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_2[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mMON_ADC_TRIM[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_KRUM_CURR_LIN[0m
+|07:04:37|I|[1m[34mParameters that the user should check from the database:[0m
+|07:04:37|I|[1m[34m	--> VOLTAGE_TRIM_DIG = [1m[33m11[0m
+|07:04:37|I|[1m[34m	--> VOLTAGE_TRIM_ANA = [1m[33m7[0m
+|07:04:37|I|[1m[34m	--> Wire bonded chip ID = [1m[33m13[0m
+|07:04:37|D|[32mChip Iref code: [1m[33m3[0m
+|07:04:37|I|[1m[34m	--> Wire bonded Iref = [1m[33m3[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIX_MODE[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEfusesConfig[0m
+|07:04:37|I|[1m[34m	--> Done[0m
+|07:04:37|I|[32me-fuse code: [1m[33m34929[0m
+|07:04:37|I|[32mNumber of masked pixels: [1m[33m145152[0m
+|07:04:37|I|[32mConfiguring RD53: [1m[33m12[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDataConcentratorConf[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mCoreColEncoderConf[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mRingOscConfig[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mRingOscConfig[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mSelfTriggerMultiplier[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mCLK_DATA_DELAY[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIX_MODE[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_EN_OUT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_2[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_0[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mToTDualEdgeCount[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mSEL_CAL_RANGE[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mHIT_SAMPLE_MODE[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mCDR_CONFIG_SEL_PD[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnOutputDataChipId[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mVOLTAGE_TRIM_ANA[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_3[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_ROUTE_1[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mToT6to4Mapping[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_0[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_1[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_GDAC_M_LIN[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_0[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_1[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mSelfTriggerEn[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_3[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_2_CNT[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_0[0m
+|07:04:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_1[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_FC_LIN[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_2[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_2[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_1[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_0[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_COMP_TA_LIN[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_1[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_TR_LIN[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_0[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mSelfTriggerDelay[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_3[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_3[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_0[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_3[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIXELSEU_CNT[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mANALOG_INJ_MODE[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_3[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mTriggerConfig[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_2[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_GDAC_R_LIN[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mVCAL_HIGH[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mRDWRFIFOERROR_CNT[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_T_LIN[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_LDAC_LIN[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_R_LIN[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_REF_KRUM_LIN[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mCAL_EDGE_FINE_DELAY[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_1[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mHitOrPatternLUT[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_2[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_TL_LIN[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mSKIPPED_TRIGGER_CNT[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mREADTRIG_CNT[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_3[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mLOCKLOSS_CNT[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mBITFLIP_WNG_CNT[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mBITFLIP_ERR_CNT[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mCMDERR_CNT[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_ROUTE_0[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_M_LIN[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_3_CNT[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_1_CNT[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_0_CNT[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mGLOBALCONFIGSEU_CNT[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_2[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mVCAL_MED[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_SEU_COUNT[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mVOLTAGE_TRIM_DIG[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_GDAC_L_LIN[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_1[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_L_LIN[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_COMP_LIN[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_2[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mMON_ADC_TRIM[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_KRUM_CURR_LIN[0m
+|07:04:38|I|[1m[34mParameters that the user should check from the database:[0m
+|07:04:38|I|[1m[34m	--> VOLTAGE_TRIM_DIG = [1m[33m10[0m
+|07:04:38|I|[1m[34m	--> VOLTAGE_TRIM_ANA = [1m[33m8[0m
+|07:04:38|I|[1m[34m	--> Wire bonded chip ID = [1m[33m12[0m
+|07:04:38|D|[32mChip Iref code: [1m[33m6[0m
+|07:04:38|I|[1m[34m	--> Wire bonded Iref = [1m[33m6[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIX_MODE[0m
+|07:04:38|D|[1m[34m	--> Succesfully configured chip register [1m[33mEfusesConfig[0m
+|07:04:38|I|[1m[34m	--> Done[0m
+|07:04:38|I|[32me-fuse code: [1m[33m34945[0m
+|07:04:38|I|[32mNumber of masked pixels: [1m[33m145152[0m
+|07:04:38|I|[32mOptimizing up-link slave-chip phases (if any and if needed) for hybrid: [1m[33m0[0m
+|07:04:38|I|[1m[34m	--> Done[0m
+|07:04:38|I|[36m==================== Done =====================[0m
+|07:04:38|I|[32mUsing [1m[33m6[0m[32m threads for data decoding at runtime[0m
+|07:04:38|I|[1m[35m@@@ Hardware initialization done @@@[0m
+|07:04:38|I|[0m
+|07:04:38|I|[1m[35m@@@ Performing Noise scan @@@[0m
+|07:04:38|I|[32m[PixelAlive::localConfigure] Starting run: [1m[33m10[0m
+|07:04:38|I|[1m[34m	--> Calibration initializing root file...[0m
+|07:04:40|I|[36m******* [32mReading data[36m *******[0m
+|07:04:40|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:04:40|I|[1m[35m>>> Progress: [1m[33m      1.0[1m[35m% <<<[0m
+|07:04:40|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:04:40|I|[36m****************************[0m
+|07:04:42|I|[36m******* [32mReading data[36m *******[0m
+|07:04:42|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:04:42|I|[1m[35m>>> Progress: [1m[33m      2.0[1m[35m% <<<[0m
+|07:04:42|I|[1m[34m[1m[34m[[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:04:42|I|[36m****************************[0m
+|07:04:44|I|[36m******* [32mReading data[36m *******[0m
+|07:04:44|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:04:44|I|[1m[35m>>> Progress: [1m[33m      3.0[1m[35m% <<<[0m
+|07:04:44|I|[1m[34m[1m[34m[[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:04:44|I|[36m****************************[0m
+|07:04:45|I|[36m******* [32mReading data[36m *******[0m
+|07:04:45|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:04:45|I|[1m[35m>>> Progress: [1m[33m      4.0[1m[35m% <<<[0m
+|07:04:45|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:04:45|I|[36m****************************[0m
+|07:04:47|I|[36m******* [32mReading data[36m *******[0m
+|07:04:47|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:04:47|I|[1m[35m>>> Progress: [1m[33m      5.0[1m[35m% <<<[0m
+|07:04:47|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:04:47|I|[36m****************************[0m
+|07:04:49|I|[36m******* [32mReading data[36m *******[0m
+|07:04:49|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:04:49|I|[1m[35m>>> Progress: [1m[33m      6.0[1m[35m% <<<[0m
+|07:04:49|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:04:49|I|[36m****************************[0m
+|07:04:51|I|[36m******* [32mReading data[36m *******[0m
+|07:04:51|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:04:51|I|[1m[35m>>> Progress: [1m[33m      7.0[1m[35m% <<<[0m
+|07:04:51|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:04:51|I|[36m****************************[0m
+|07:04:53|I|[36m******* [32mReading data[36m *******[0m
+|07:04:53|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:04:53|I|[1m[35m>>> Progress: [1m[33m      8.0[1m[35m% <<<[0m
+|07:04:53|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:04:53|I|[36m****************************[0m
+|07:04:54|I|[36m******* [32mReading data[36m *******[0m
+|07:04:54|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:04:54|I|[1m[35m>>> Progress: [1m[33m      9.0[1m[35m% <<<[0m
+|07:04:54|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:04:54|I|[36m****************************[0m
+|07:04:56|I|[36m******* [32mReading data[36m *******[0m
+|07:04:56|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:04:56|I|[1m[35m>>> Progress: [1m[33m     10.0[1m[35m% <<<[0m
+|07:04:56|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:04:56|I|[36m****************************[0m
+|07:04:58|I|[36m******* [32mReading data[36m *******[0m
+|07:04:58|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:04:58|I|[1m[35m>>> Progress: [1m[33m     11.0[1m[35m% <<<[0m
+|07:04:58|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:04:58|I|[36m****************************[0m
+|07:05:00|I|[36m******* [32mReading data[36m *******[0m
+|07:05:00|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:00|I|[1m[35m>>> Progress: [1m[33m     12.0[1m[35m% <<<[0m
+|07:05:00|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:05:00|I|[36m****************************[0m
+|07:05:02|I|[36m******* [32mReading data[36m *******[0m
+|07:05:02|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:02|I|[1m[35m>>> Progress: [1m[33m     13.0[1m[35m% <<<[0m
+|07:05:02|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:05:02|I|[36m****************************[0m
+|07:05:04|I|[36m******* [32mReading data[36m *******[0m
+|07:05:04|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:04|I|[1m[35m>>> Progress: [1m[33m     14.0[1m[35m% <<<[0m
+|07:05:04|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:05:04|I|[36m****************************[0m
+|07:05:05|I|[36m******* [32mReading data[36m *******[0m
+|07:05:05|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:05|I|[1m[35m>>> Progress: [1m[33m     15.0[1m[35m% <<<[0m
+|07:05:05|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:05:05|I|[36m****************************[0m
+|07:05:07|I|[36m******* [32mReading data[36m *******[0m
+|07:05:07|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:07|I|[1m[35m>>> Progress: [1m[33m     16.0[1m[35m% <<<[0m
+|07:05:07|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:05:07|I|[36m****************************[0m
+|07:05:09|I|[36m******* [32mReading data[36m *******[0m
+|07:05:09|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:09|I|[1m[35m>>> Progress: [1m[33m     17.0[1m[35m% <<<[0m
+|07:05:09|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:05:09|I|[36m****************************[0m
+|07:05:11|I|[36m******* [32mReading data[36m *******[0m
+|07:05:11|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:11|I|[1m[35m>>> Progress: [1m[33m     18.0[1m[35m% <<<[0m
+|07:05:11|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:05:11|I|[36m****************************[0m
+|07:05:13|I|[36m******* [32mReading data[36m *******[0m
+|07:05:13|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:13|I|[1m[35m>>> Progress: [1m[33m     19.0[1m[35m% <<<[0m
+|07:05:13|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:05:13|I|[36m****************************[0m
+|07:05:14|I|[36m******* [32mReading data[36m *******[0m
+|07:05:14|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:14|I|[1m[35m>>> Progress: [1m[33m     20.0[1m[35m% <<<[0m
+|07:05:14|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:05:14|I|[36m****************************[0m
+|07:05:16|I|[36m******* [32mReading data[36m *******[0m
+|07:05:16|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:16|I|[1m[35m>>> Progress: [1m[33m     21.0[1m[35m% <<<[0m
+|07:05:16|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:05:16|I|[36m****************************[0m
+|07:05:18|I|[36m******* [32mReading data[36m *******[0m
+|07:05:18|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:18|I|[1m[35m>>> Progress: [1m[33m     22.0[1m[35m% <<<[0m
+|07:05:18|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:05:18|I|[36m****************************[0m
+|07:05:20|I|[36m******* [32mReading data[36m *******[0m
+|07:05:20|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:20|I|[1m[35m>>> Progress: [1m[33m     23.0[1m[35m% <<<[0m
+|07:05:20|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:05:20|I|[36m****************************[0m
+|07:05:22|I|[36m******* [32mReading data[36m *******[0m
+|07:05:22|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:22|I|[1m[35m>>> Progress: [1m[33m     24.0[1m[35m% <<<[0m
+|07:05:22|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:05:22|I|[36m****************************[0m
+|07:05:23|I|[36m******* [32mReading data[36m *******[0m
+|07:05:23|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:23|I|[1m[35m>>> Progress: [1m[33m     25.0[1m[35m% <<<[0m
+|07:05:23|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m][0m
+|07:05:23|I|[36m****************************[0m
+|07:05:25|I|[36m******* [32mReading data[36m *******[0m
+|07:05:25|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:25|I|[1m[35m>>> Progress: [1m[33m     26.0[1m[35m% <<<[0m
+|07:05:25|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m][0m
+|07:05:25|I|[36m****************************[0m
+|07:05:27|I|[36m******* [32mReading data[36m *******[0m
+|07:05:27|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:27|I|[1m[35m>>> Progress: [1m[33m     27.0[1m[35m% <<<[0m
+|07:05:27|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m][0m
+|07:05:27|I|[36m****************************[0m
+|07:05:29|I|[36m******* [32mReading data[36m *******[0m
+|07:05:29|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:29|I|[1m[35m>>> Progress: [1m[33m     28.0[1m[35m% <<<[0m
+|07:05:29|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m][0m
+|07:05:29|I|[36m****************************[0m
+|07:05:31|I|[36m******* [32mReading data[36m *******[0m
+|07:05:31|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:31|I|[1m[35m>>> Progress: [1m[33m     29.0[1m[35m% <<<[0m
+|07:05:31|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m][0m
+|07:05:31|I|[36m****************************[0m
+|07:05:32|I|[36m******* [32mReading data[36m *******[0m
+|07:05:32|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:32|I|[1m[35m>>> Progress: [1m[33m     30.0[1m[35m% <<<[0m
+|07:05:32|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m][0m
+|07:05:32|I|[36m****************************[0m
+|07:05:34|I|[36m******* [32mReading data[36m *******[0m
+|07:05:34|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:34|I|[1m[35m>>> Progress: [1m[33m     31.0[1m[35m% <<<[0m
+|07:05:34|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:05:34|I|[36m****************************[0m
+|07:05:36|I|[36m******* [32mReading data[36m *******[0m
+|07:05:36|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:36|I|[1m[35m>>> Progress: [1m[33m     32.0[1m[35m% <<<[0m
+|07:05:36|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:05:36|I|[36m****************************[0m
+|07:05:38|I|[36m******* [32mReading data[36m *******[0m
+|07:05:38|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:38|I|[1m[35m>>> Progress: [1m[33m     33.0[1m[35m% <<<[0m
+|07:05:38|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:05:38|I|[36m****************************[0m
+|07:05:40|I|[36m******* [32mReading data[36m *******[0m
+|07:05:40|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:40|I|[1m[35m>>> Progress: [1m[33m     34.0[1m[35m% <<<[0m
+|07:05:40|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:05:40|I|[36m****************************[0m
+|07:05:41|I|[36m******* [32mReading data[36m *******[0m
+|07:05:41|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:41|I|[1m[35m>>> Progress: [1m[33m     35.0[1m[35m% <<<[0m
+|07:05:41|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:05:41|I|[36m****************************[0m
+|07:05:43|I|[36m******* [32mReading data[36m *******[0m
+|07:05:43|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:43|I|[1m[35m>>> Progress: [1m[33m     36.0[1m[35m% <<<[0m
+|07:05:43|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:05:43|I|[36m****************************[0m
+|07:05:45|I|[36m******* [32mReading data[36m *******[0m
+|07:05:45|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:45|I|[1m[35m>>> Progress: [1m[33m     37.0[1m[35m% <<<[0m
+|07:05:45|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:05:45|I|[36m****************************[0m
+|07:05:47|I|[36m******* [32mReading data[36m *******[0m
+|07:05:47|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:47|I|[1m[35m>>> Progress: [1m[33m     38.0[1m[35m% <<<[0m
+|07:05:47|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:05:47|I|[36m****************************[0m
+|07:05:49|I|[36m******* [32mReading data[36m *******[0m
+|07:05:49|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:49|I|[1m[35m>>> Progress: [1m[33m     39.0[1m[35m% <<<[0m
+|07:05:49|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:05:49|I|[36m****************************[0m
+|07:05:51|I|[36m******* [32mReading data[36m *******[0m
+|07:05:51|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:51|I|[1m[35m>>> Progress: [1m[33m     40.0[1m[35m% <<<[0m
+|07:05:51|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:05:51|I|[36m****************************[0m
+|07:05:52|I|[36m******* [32mReading data[36m *******[0m
+|07:05:52|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:52|I|[1m[35m>>> Progress: [1m[33m     41.0[1m[35m% <<<[0m
+|07:05:52|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:05:52|I|[36m****************************[0m
+|07:05:54|I|[36m******* [32mReading data[36m *******[0m
+|07:05:54|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:54|I|[1m[35m>>> Progress: [1m[33m     42.0[1m[35m% <<<[0m
+|07:05:54|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:05:54|I|[36m****************************[0m
+|07:05:56|I|[36m******* [32mReading data[36m *******[0m
+|07:05:56|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:56|I|[1m[35m>>> Progress: [1m[33m     43.0[1m[35m% <<<[0m
+|07:05:56|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:05:56|I|[36m****************************[0m
+|07:05:58|I|[36m******* [32mReading data[36m *******[0m
+|07:05:58|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:05:58|I|[1m[35m>>> Progress: [1m[33m     44.0[1m[35m% <<<[0m
+|07:05:58|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:05:58|I|[36m****************************[0m
+|07:06:00|I|[36m******* [32mReading data[36m *******[0m
+|07:06:00|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:00|I|[1m[35m>>> Progress: [1m[33m     45.0[1m[35m% <<<[0m
+|07:06:00|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:00|I|[36m****************************[0m
+|07:06:01|I|[36m******* [32mReading data[36m *******[0m
+|07:06:01|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:01|I|[1m[35m>>> Progress: [1m[33m     46.0[1m[35m% <<<[0m
+|07:06:01|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:01|I|[36m****************************[0m
+|07:06:03|I|[36m******* [32mReading data[36m *******[0m
+|07:06:03|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:03|I|[1m[35m>>> Progress: [1m[33m     47.0[1m[35m% <<<[0m
+|07:06:03|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:03|I|[36m****************************[0m
+|07:06:05|I|[36m******* [32mReading data[36m *******[0m
+|07:06:05|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:05|I|[1m[35m>>> Progress: [1m[33m     48.0[1m[35m% <<<[0m
+|07:06:05|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:05|I|[36m****************************[0m
+|07:06:07|I|[36m******* [32mReading data[36m *******[0m
+|07:06:07|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:07|I|[1m[35m>>> Progress: [1m[33m     49.0[1m[35m% <<<[0m
+|07:06:07|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:07|I|[36m****************************[0m
+|07:06:09|I|[36m******* [32mReading data[36m *******[0m
+|07:06:09|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:09|I|[1m[35m>>> Progress: [1m[33m     50.0[1m[35m% <<<[0m
+|07:06:09|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:09|I|[36m****************************[0m
+|07:06:10|I|[36m******* [32mReading data[36m *******[0m
+|07:06:10|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:10|I|[1m[35m>>> Progress: [1m[33m     51.0[1m[35m% <<<[0m
+|07:06:10|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:10|I|[36m****************************[0m
+|07:06:12|I|[36m******* [32mReading data[36m *******[0m
+|07:06:12|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:12|I|[1m[35m>>> Progress: [1m[33m     52.0[1m[35m% <<<[0m
+|07:06:12|I|[1m[34m[1m[34m[[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:12|I|[36m****************************[0m
+|07:06:14|I|[36m******* [32mReading data[36m *******[0m
+|07:06:14|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:14|I|[1m[35m>>> Progress: [1m[33m     53.0[1m[35m% <<<[0m
+|07:06:14|I|[1m[34m[1m[34m[[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:14|I|[36m****************************[0m
+|07:06:16|I|[36m******* [32mReading data[36m *******[0m
+|07:06:16|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:16|I|[1m[35m>>> Progress: [1m[33m     54.0[1m[35m% <<<[0m
+|07:06:16|I|[1m[34m[1m[34m[[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:16|I|[36m****************************[0m
+|07:06:18|I|[36m******* [32mReading data[36m *******[0m
+|07:06:18|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:18|I|[1m[35m>>> Progress: [1m[33m     55.0[1m[35m% <<<[0m
+|07:06:18|I|[1m[34m[1m[34m[[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:18|I|[36m****************************[0m
+|07:06:19|I|[36m******* [32mReading data[36m *******[0m
+|07:06:19|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:19|I|[1m[35m>>> Progress: [1m[33m     56.0[1m[35m% <<<[0m
+|07:06:19|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:19|I|[36m****************************[0m
+|07:06:21|I|[36m******* [32mReading data[36m *******[0m
+|07:06:21|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:21|I|[1m[35m>>> Progress: [1m[33m     57.0[1m[35m% <<<[0m
+|07:06:21|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:21|I|[36m****************************[0m
+|07:06:23|I|[36m******* [32mReading data[36m *******[0m
+|07:06:23|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:23|I|[1m[35m>>> Progress: [1m[33m     58.0[1m[35m% <<<[0m
+|07:06:23|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:23|I|[36m****************************[0m
+|07:06:25|I|[36m******* [32mReading data[36m *******[0m
+|07:06:25|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:25|I|[1m[35m>>> Progress: [1m[33m     59.0[1m[35m% <<<[0m
+|07:06:25|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:25|I|[36m****************************[0m
+|07:06:27|I|[36m******* [32mReading data[36m *******[0m
+|07:06:27|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:27|I|[1m[35m>>> Progress: [1m[33m     60.0[1m[35m% <<<[0m
+|07:06:27|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:27|I|[36m****************************[0m
+|07:06:28|I|[36m******* [32mReading data[36m *******[0m
+|07:06:28|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:28|I|[1m[35m>>> Progress: [1m[33m     61.0[1m[35m% <<<[0m
+|07:06:28|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:28|I|[36m****************************[0m
+|07:06:30|I|[36m******* [32mReading data[36m *******[0m
+|07:06:30|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:30|I|[1m[35m>>> Progress: [1m[33m     62.0[1m[35m% <<<[0m
+|07:06:30|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:30|I|[36m****************************[0m
+|07:06:32|I|[36m******* [32mReading data[36m *******[0m
+|07:06:32|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:32|I|[1m[35m>>> Progress: [1m[33m     63.0[1m[35m% <<<[0m
+|07:06:32|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:32|I|[36m****************************[0m
+|07:06:34|I|[36m******* [32mReading data[36m *******[0m
+|07:06:34|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:34|I|[1m[35m>>> Progress: [1m[33m     64.0[1m[35m% <<<[0m
+|07:06:34|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:34|I|[36m****************************[0m
+|07:06:36|I|[36m******* [32mReading data[36m *******[0m
+|07:06:36|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:36|I|[1m[35m>>> Progress: [1m[33m     65.0[1m[35m% <<<[0m
+|07:06:36|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:36|I|[36m****************************[0m
+|07:06:38|I|[36m******* [32mReading data[36m *******[0m
+|07:06:38|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:38|I|[1m[35m>>> Progress: [1m[33m     66.0[1m[35m% <<<[0m
+|07:06:38|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:38|I|[36m****************************[0m
+|07:06:39|I|[36m******* [32mReading data[36m *******[0m
+|07:06:39|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:39|I|[1m[35m>>> Progress: [1m[33m     67.0[1m[35m% <<<[0m
+|07:06:39|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:39|I|[36m****************************[0m
+|07:06:41|I|[36m******* [32mReading data[36m *******[0m
+|07:06:41|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:41|I|[1m[35m>>> Progress: [1m[33m     68.0[1m[35m% <<<[0m
+|07:06:41|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:41|I|[36m****************************[0m
+|07:06:43|I|[36m******* [32mReading data[36m *******[0m
+|07:06:43|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:43|I|[1m[35m>>> Progress: [1m[33m     69.0[1m[35m% <<<[0m
+|07:06:43|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:43|I|[36m****************************[0m
+|07:06:45|I|[36m******* [32mReading data[36m *******[0m
+|07:06:45|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:45|I|[1m[35m>>> Progress: [1m[33m     70.0[1m[35m% <<<[0m
+|07:06:45|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:45|I|[36m****************************[0m
+|07:06:47|I|[36m******* [32mReading data[36m *******[0m
+|07:06:47|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:47|I|[1m[35m>>> Progress: [1m[33m     71.0[1m[35m% <<<[0m
+|07:06:47|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:47|I|[36m****************************[0m
+|07:06:48|I|[36m******* [32mReading data[36m *******[0m
+|07:06:48|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:48|I|[1m[35m>>> Progress: [1m[33m     72.0[1m[35m% <<<[0m
+|07:06:48|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:48|I|[36m****************************[0m
+|07:06:50|I|[36m******* [32mReading data[36m *******[0m
+|07:06:50|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:50|I|[1m[35m>>> Progress: [1m[33m     73.0[1m[35m% <<<[0m
+|07:06:50|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:50|I|[36m****************************[0m
+|07:06:52|I|[36m******* [32mReading data[36m *******[0m
+|07:06:52|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:52|I|[1m[35m>>> Progress: [1m[33m     74.0[1m[35m% <<<[0m
+|07:06:52|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:52|I|[36m****************************[0m
+|07:06:54|I|[36m******* [32mReading data[36m *******[0m
+|07:06:54|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:54|I|[1m[35m>>> Progress: [1m[33m     75.0[1m[35m% <<<[0m
+|07:06:54|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:54|I|[36m****************************[0m
+|07:06:56|I|[36m******* [32mReading data[36m *******[0m
+|07:06:56|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:56|I|[1m[35m>>> Progress: [1m[33m     76.0[1m[35m% <<<[0m
+|07:06:56|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:56|I|[36m****************************[0m
+|07:06:57|I|[36m******* [32mReading data[36m *******[0m
+|07:06:57|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:57|I|[1m[35m>>> Progress: [1m[33m     77.0[1m[35m% <<<[0m
+|07:06:57|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m][0m
+|07:06:57|I|[36m****************************[0m
+|07:06:59|I|[36m******* [32mReading data[36m *******[0m
+|07:06:59|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:06:59|I|[1m[35m>>> Progress: [1m[33m     78.0[1m[35m% <<<[0m
+|07:06:59|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m][0m
+|07:06:59|I|[36m****************************[0m
+|07:07:01|I|[36m******* [32mReading data[36m *******[0m
+|07:07:01|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:07:01|I|[1m[35m>>> Progress: [1m[33m     79.0[1m[35m% <<<[0m
+|07:07:01|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m][0m
+|07:07:01|I|[36m****************************[0m
+|07:07:03|I|[36m******* [32mReading data[36m *******[0m
+|07:07:03|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:07:03|I|[1m[35m>>> Progress: [1m[33m     80.0[1m[35m% <<<[0m
+|07:07:03|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m][0m
+|07:07:03|I|[36m****************************[0m
+|07:07:05|I|[36m******* [32mReading data[36m *******[0m
+|07:07:05|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:07:05|I|[1m[35m>>> Progress: [1m[33m     81.0[1m[35m% <<<[0m
+|07:07:05|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m][0m
+|07:07:05|I|[36m****************************[0m
+|07:07:06|I|[36m******* [32mReading data[36m *******[0m
+|07:07:06|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:07:06|I|[1m[35m>>> Progress: [1m[33m     82.0[1m[35m% <<<[0m
+|07:07:06|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m][0m
+|07:07:06|I|[36m****************************[0m
+|07:07:08|I|[36m******* [32mReading data[36m *******[0m
+|07:07:08|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:07:08|I|[1m[35m>>> Progress: [1m[33m     83.0[1m[35m% <<<[0m
+|07:07:08|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:07:08|I|[36m****************************[0m
+|07:07:10|I|[36m******* [32mReading data[36m *******[0m
+|07:07:10|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:07:10|I|[1m[35m>>> Progress: [1m[33m     84.0[1m[35m% <<<[0m
+|07:07:10|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:07:10|I|[36m****************************[0m
+|07:07:12|I|[36m******* [32mReading data[36m *******[0m
+|07:07:12|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:07:12|I|[1m[35m>>> Progress: [1m[33m     85.0[1m[35m% <<<[0m
+|07:07:12|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:07:12|I|[36m****************************[0m
+|07:07:14|I|[36m******* [32mReading data[36m *******[0m
+|07:07:14|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:07:14|I|[1m[35m>>> Progress: [1m[33m     86.0[1m[35m% <<<[0m
+|07:07:14|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:07:14|I|[36m****************************[0m
+|07:07:15|I|[36m******* [32mReading data[36m *******[0m
+|07:07:15|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:07:15|I|[1m[35m>>> Progress: [1m[33m     87.0[1m[35m% <<<[0m
+|07:07:15|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:07:15|I|[36m****************************[0m
+|07:07:17|I|[36m******* [32mReading data[36m *******[0m
+|07:07:17|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:07:17|I|[1m[35m>>> Progress: [1m[33m     88.0[1m[35m% <<<[0m
+|07:07:17|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:07:17|I|[36m****************************[0m
+|07:07:19|I|[36m******* [32mReading data[36m *******[0m
+|07:07:19|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:07:19|I|[1m[35m>>> Progress: [1m[33m     89.0[1m[35m% <<<[0m
+|07:07:19|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:07:19|I|[36m****************************[0m
+|07:07:21|I|[36m******* [32mReading data[36m *******[0m
+|07:07:21|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:07:21|I|[1m[35m>>> Progress: [1m[33m     90.0[1m[35m% <<<[0m
+|07:07:21|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:07:21|I|[36m****************************[0m
+|07:07:23|I|[36m******* [32mReading data[36m *******[0m
+|07:07:23|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:07:23|I|[1m[35m>>> Progress: [1m[33m     91.0[1m[35m% <<<[0m
+|07:07:23|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:07:23|I|[36m****************************[0m
+|07:07:24|I|[36m******* [32mReading data[36m *******[0m
+|07:07:24|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:07:24|I|[1m[35m>>> Progress: [1m[33m     92.0[1m[35m% <<<[0m
+|07:07:24|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:07:24|I|[36m****************************[0m
+|07:07:26|I|[36m******* [32mReading data[36m *******[0m
+|07:07:26|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:07:26|I|[1m[35m>>> Progress: [1m[33m     93.0[1m[35m% <<<[0m
+|07:07:26|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:07:26|I|[36m****************************[0m
+|07:07:28|I|[36m******* [32mReading data[36m *******[0m
+|07:07:28|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:07:28|I|[1m[35m>>> Progress: [1m[33m     94.0[1m[35m% <<<[0m
+|07:07:28|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:07:28|I|[36m****************************[0m
+|07:07:30|I|[36m******* [32mReading data[36m *******[0m
+|07:07:30|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:07:30|I|[1m[35m>>> Progress: [1m[33m     95.0[1m[35m% <<<[0m
+|07:07:30|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:07:30|I|[36m****************************[0m
+|07:07:32|I|[36m******* [32mReading data[36m *******[0m
+|07:07:32|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:07:32|I|[1m[35m>>> Progress: [1m[33m     96.0[1m[35m% <<<[0m
+|07:07:32|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:07:32|I|[36m****************************[0m
+|07:07:33|I|[36m******* [32mReading data[36m *******[0m
+|07:07:33|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:07:33|I|[1m[35m>>> Progress: [1m[33m     97.0[1m[35m% <<<[0m
+|07:07:33|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:07:33|I|[36m****************************[0m
+|07:07:35|I|[36m******* [32mReading data[36m *******[0m
+|07:07:35|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:07:35|I|[1m[35m>>> Progress: [1m[33m     98.0[1m[35m% <<<[0m
+|07:07:35|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:07:35|I|[36m****************************[0m
+|07:07:37|I|[36m******* [32mReading data[36m *******[0m
+|07:07:37|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:07:37|I|[1m[35m>>> Progress: [1m[33m     99.0[1m[35m% <<<[0m
+|07:07:37|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:07:37|I|[36m****************************[0m
+|07:07:39|I|[36m******* [32mReading data[36m *******[0m
+|07:07:39|I|[32mn. 32-bit words: [1m[33m    2400000[0m
+|07:07:39|I|[1m[35m>>> Progress: [1m[33m    100.0[1m[35m% <<<[0m
+|07:07:39|I|[1m[34m[1m[34m[[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[33m=[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m-[1m[34m][0m
+|07:07:39|I|[36m****************************[0m
+|07:07:39|I|[32mReadout chip error report for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/15[0m[32m][0m
+|07:07:39|I|[1m[34mBCID_CNT            = [1m[33m 26373[0m
+|07:07:39|I|[1m[34mTRIG_CNT            = [1m[33m 65535[0m
+|07:07:39|I|[1m[34mREADTRIG_CNT        = [1m[33m 65535[0m
+|07:07:39|I|[1m[34mLOCKLOSS_CNT        = [1m[33m     0[0m
+|07:07:39|I|[1m[34mBITFLIP_WNG_CNT     = [1m[33m     0[0m
+|07:07:39|I|[1m[34mBITFLIP_ERR_CNT     = [1m[33m     0[0m
+|07:07:39|I|[1m[34mCMDERR_CNT          = [1m[33m     0[0m
+|07:07:39|I|[1m[34mRDWRFIFOERROR_CNT   = [1m[33m     0[0m
+|07:07:39|I|[1m[34mHITOR_0_CNT         = [1m[33m     0[0m
+|07:07:39|I|[1m[34mHITOR_1_CNT         = [1m[33m     0[0m
+|07:07:39|I|[1m[34mHITOR_2_CNT         = [1m[33m     0[0m
+|07:07:39|I|[1m[34mHITOR_3_CNT         = [1m[33m     0[0m
+|07:07:39|I|[1m[34mGatedHITOR_0_CNT    = [1m[33m     0[0m
+|07:07:39|I|[1m[34mGatedHITOR_1_CNT    = [1m[33m     0[0m
+|07:07:39|I|[1m[34mPIXELSEU_CNT        = [1m[33m     0[0m
+|07:07:39|I|[1m[34mGLOBALCONFIGSEU_CNT = [1m[33m     0[0m
+|07:07:39|I|[1m[34mSKIPPED_TRIGGER_CNT = [1m[33m     0[0m
+|07:07:39|I|[32mReadout chip error report for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/14[0m[32m][0m
+|07:07:39|I|[1m[34mBCID_CNT            = [1m[33m  7685[0m
+|07:07:39|I|[1m[34mTRIG_CNT            = [1m[33m 65535[0m
+|07:07:39|I|[1m[34mREADTRIG_CNT        = [1m[33m 65535[0m
+|07:07:39|I|[1m[34mLOCKLOSS_CNT        = [1m[33m     0[0m
+|07:07:39|I|[1m[34mBITFLIP_WNG_CNT     = [1m[33m     0[0m
+|07:07:39|I|[1m[34mBITFLIP_ERR_CNT     = [1m[33m     0[0m
+|07:07:39|I|[1m[34mCMDERR_CNT          = [1m[33m     0[0m
+|07:07:39|I|[1m[34mRDWRFIFOERROR_CNT   = [1m[33m     0[0m
+|07:07:39|I|[1m[34mHITOR_0_CNT         = [1m[33m     0[0m
+|07:07:39|I|[1m[34mHITOR_1_CNT         = [1m[33m     0[0m
+|07:07:39|I|[1m[34mHITOR_2_CNT         = [1m[33m     0[0m
+|07:07:39|I|[1m[34mHITOR_3_CNT         = [1m[33m     0[0m
+|07:07:39|I|[1m[34mGatedHITOR_0_CNT    = [1m[33m     0[0m
+|07:07:39|I|[1m[34mGatedHITOR_1_CNT    = [1m[33m     0[0m
+|07:07:39|I|[1m[34mPIXELSEU_CNT        = [1m[33m     0[0m
+|07:07:39|I|[1m[34mGLOBALCONFIGSEU_CNT = [1m[33m     0[0m
+|07:07:39|I|[1m[34mSKIPPED_TRIGGER_CNT = [1m[33m     0[0m
+|07:07:39|I|[32mReadout chip error report for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/13[0m[32m][0m
+|07:07:39|I|[1m[34mBCID_CNT            = [1m[33m 37717[0m
+|07:07:39|I|[1m[34mTRIG_CNT            = [1m[33m 65535[0m
+|07:07:39|I|[1m[34mREADTRIG_CNT        = [1m[33m 65535[0m
+|07:07:39|I|[1m[34mLOCKLOSS_CNT        = [1m[33m     0[0m
+|07:07:39|I|[1m[34mBITFLIP_WNG_CNT     = [1m[33m     0[0m
+|07:07:39|I|[1m[34mBITFLIP_ERR_CNT     = [1m[33m     0[0m
+|07:07:39|I|[1m[34mCMDERR_CNT          = [1m[33m     0[0m
+|07:07:39|I|[1m[34mRDWRFIFOERROR_CNT   = [1m[33m     0[0m
+|07:07:39|I|[1m[34mHITOR_0_CNT         = [1m[33m     0[0m
+|07:07:39|I|[1m[34mHITOR_1_CNT         = [1m[33m     0[0m
+|07:07:39|I|[1m[34mHITOR_2_CNT         = [1m[33m     0[0m
+|07:07:39|I|[1m[34mHITOR_3_CNT         = [1m[33m     0[0m
+|07:07:39|I|[1m[34mGatedHITOR_0_CNT    = [1m[33m     0[0m
+|07:07:39|I|[1m[34mGatedHITOR_1_CNT    = [1m[33m     0[0m
+|07:07:39|I|[1m[34mPIXELSEU_CNT        = [1m[33m     0[0m
+|07:07:39|I|[1m[34mGLOBALCONFIGSEU_CNT = [1m[33m     0[0m
+|07:07:39|I|[1m[34mSKIPPED_TRIGGER_CNT = [1m[33m     0[0m
+|07:07:39|I|[32mReadout chip error report for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/12[0m[32m][0m
+|07:07:39|I|[1m[34mBCID_CNT            = [1m[33m 10817[0m
+|07:07:39|I|[1m[34mTRIG_CNT            = [1m[33m 65535[0m
+|07:07:39|I|[1m[34mREADTRIG_CNT        = [1m[33m 65535[0m
+|07:07:39|I|[1m[34mLOCKLOSS_CNT        = [1m[33m     0[0m
+|07:07:39|I|[1m[34mBITFLIP_WNG_CNT     = [1m[33m     0[0m
+|07:07:39|I|[1m[34mBITFLIP_ERR_CNT     = [1m[33m     0[0m
+|07:07:39|I|[1m[34mCMDERR_CNT          = [1m[33m     0[0m
+|07:07:39|I|[1m[34mRDWRFIFOERROR_CNT   = [1m[33m     0[0m
+|07:07:39|I|[1m[34mHITOR_0_CNT         = [1m[33m     0[0m
+|07:07:39|I|[1m[34mHITOR_1_CNT         = [1m[33m     0[0m
+|07:07:39|I|[1m[34mHITOR_2_CNT         = [1m[33m     0[0m
+|07:07:39|I|[1m[34mHITOR_3_CNT         = [1m[33m     0[0m
+|07:07:39|I|[1m[34mGatedHITOR_0_CNT    = [1m[33m     0[0m
+|07:07:39|I|[1m[34mGatedHITOR_1_CNT    = [1m[33m     0[0m
+|07:07:39|I|[1m[34mPIXELSEU_CNT        = [1m[33m     0[0m
+|07:07:39|I|[1m[34mGLOBALCONFIGSEU_CNT = [1m[33m     0[0m
+|07:07:39|I|[1m[34mSKIPPED_TRIGGER_CNT = [1m[33m     0[0m
+|07:07:39|I|[32mAverage occupancy for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/15[0m[32m] is [1m[33m0.000000[0m
+|07:07:39|I|[1m[34m	--> Number of potentially [1m[33mmasked[1m[34m pixels in this iteration: [1m[33m113[0m
+|07:07:39|I|[1m[34m	--> Total number of potentially masked pixels: [1m[33m570[0m
+|07:07:39|I|[32mAverage occupancy for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/14[0m[32m] is [1m[33m0.000000[0m
+|07:07:39|I|[1m[34m	--> Number of potentially [1m[33mmasked[1m[34m pixels in this iteration: [1m[33m541[0m
+|07:07:39|I|[1m[34m	--> Total number of potentially masked pixels: [1m[33m1608[0m
+|07:07:39|I|[32mAverage occupancy for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/13[0m[32m] is [1m[33m0.000000[0m
+|07:07:39|I|[1m[34m	--> Number of potentially [1m[33mmasked[1m[34m pixels in this iteration: [1m[33m179[0m
+|07:07:39|I|[1m[34m	--> Total number of potentially masked pixels: [1m[33m673[0m
+|07:07:39|I|[32mAverage occupancy for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/12[0m[32m] is [1m[33m0.000000[0m
+|07:07:39|I|[1m[34m	--> Number of potentially [1m[33mmasked[1m[34m pixels in this iteration: [1m[33m155[0m
+|07:07:39|I|[1m[34m	--> Total number of potentially masked pixels: [1m[33m645[0m
+|07:07:40|I|[32mCurrent calibration saved the configuration file for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/15[0m[32m] [1m[33m/home/muon/dirigent-production/dirigent/run_P-1009-17022026/Run000010_H0_ROC15.txt[0m
+|07:07:40|I|[32mCurrent calibration saved the configuration file for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/14[0m[32m] [1m[33m/home/muon/dirigent-production/dirigent/run_P-1009-17022026/Run000010_H0_ROC14.txt[0m
+|07:07:40|I|[32mCurrent calibration saved the configuration file for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/13[0m[32m] [1m[33m/home/muon/dirigent-production/dirigent/run_P-1009-17022026/Run000010_H0_ROC13.txt[0m
+|07:07:40|I|[32mCurrent calibration saved the configuration file for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/12[0m[32m] [1m[33m/home/muon/dirigent-production/dirigent/run_P-1009-17022026/Run000010_H0_ROC12.txt[0m
+|07:07:40|I|[1m[34m	--> Saving and/or shipping metadata...[0m
+|07:07:41|I|[32mSplitting ROOT file [1m[33mResults/Run000010_NoiseScan.root[0m[32m by Board & Hybrid[0m
+|07:07:41|I|[32mClosing result file: [1m[33mResults/Run000010_NoiseScan.root[0m
+|07:07:41|I|[1m[31m>>> Destroying interfaces <<<[0m
+|07:07:41|I|[32mTrying to shutdown Calibration DQM Server...[0m
+|07:07:41|I|[1m[34m	--> Operation completed[0m
+|07:07:41|I|[32mTrying to shutdown Monitor DQM Server...[0m
+|07:07:41|I|[1m[34m	--> Operation completed[0m
+|07:07:41|I|[1m[31m>>> Interfaces  destroyed <<<[0m
+|07:07:41|I|[1m[35m@@@ End of CMSIT miniDAQ @@@[0m

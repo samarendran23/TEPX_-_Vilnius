@@ -1,0 +1,135 @@
+2026-02-17 19:24:11 INFO construct_logo -                                                                                  
+2026-02-17 19:24:11 INFO construct_logo -            04  02              00                                                
+2026-02-17 19:24:11 INFO construct_logo -            33  ''              ''                                         ,d     
+2026-02-17 19:24:11 INFO construct_logo -            33                                                             33     
+2026-02-17 19:24:11 INFO construct_logo -    ,a6385b,33  33  8b,d6538a,  33   ,a6654b,d8   ,a483fba,  8b,d0f17a,  M5bafMM  
+2026-02-17 19:24:11 INFO construct_logo -   a8'    `Y33  33  33P'   'Y8  33  a8'    `Y33  a8PMM?__33  33P'   `'8a   33     
+2026-02-17 19:24:11 INFO construct_logo -   8b       33  33  33          33  8b       33  8PP......'  33       33   33     
+2026-02-17 19:24:11 INFO construct_logo -   '8a,   ,d33  33  33          33  '8a,   ,d33  '8b,   ,aa  33       33   33,    
+2026-02-17 19:24:11 INFO construct_logo -    `'daf2P'Y8  33  33          33   `'8e47P'Y8   `'60cc8''  33       33   'Y338  
+2026-02-17 19:24:11 INFO construct_logo -                                     aa,    ,33                                   
+2026-02-17 19:24:11 INFO construct_logo -                                      '78d1dP'                       HEAD branch  
+2026-02-17 19:24:11 INFO dirigent_cli - version 4.2.0-pre.1
+2026-02-17 19:24:11 INFO dirigent_cli - ----------------------------------
+2026-02-17 19:24:11 INFO dirigent_cli - Ph2 ACF: v6-24 (HEAD)
+2026-02-17 19:24:11 INFO dirigent_cli - Felis: v1.1.12 (HEAD)
+2026-02-17 19:24:11 INFO dirigent_cli - ICICLE: 2.2.1-1-g8e4778d (HEAD)
+2026-02-17 19:24:11 INFO dirigent_cli - inner-tracker-tests: v1.0.4 (HEAD)
+2026-02-17 19:24:11 INFO dirigent_cli - RestHub API: 0f175ba (HEAD)
+2026-02-17 19:24:11 INFO dirigent_cli - ----------------------------------
+2026-02-17 19:24:11 INFO dirigent_cli - Dirigent preparation starting...
+2026-02-17 19:24:11 INFO dirigent_cli - CalibrationContext requested - now preparing components...
+2026-02-17 19:24:11 INFO dirigent_cli - 'CMSIT.xml' found in folder. This will be used for the following instance.
+2026-02-17 19:24:11 INFO dirigent_cli - Ensuring warnings and errors will be saved to Ph2 ACF log files...
+2026-02-17 19:24:11 INFO modify_ph2_logging - Backed up /home/muon/dirigent-production/dirigent/deps/Ph2_ACF/settings/logger.conf to /home/muon/dirigent-production/dirigent/deps/Ph2_ACF/settings/logger.conf.bak
+2026-02-17 19:24:11 INFO dirigent_cli - 	> InstrumentCluster requested - now constructing.
+2026-02-17 19:24:11 INFO mqtt_instrument - Connected to MQTT broker: host: 192.168.50.3, port: 1883, clientID: PSIColdbox::631947::139979878020928
+2026-02-17 19:24:11 INFO dirigent_cli - 	> Monitoring requested - now constructing...
+2026-02-17 19:24:11 INFO dirigent_cli - 	> CalibrationSet requested - now constructing.
+2026-02-17 19:24:11 INFO dirigent_cli - Assembling CalibrationContext...
+2026-02-17 19:24:11 INFO dirigent_cli - CalibrationContext created and ready for init...
+2026-02-17 19:24:11 INFO dirigent_cli - === Dirigent preparation done - handing off to calibration ===
+2026-02-17 19:24:11 INFO mqtt_instrument - Connected to MQTT broker: host: 192.168.50.3, port: 1883, clientID: PSIProbecard1::631947::139979878020928
+2026-02-17 19:24:11 INFO instrument_cluster - Loading PSI coldbox calibration
+2026-02-17 19:24:13 INFO ph2acf_instance - Loading FC7 firmware
+2026-02-17 19:24:19 INFO ph2acf_instance - FC7 DDR reset requested - attempting.
+2026-02-17 19:24:21 INFO iv_curve - ===== iv_curve parameter values as configured: =====
+2026-02-17 19:24:21 INFO iv_curve - start_voltage = 0
+2026-02-17 19:24:21 INFO iv_curve - max_voltage = -350
+2026-02-17 19:24:21 INFO iv_curve - step_size = 5.0
+2026-02-17 19:24:21 INFO iv_curve - delay = 2.0
+2026-02-17 19:24:21 INFO iv_curve - both_ways = False
+2026-02-17 19:24:21 INFO iv_curve - positive = False
+2026-02-17 19:24:21 INFO iv_curve - plot = True
+2026-02-17 19:24:21 INFO iv_curve - temp_mon = True
+2026-02-17 19:24:21 INFO iv_curve - temp_voltage = None
+2026-02-17 19:24:21 INFO iv_curve - voltage_fd = 60.0
+2026-02-17 19:24:21 INFO iv_curve - temp_runtime = 10
+2026-02-17 19:24:21 INFO iv_curve - write_breakdowns = True
+2026-02-17 19:24:21 INFO iv_curve - ====================================================
+2026-02-17 19:24:26 INFO psi_coldbox - Attempting to reach 14.5 < 15.0 < 15.5 C for TEC(s) [1] (within 600s).
+2026-02-17 19:24:26 INFO psi_coldbox - Dew point is -40.85 C. Setting the target temperature to 15.00 C.
+2026-02-17 19:24:31 INFO psi_coldbox - Temperature(s) in range: [14.8717, '-', '-', '-', '-', '-', '-', '-'] C. Waiting 20 s to verify...
+2026-02-17 19:24:52 INFO psi_coldbox - Temperature(s) in range for 20 s ([14.9347, '-', '-', '-', '-', '-', '-', '-'] C). Validation completed.
+2026-02-17 19:24:55 INFO instrument - Time              	Step       	Voltage (V)	Current (A)	Meas. V (V)	Meas. I (A)
+2026-02-17 19:24:56 INFO instrument - 02/17/26 19:24:56 	0          	0.00       	0.00       	0.02       	-1.20e-08  
+2026-02-17 19:24:57 INFO iv_curve - Time             	Voltage (V)      	Current (A)      	Resistance       	PSU Time         
+2026-02-17 19:25:01 INFO iv_curve - 02/17/26 19:25:01	0.02076661       	-1.723293e-08    
+2026-02-17 19:25:04 INFO iv_curve - 02/17/26 19:25:04	-4.981495        	-4.389376e-08    
+2026-02-17 19:25:07 INFO iv_curve - 02/17/26 19:25:07	-9.984135        	-5.731703e-08    
+2026-02-17 19:25:10 INFO iv_curve - 02/17/26 19:25:10	-14.98779        	-6.864529e-08    
+2026-02-17 19:25:14 INFO iv_curve - 02/17/26 19:25:14	-19.99075        	-7.686952e-08    
+2026-02-17 19:25:17 INFO iv_curve - 02/17/26 19:25:17	-24.98753        	-8.228021e-08    
+2026-02-17 19:25:20 INFO iv_curve - 02/17/26 19:25:20	-29.97601        	-8.694134e-08    
+2026-02-17 19:25:23 INFO iv_curve - 02/17/26 19:25:23	-34.97742        	-9.159422e-08    
+2026-02-17 19:25:27 INFO iv_curve - 02/17/26 19:25:27	-39.98245        	-9.551464e-08    
+2026-02-17 19:25:30 INFO iv_curve - 02/17/26 19:25:30	-44.98231        	-9.965505e-08    
+2026-02-17 19:25:33 INFO iv_curve - 02/17/26 19:25:33	-49.98584        	-1.032525e-07    
+2026-02-17 19:25:36 INFO iv_curve - 02/17/26 19:25:36	-54.98807        	-1.069383e-07    
+2026-02-17 19:25:39 INFO iv_curve - 02/17/26 19:25:39	-59.99057        	-1.0987e-07      
+2026-02-17 19:25:43 INFO iv_curve - 02/17/26 19:25:43	-64.99638        	-1.13369e-07     
+2026-02-17 19:25:46 INFO iv_curve - 02/17/26 19:25:46	-69.9826         	-1.180294e-07    
+2026-02-17 19:25:49 INFO iv_curve - 02/17/26 19:25:49	-74.98344        	-1.23734e-07     
+2026-02-17 19:25:52 INFO iv_curve - 02/17/26 19:25:52	-79.98786        	-1.305124e-07    
+2026-02-17 19:25:55 INFO iv_curve - 02/17/26 19:25:55	-84.99087        	-1.37402e-07     
+2026-02-17 19:25:59 INFO iv_curve - 02/17/26 19:25:59	-89.99385        	-1.448175e-07    
+2026-02-17 19:26:02 INFO iv_curve - 02/17/26 19:26:02	-94.99494        	-1.534824e-07    
+2026-02-17 19:26:05 INFO iv_curve - 02/17/26 19:26:05	-99.99571        	-1.623075e-07    
+2026-02-17 19:26:08 INFO iv_curve - 02/17/26 19:26:08	-105.0008        	-1.718313e-07    
+2026-02-17 19:26:12 INFO iv_curve - 02/17/26 19:26:12	-109.984         	-1.821055e-07    
+2026-02-17 19:26:15 INFO iv_curve - 02/17/26 19:26:15	-114.9872        	-1.925086e-07    
+2026-02-17 19:26:18 INFO iv_curve - 02/17/26 19:26:18	-119.9878        	-2.038897e-07    
+2026-02-17 19:26:21 INFO iv_curve - 02/17/26 19:26:21	-124.992         	-2.159161e-07    
+2026-02-17 19:26:24 INFO iv_curve - 02/17/26 19:26:24	-129.9947        	-2.285968e-07    
+2026-02-17 19:26:28 INFO iv_curve - 02/17/26 19:26:28	-134.9974        	-2.414675e-07    
+2026-02-17 19:26:31 INFO iv_curve - 02/17/26 19:26:31	-139.9998        	-2.562522e-07    
+2026-02-17 19:26:34 INFO iv_curve - 02/17/26 19:26:34	-144.9839        	-2.718856e-07    
+2026-02-17 19:26:37 INFO iv_curve - 02/17/26 19:26:37	-149.9882        	-2.886697e-07    
+2026-02-17 19:26:41 INFO iv_curve - 02/17/26 19:26:41	-154.9901        	-3.067829e-07    
+2026-02-17 19:26:44 INFO iv_curve - 02/17/26 19:26:44	-159.9911        	-3.257351e-07    
+2026-02-17 19:26:47 INFO iv_curve - 02/17/26 19:26:47	-164.9932        	-3.457609e-07    
+2026-02-17 19:26:50 INFO iv_curve - 02/17/26 19:26:50	-169.9961        	-3.666079e-07    
+2026-02-17 19:26:53 INFO iv_curve - 02/17/26 19:26:53	-174.9987        	-3.897102e-07    
+2026-02-17 19:26:57 INFO iv_curve - 02/17/26 19:26:57	-179.9999        	-4.134426e-07    
+2026-02-17 19:27:00 INFO iv_curve - 02/17/26 19:27:00	-184.9842        	-4.375742e-07    
+2026-02-17 19:27:03 INFO iv_curve - 02/17/26 19:27:03	-189.9883        	-4.627647e-07    
+2026-02-17 19:27:06 INFO iv_curve - 02/17/26 19:27:06	-194.9921        	-4.903426e-07    
+2026-02-17 19:27:10 INFO iv_curve - 02/17/26 19:27:10	-199.9933        	-5.179712e-07    
+2026-02-17 19:27:13 INFO iv_curve - 02/17/26 19:27:13	-204.9973        	-5.459242e-07    
+2026-02-17 19:27:16 INFO iv_curve - 02/17/26 19:27:16	-210.0005        	-5.753863e-07    
+2026-02-17 19:27:19 INFO iv_curve - 02/17/26 19:27:19	-215.0029        	-6.053906e-07    
+2026-02-17 19:27:22 INFO iv_curve - 02/17/26 19:27:22	-220.0043        	-6.362321e-07    
+2026-02-17 19:27:26 INFO iv_curve - 02/17/26 19:27:26	-224.9917        	-6.672603e-07    
+2026-02-17 19:27:29 INFO iv_curve - 02/17/26 19:27:29	-229.9905        	-6.990747e-07    
+2026-02-17 19:27:32 INFO iv_curve - 02/17/26 19:27:32	-234.9946        	-7.319844e-07    
+2026-02-17 19:27:35 INFO iv_curve - 02/17/26 19:27:35	-239.9973        	-7.640595e-07    
+2026-02-17 19:27:39 INFO iv_curve - 02/17/26 19:27:39	-244.9984        	-7.997643e-07    
+2026-02-17 19:27:42 INFO iv_curve - 02/17/26 19:27:42	-249.9997        	-8.336658e-07    
+2026-02-17 19:27:45 INFO iv_curve - 02/17/26 19:27:45	-255.0044        	-8.691604e-07    
+2026-02-17 19:27:48 INFO iv_curve - 02/17/26 19:27:48	-259.9888        	-9.023165e-07    
+2026-02-17 19:27:51 INFO iv_curve - 02/17/26 19:27:51	-264.9908        	-9.388843e-07    
+2026-02-17 19:27:55 INFO iv_curve - 02/17/26 19:27:55	-269.9931        	-9.749168e-07    
+2026-02-17 19:27:58 INFO iv_curve - 02/17/26 19:27:58	-274.9961        	-1.011929e-06    
+2026-02-17 19:28:01 INFO iv_curve - 02/17/26 19:28:01	-279.9976        	-1.048798e-06    
+2026-02-17 19:28:04 INFO iv_curve - 02/17/26 19:28:04	-284.9984        	-1.083951e-06    
+2026-02-17 19:28:08 INFO iv_curve - 02/17/26 19:28:08	-290.0042        	-1.122554e-06    
+2026-02-17 19:28:11 INFO iv_curve - 02/17/26 19:28:11	-295.0067        	-1.157602e-06    
+2026-02-17 19:28:14 INFO iv_curve - 02/17/26 19:28:14	-299.9883        	-1.195084e-06    
+2026-02-17 19:28:17 INFO iv_curve - 02/17/26 19:28:17	-304.9897        	-1.233884e-06    
+2026-02-17 19:28:20 INFO iv_curve - 02/17/26 19:28:20	-309.994         	-1.272945e-06    
+2026-02-17 19:28:24 INFO iv_curve - 02/17/26 19:28:24	-314.9943        	-1.309061e-06    
+2026-02-17 19:28:27 INFO iv_curve - 02/17/26 19:28:27	-319.9988        	-1.348934e-06    
+2026-02-17 19:28:30 INFO iv_curve - 02/17/26 19:28:30	-325.0           	-1.388737e-06    
+2026-02-17 19:28:33 INFO iv_curve - 02/17/26 19:28:33	-330.0038        	-1.426756e-06    
+2026-02-17 19:28:36 INFO iv_curve - 02/17/26 19:28:36	-335.0063        	-1.46669e-06     
+2026-02-17 19:28:40 INFO iv_curve - 02/17/26 19:28:40	-339.9919        	-1.506488e-06    
+2026-02-17 19:28:43 INFO iv_curve - 02/17/26 19:28:43	-344.9937        	-1.544705e-06    
+2026-02-17 19:28:46 INFO iv_curve - 02/17/26 19:28:46	-349.9948        	-1.582263e-06    
+2026-02-17 19:28:47 INFO performable_scans - === 1/1: physics ===
+2026-02-17 19:29:55 INFO calibration_context - Checking logs/CMSITminiDAQ000000_physics.log for aborts...
+2026-02-17 19:29:55 INFO calibration_context - No Ph2 ACF abort detected.
+2026-02-17 19:30:57 INFO iv_curve - Sweep finished.
+2026-02-17 19:31:09 INFO iv_curve - --- Breakdown voltages ---
+2026-02-17 19:31:09 INFO iv_curve - Module 0:	None
+2026-02-17 19:31:09 INFO iv_curve - Saving data...
+2026-02-17 19:31:09 INFO modify_ph2_logging - /home/muon/dirigent-production/dirigent/deps/Ph2_ACF/settings/logger.conf restored.

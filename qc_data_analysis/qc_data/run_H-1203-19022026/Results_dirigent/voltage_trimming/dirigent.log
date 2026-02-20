@@ -1,0 +1,239 @@
+2026-02-19 11:33:56 INFO construct_logo -                                                                                  
+2026-02-19 11:33:56 INFO construct_logo -            04  02              00                                                
+2026-02-19 11:33:56 INFO construct_logo -            33  ''              ''                                         ,d     
+2026-02-19 11:33:56 INFO construct_logo -            33                                                             33     
+2026-02-19 11:33:56 INFO construct_logo -    ,a6385b,33  33  8b,d6538a,  33   ,a6654b,d8   ,a483fba,  8b,d0f17a,  M5bafMM  
+2026-02-19 11:33:56 INFO construct_logo -   a8'    `Y33  33  33P'   'Y8  33  a8'    `Y33  a8PMM?__33  33P'   `'8a   33     
+2026-02-19 11:33:56 INFO construct_logo -   8b       33  33  33          33  8b       33  8PP......'  33       33   33     
+2026-02-19 11:33:56 INFO construct_logo -   '8a,   ,d33  33  33          33  '8a,   ,d33  '8b,   ,aa  33       33   33,    
+2026-02-19 11:33:56 INFO construct_logo -    `'daf2P'Y8  33  33          33   `'8e47P'Y8   `'60cc8''  33       33   'Y338  
+2026-02-19 11:33:56 INFO construct_logo -                                     aa,    ,33                                   
+2026-02-19 11:33:56 INFO construct_logo -                                      '78d1dP'                       HEAD branch  
+2026-02-19 11:33:56 INFO dirigent_cli - version 4.2.0-pre.1
+2026-02-19 11:33:56 INFO dirigent_cli - ----------------------------------
+2026-02-19 11:33:56 INFO dirigent_cli - Ph2 ACF: v6-24 (HEAD)
+2026-02-19 11:33:56 INFO dirigent_cli - Felis: v1.1.12 (HEAD)
+2026-02-19 11:33:56 INFO dirigent_cli - ICICLE: 2.2.1-1-g8e4778d (HEAD)
+2026-02-19 11:33:56 INFO dirigent_cli - inner-tracker-tests: v1.0.4 (HEAD)
+2026-02-19 11:33:56 INFO dirigent_cli - RestHub API: 0f175ba (HEAD)
+2026-02-19 11:33:56 INFO dirigent_cli - ----------------------------------
+2026-02-19 11:33:56 INFO dirigent_cli - Dirigent preparation starting...
+2026-02-19 11:33:56 INFO dirigent_cli - CalibrationContext requested - now preparing components...
+2026-02-19 11:33:56 INFO dirigent_cli - 'CMSIT.xml' not found. Getting new default files...
+2026-02-19 11:33:56 INFO dirigent_cli - Ensuring warnings and errors will be saved to Ph2 ACF log files...
+2026-02-19 11:33:56 INFO modify_ph2_logging - Backed up /home/muon/dirigent-production/dirigent/deps/Ph2_ACF/settings/logger.conf to /home/muon/dirigent-production/dirigent/deps/Ph2_ACF/settings/logger.conf.bak
+2026-02-19 11:33:56 INFO dirigent_cli - 	> InstrumentCluster requested - now constructing.
+2026-02-19 11:33:56 INFO mqtt_instrument - Connected to MQTT broker: host: 192.168.50.3, port: 1883, clientID: PSIColdbox::681880::140616249939776
+2026-02-19 11:33:56 INFO dirigent_cli - 	> Monitoring requested - now constructing...
+2026-02-19 11:33:56 INFO dirigent_cli - 	> CalibrationSet requested - now constructing.
+2026-02-19 11:33:56 INFO dirigent_cli - Assembling CalibrationContext...
+2026-02-19 11:33:56 INFO dirigent_cli - CalibrationContext created and ready for init...
+2026-02-19 11:33:56 INFO mqtt_instrument - Connected to MQTT broker: host: 192.168.50.3, port: 1883, clientID: PSIProbecard1::681880::140616249939776
+2026-02-19 11:33:56 INFO dirigent_cli - === Dirigent preparation done - handing off to calibration ===
+2026-02-19 11:33:56 INFO instrument_cluster - Loading PSI coldbox calibration
+2026-02-19 11:33:57 INFO ph2acf_instance - Loading FC7 firmware
+2026-02-19 11:34:03 INFO ph2acf_instance - FC7 DDR reset requested - attempting.
+2026-02-19 11:34:05 INFO voltage_trimming - ===== voltage_trimming parameter values as configured: =====
+2026-02-19 11:34:05 INFO voltage_trimming - initial_trim = 0
+2026-02-19 11:34:05 INFO voltage_trimming - final_trim = 15
+2026-02-19 11:34:05 INFO voltage_trimming - trim_step = 1
+2026-02-19 11:34:05 INFO voltage_trimming - write_json = False
+2026-02-19 11:34:05 INFO voltage_trimming - write_xml = True
+2026-02-19 11:34:05 INFO voltage_trimming - ============================================================
+2026-02-19 11:34:11 INFO psi_coldbox - Attempting to reach 14.5 < 15.0 < 15.5 C for TEC(s) [1] (within 600s).
+2026-02-19 11:34:12 INFO psi_coldbox - Dew point is -37.37 C. Setting the target temperature to 15.00 C.
+2026-02-19 11:34:17 INFO psi_coldbox - Temperature(s) in range: [14.7771, '-', '-', '-', '-', '-', '-', '-'] C. Waiting 20 s to verify...
+2026-02-19 11:34:37 INFO psi_coldbox - Temperature(s) in range for 20 s ([14.9662, '-', '-', '-', '-', '-', '-', '-'] C). Validation completed.
+2026-02-19 11:34:40 INFO instrument - Time              	Step       	Voltage (V)	Current (A)	Meas. V (V)	Meas. I (A)
+2026-02-19 11:34:42 INFO instrument - 02/19/26 11:34:42 	0          	0.00       	0.00       	0.02       	-1.43e-07  
+2026-02-19 11:34:44 INFO instrument - 02/19/26 11:34:44 	1          	-5.00      	0.00       	-4.98      	-2.70e-07  
+2026-02-19 11:34:46 INFO instrument - 02/19/26 11:34:46 	2          	-10.00     	0.00       	-9.98      	-3.15e-07  
+2026-02-19 11:34:49 INFO instrument - 02/19/26 11:34:49 	3          	-15.00     	0.00       	-14.99     	-3.48e-07  
+2026-02-19 11:34:51 INFO instrument - 02/19/26 11:34:51 	4          	-20.00     	0.00       	-19.99     	-3.78e-07  
+2026-02-19 11:34:53 INFO instrument - 02/19/26 11:34:53 	5          	-25.00     	0.00       	-24.99     	-4.05e-07  
+2026-02-19 11:34:56 INFO instrument - 02/19/26 11:34:56 	6          	-30.00     	0.00       	-29.98     	-4.30e-07  
+2026-02-19 11:34:58 INFO instrument - 02/19/26 11:34:58 	7          	-35.00     	0.00       	-34.98     	-4.52e-07  
+2026-02-19 11:35:00 INFO instrument - 02/19/26 11:35:00 	8          	-40.00     	0.00       	-39.98     	-4.74e-07  
+2026-02-19 11:35:03 INFO instrument - 02/19/26 11:35:03 	9          	-45.00     	0.00       	-44.98     	-4.94e-07  
+2026-02-19 11:35:05 INFO instrument - 02/19/26 11:35:05 	10         	-50.00     	0.00       	-49.99     	-5.14e-07  
+2026-02-19 11:35:08 INFO instrument - 02/19/26 11:35:08 	11         	-55.00     	0.00       	-54.99     	-5.32e-07  
+2026-02-19 11:35:10 INFO instrument - 02/19/26 11:35:10 	12         	-60.00     	0.00       	-59.99     	-5.49e-07  
+2026-02-19 11:35:12 INFO instrument - 02/19/26 11:35:12 	13         	-65.00     	0.00       	-65.00     	-5.65e-07  
+2026-02-19 11:35:15 INFO instrument - 02/19/26 11:35:15 	14         	-70.00     	0.00       	-69.98     	-5.80e-07  
+2026-02-19 11:35:17 INFO instrument - 02/19/26 11:35:17 	15         	-75.00     	0.00       	-74.98     	-5.94e-07  
+2026-02-19 11:35:19 INFO instrument - 02/19/26 11:35:19 	16         	-80.00     	0.00       	-79.99     	-6.07e-07  
+2026-02-19 11:35:20 INFO voltage_trimming - Trim bit settings: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] (16 steps)
+2026-02-19 11:35:20 INFO voltage_trimming - == Trimming module 1 ==
+2026-02-19 11:35:20 INFO voltage_trimming - Scanning Trim bit value 0
+2026-02-19 11:35:24 INFO voltage_trimming - VDDD_ROC0: 1.0073
+2026-02-19 11:35:24 INFO voltage_trimming - VDDA_ROC0: 1.0472
+2026-02-19 11:35:24 INFO voltage_trimming - VDDD_ROC1: 0.9773
+2026-02-19 11:35:24 INFO voltage_trimming - VDDA_ROC1: 0.9555
+2026-02-19 11:35:24 INFO voltage_trimming - VDDD_ROC2: 0.9409
+2026-02-19 11:35:24 INFO voltage_trimming - VDDA_ROC2: 0.9373
+2026-02-19 11:35:24 INFO voltage_trimming - VDDD_ROC3: 0.9578
+2026-02-19 11:35:24 INFO voltage_trimming - VDDA_ROC3: 1.0187
+2026-02-19 11:35:24 INFO voltage_trimming - Scanning Trim bit value 1
+2026-02-19 11:35:28 INFO voltage_trimming - VDDD_ROC0: 1.0333
+2026-02-19 11:35:28 INFO voltage_trimming - VDDA_ROC0: 1.0727
+2026-02-19 11:35:28 INFO voltage_trimming - VDDD_ROC1: 1.0012
+2026-02-19 11:35:28 INFO voltage_trimming - VDDA_ROC1: 0.9785
+2026-02-19 11:35:28 INFO voltage_trimming - VDDD_ROC2: 0.9567
+2026-02-19 11:35:28 INFO voltage_trimming - VDDA_ROC2: 0.9615
+2026-02-19 11:35:28 INFO voltage_trimming - VDDD_ROC3: 0.9802
+2026-02-19 11:35:28 INFO voltage_trimming - VDDA_ROC3: 1.0446
+2026-02-19 11:35:28 INFO voltage_trimming - Scanning Trim bit value 2
+2026-02-19 11:35:32 INFO voltage_trimming - VDDD_ROC0: 1.0571
+2026-02-19 11:35:32 INFO voltage_trimming - VDDA_ROC0: 1.0967
+2026-02-19 11:35:32 INFO voltage_trimming - VDDD_ROC1: 1.0269
+2026-02-19 11:35:32 INFO voltage_trimming - VDDA_ROC1: 1.0008
+2026-02-19 11:35:32 INFO voltage_trimming - VDDD_ROC2: 0.9840
+2026-02-19 11:35:32 INFO voltage_trimming - VDDA_ROC2: 0.9835
+2026-02-19 11:35:32 INFO voltage_trimming - VDDD_ROC3: 1.0048
+2026-02-19 11:35:32 INFO voltage_trimming - VDDA_ROC3: 1.0666
+2026-02-19 11:35:32 INFO voltage_trimming - Scanning Trim bit value 3
+2026-02-19 11:35:37 INFO voltage_trimming - VDDD_ROC0: 1.0844
+2026-02-19 11:35:37 INFO voltage_trimming - VDDA_ROC0: 1.1234
+2026-02-19 11:35:37 INFO voltage_trimming - VDDD_ROC1: 1.0510
+2026-02-19 11:35:37 INFO voltage_trimming - VDDA_ROC1: 1.0242
+2026-02-19 11:35:37 INFO voltage_trimming - VDDD_ROC2: 1.0088
+2026-02-19 11:35:37 INFO voltage_trimming - VDDA_ROC2: 1.0075
+2026-02-19 11:35:37 INFO voltage_trimming - VDDD_ROC3: 1.0244
+2026-02-19 11:35:37 INFO voltage_trimming - VDDA_ROC3: 1.0923
+2026-02-19 11:35:37 INFO voltage_trimming - Scanning Trim bit value 4
+2026-02-19 11:35:41 INFO voltage_trimming - VDDD_ROC0: 1.1047
+2026-02-19 11:35:41 INFO voltage_trimming - VDDA_ROC0: 1.1483
+2026-02-19 11:35:41 INFO voltage_trimming - VDDD_ROC1: 1.0743
+2026-02-19 11:35:41 INFO voltage_trimming - VDDA_ROC1: 1.0416
+2026-02-19 11:35:41 INFO voltage_trimming - VDDD_ROC2: 1.0321
+2026-02-19 11:35:41 INFO voltage_trimming - VDDA_ROC2: 1.0279
+2026-02-19 11:35:41 INFO voltage_trimming - VDDD_ROC3: 1.0483
+2026-02-19 11:35:41 INFO voltage_trimming - VDDA_ROC3: 1.1131
+2026-02-19 11:35:41 INFO voltage_trimming - Scanning Trim bit value 5
+2026-02-19 11:35:45 INFO voltage_trimming - VDDD_ROC0: 1.1300
+2026-02-19 11:35:45 INFO voltage_trimming - VDDA_ROC0: 1.1736
+2026-02-19 11:35:45 INFO voltage_trimming - VDDD_ROC1: 1.0979
+2026-02-19 11:35:45 INFO voltage_trimming - VDDA_ROC1: 1.0641
+2026-02-19 11:35:45 INFO voltage_trimming - VDDD_ROC2: 1.0487
+2026-02-19 11:35:45 INFO voltage_trimming - VDDA_ROC2: 1.0530
+2026-02-19 11:35:45 INFO voltage_trimming - VDDD_ROC3: 1.0698
+2026-02-19 11:35:45 INFO voltage_trimming - VDDA_ROC3: 1.1375
+2026-02-19 11:35:45 INFO voltage_trimming - Scanning Trim bit value 6
+2026-02-19 11:35:49 INFO voltage_trimming - VDDD_ROC0: 1.1535
+2026-02-19 11:35:49 INFO voltage_trimming - VDDA_ROC0: 1.1973
+2026-02-19 11:35:49 INFO voltage_trimming - VDDD_ROC1: 1.1243
+2026-02-19 11:35:49 INFO voltage_trimming - VDDA_ROC1: 1.0874
+2026-02-19 11:35:49 INFO voltage_trimming - VDDD_ROC2: 1.0758
+2026-02-19 11:35:49 INFO voltage_trimming - VDDA_ROC2: 1.0736
+2026-02-19 11:35:49 INFO voltage_trimming - VDDD_ROC3: 1.0943
+2026-02-19 11:35:49 INFO voltage_trimming - VDDA_ROC3: 1.1613
+2026-02-19 11:35:49 INFO voltage_trimming - Scanning Trim bit value 7
+2026-02-19 11:35:53 INFO voltage_trimming - VDDD_ROC0: 1.1789
+2026-02-19 11:35:53 INFO voltage_trimming - VDDA_ROC0: 1.2217
+2026-02-19 11:35:53 INFO voltage_trimming - VDDD_ROC1: 1.1476
+2026-02-19 11:35:53 INFO voltage_trimming - VDDA_ROC1: 1.1101
+2026-02-19 11:35:53 INFO voltage_trimming - VDDD_ROC2: 1.1004
+2026-02-19 11:35:53 INFO voltage_trimming - VDDA_ROC2: 1.0985
+2026-02-19 11:35:53 INFO voltage_trimming - VDDD_ROC3: 1.1175
+2026-02-19 11:35:53 INFO voltage_trimming - VDDA_ROC3: 1.1868
+2026-02-19 11:35:53 INFO voltage_trimming - Scanning Trim bit value 8
+2026-02-19 11:35:57 INFO voltage_trimming - VDDD_ROC0: 1.2002
+2026-02-19 11:35:57 INFO voltage_trimming - VDDA_ROC0: 1.2489
+2026-02-19 11:35:57 INFO voltage_trimming - VDDD_ROC1: 1.1706
+2026-02-19 11:35:57 INFO voltage_trimming - VDDA_ROC1: 1.1297
+2026-02-19 11:35:57 INFO voltage_trimming - VDDD_ROC2: 1.1142
+2026-02-19 11:35:57 INFO voltage_trimming - VDDA_ROC2: 1.1227
+2026-02-19 11:35:57 INFO voltage_trimming - VDDD_ROC3: 1.1409
+2026-02-19 11:35:57 INFO voltage_trimming - VDDA_ROC3: 1.2111
+2026-02-19 11:35:57 INFO voltage_trimming - Scanning Trim bit value 9
+2026-02-19 11:36:01 INFO voltage_trimming - VDDD_ROC0: 1.2261
+2026-02-19 11:36:01 INFO voltage_trimming - VDDA_ROC0: 1.2726
+2026-02-19 11:36:01 INFO voltage_trimming - VDDD_ROC1: 1.1943
+2026-02-19 11:36:01 INFO voltage_trimming - VDDA_ROC1: 1.1517
+2026-02-19 11:36:01 INFO voltage_trimming - VDDD_ROC2: 1.1394
+2026-02-19 11:36:01 INFO voltage_trimming - VDDA_ROC2: 1.1471
+2026-02-19 11:36:01 INFO voltage_trimming - VDDD_ROC3: 1.1621
+2026-02-19 11:36:01 INFO voltage_trimming - VDDA_ROC3: 1.2356
+2026-02-19 11:36:01 INFO voltage_trimming - Scanning Trim bit value 10
+2026-02-19 11:36:05 INFO voltage_trimming - VDDD_ROC0: 1.2492
+2026-02-19 11:36:05 INFO voltage_trimming - VDDA_ROC0: 1.2967
+2026-02-19 11:36:05 INFO voltage_trimming - VDDD_ROC1: 1.2187
+2026-02-19 11:36:05 INFO voltage_trimming - VDDA_ROC1: 1.1758
+2026-02-19 11:36:05 INFO voltage_trimming - VDDD_ROC2: 1.1659
+2026-02-19 11:36:05 INFO voltage_trimming - VDDA_ROC2: 1.1692
+2026-02-19 11:36:05 INFO voltage_trimming - VDDD_ROC3: 1.1869
+2026-02-19 11:36:05 INFO voltage_trimming - VDDA_ROC3: 1.2577
+2026-02-19 11:36:05 INFO voltage_trimming - Scanning Trim bit value 11
+2026-02-19 11:36:09 INFO voltage_trimming - VDDD_ROC0: 1.2747
+2026-02-19 11:36:09 INFO voltage_trimming - VDDA_ROC0: 1.3229
+2026-02-19 11:36:09 INFO voltage_trimming - VDDD_ROC1: 1.2429
+2026-02-19 11:36:09 INFO voltage_trimming - VDDA_ROC1: 1.1983
+2026-02-19 11:36:09 INFO voltage_trimming - VDDD_ROC2: 1.1891
+2026-02-19 11:36:09 INFO voltage_trimming - VDDA_ROC2: 1.1934
+2026-02-19 11:36:09 INFO voltage_trimming - VDDD_ROC3: 1.2087
+2026-02-19 11:36:09 INFO voltage_trimming - VDDA_ROC3: 1.2832
+2026-02-19 11:36:09 INFO voltage_trimming - Scanning Trim bit value 12
+2026-02-19 11:36:13 INFO voltage_trimming - VDDD_ROC0: 1.2944
+2026-02-19 11:36:13 INFO voltage_trimming - VDDA_ROC0: 1.3461
+2026-02-19 11:36:13 INFO voltage_trimming - VDDD_ROC1: 1.2672
+2026-02-19 11:36:13 INFO voltage_trimming - VDDA_ROC1: 1.2161
+2026-02-19 11:36:13 INFO voltage_trimming - VDDD_ROC2: 1.2127
+2026-02-19 11:36:13 INFO voltage_trimming - VDDA_ROC2: 1.2151
+2026-02-19 11:36:13 INFO voltage_trimming - VDDD_ROC3: 1.2324
+2026-02-19 11:36:13 INFO voltage_trimming - VDDA_ROC3: 1.3034
+2026-02-19 11:36:13 INFO voltage_trimming - Scanning Trim bit value 13
+2026-02-19 11:36:17 INFO voltage_trimming - VDDD_ROC0: 1.3204
+2026-02-19 11:36:17 INFO voltage_trimming - VDDA_ROC0: 1.3708
+2026-02-19 11:36:17 INFO voltage_trimming - VDDD_ROC1: 1.2915
+2026-02-19 11:36:17 INFO voltage_trimming - VDDA_ROC1: 1.2389
+2026-02-19 11:36:17 INFO voltage_trimming - VDDD_ROC2: 1.2290
+2026-02-19 11:36:17 INFO voltage_trimming - VDDA_ROC2: 1.2387
+2026-02-19 11:36:17 INFO voltage_trimming - VDDD_ROC3: 1.2511
+2026-02-19 11:36:17 INFO voltage_trimming - VDDA_ROC3: 1.3282
+2026-02-19 11:36:17 INFO voltage_trimming - Scanning Trim bit value 14
+2026-02-19 11:36:21 INFO voltage_trimming - VDDD_ROC0: 1.3442
+2026-02-19 11:36:21 INFO voltage_trimming - VDDA_ROC0: 1.3940
+2026-02-19 11:36:21 INFO voltage_trimming - VDDD_ROC1: 1.3149
+2026-02-19 11:36:21 INFO voltage_trimming - VDDA_ROC1: 1.2604
+2026-02-19 11:36:21 INFO voltage_trimming - VDDD_ROC2: 1.2560
+2026-02-19 11:36:21 INFO voltage_trimming - VDDA_ROC2: 1.2592
+2026-02-19 11:36:21 INFO voltage_trimming - VDDD_ROC3: 1.2748
+2026-02-19 11:36:21 INFO voltage_trimming - VDDA_ROC3: 1.3508
+2026-02-19 11:36:21 INFO voltage_trimming - Scanning Trim bit value 15
+2026-02-19 11:36:25 INFO voltage_trimming - VDDD_ROC0: 1.3689
+2026-02-19 11:36:25 INFO voltage_trimming - VDDA_ROC0: 1.4205
+2026-02-19 11:36:25 INFO voltage_trimming - VDDD_ROC1: 1.3373
+2026-02-19 11:36:25 INFO voltage_trimming - VDDA_ROC1: 1.2803
+2026-02-19 11:36:25 INFO voltage_trimming - VDDD_ROC2: 1.2801
+2026-02-19 11:36:25 INFO voltage_trimming - VDDA_ROC2: 1.2827
+2026-02-19 11:36:25 INFO voltage_trimming - VDDD_ROC3: 1.2962
+2026-02-19 11:36:25 INFO voltage_trimming - VDDA_ROC3: 1.3753
+2026-02-19 11:36:25 INFO voltage_trimming - == All V calibrated ==
+2026-02-19 11:36:25 INFO voltage_trimming - == Final Settings for Hybrid 1 ==
+2026-02-19 11:36:25 INFO voltage_trimming - VDDD_ROC0	value: 8	voltage: 1.2002
+2026-02-19 11:36:25 INFO voltage_trimming - VDDA_ROC0	value: 6	voltage: 1.1973
+2026-02-19 11:36:25 INFO voltage_trimming - VDDD_ROC1	value: 9	voltage: 1.1943
+2026-02-19 11:36:25 INFO voltage_trimming - VDDA_ROC1	value: 11	voltage: 1.1983
+2026-02-19 11:36:25 INFO voltage_trimming - VDDD_ROC2	value: 11	voltage: 1.1891
+2026-02-19 11:36:25 INFO voltage_trimming - VDDA_ROC2	value: 11	voltage: 1.1934
+2026-02-19 11:36:25 INFO voltage_trimming - VDDD_ROC3	value: 11	voltage: 1.2087
+2026-02-19 11:36:25 INFO voltage_trimming - VDDA_ROC3	value: 8	voltage: 1.2111
+2026-02-19 11:36:25 INFO instrument - Time              	Step       	Voltage (V)	Current (A)	Meas. V (V)	Meas. I (A)
+2026-02-19 11:36:27 INFO instrument - 02/19/26 11:36:27 	0          	-80.00     	0.00       	-79.99     	-7.48e-07  
+2026-02-19 11:36:29 INFO instrument - 02/19/26 11:36:29 	1          	-75.00     	0.00       	-74.98     	-7.45e-07  
+2026-02-19 11:36:31 INFO instrument - 02/19/26 11:36:31 	2          	-70.00     	0.00       	-69.98     	-7.42e-07  
+2026-02-19 11:36:34 INFO instrument - 02/19/26 11:36:34 	3          	-65.00     	0.00       	-65.00     	-7.40e-07  
+2026-02-19 11:36:36 INFO instrument - 02/19/26 11:36:36 	4          	-60.00     	0.00       	-59.99     	-7.38e-07  
+2026-02-19 11:36:39 INFO instrument - 02/19/26 11:36:39 	5          	-55.00     	0.00       	-54.99     	-7.36e-07  
+2026-02-19 11:36:41 INFO instrument - 02/19/26 11:36:41 	6          	-50.00     	0.00       	-49.98     	-7.34e-07  
+2026-02-19 11:36:43 INFO instrument - 02/19/26 11:36:43 	7          	-45.00     	0.00       	-44.98     	-7.32e-07  
+2026-02-19 11:36:46 INFO instrument - 02/19/26 11:36:46 	8          	-40.00     	0.00       	-39.98     	-7.29e-07  
+2026-02-19 11:36:48 INFO instrument - 02/19/26 11:36:48 	9          	-35.00     	0.00       	-34.98     	-7.26e-07  
+2026-02-19 11:36:50 INFO instrument - 02/19/26 11:36:50 	10         	-30.00     	0.00       	-29.97     	-7.22e-07  
+2026-02-19 11:36:53 INFO instrument - 02/19/26 11:36:53 	11         	-25.00     	0.00       	-24.99     	-7.19e-07  
+2026-02-19 11:36:55 INFO instrument - 02/19/26 11:36:55 	12         	-20.00     	0.00       	-19.99     	-7.12e-07  
+2026-02-19 11:36:57 INFO instrument - 02/19/26 11:36:57 	13         	-15.00     	0.00       	-14.99     	-7.01e-07  
+2026-02-19 11:37:00 INFO instrument - 02/19/26 11:37:00 	14         	-10.00     	0.00       	-9.98      	-6.82e-07  
+2026-02-19 11:37:02 INFO instrument - 02/19/26 11:37:02 	15         	-5.00      	0.00       	-4.98      	-6.44e-07  
+2026-02-19 11:37:05 INFO instrument - 02/19/26 11:37:05 	16         	0.00       	0.00       	0.02       	-3.91e-07  
+2026-02-19 11:37:17 INFO modify_ph2_logging - /home/muon/dirigent-production/dirigent/deps/Ph2_ACF/settings/logger.conf restored.

@@ -1,0 +1,1606 @@
+|07:28:47|I|[1m[32m       ____  _     ____         _    ____ _____[0m
+|07:28:47|I|[1m[32m      |  _ \| |__ |___ \       / \  / ___|  ___|[0m
+|07:28:47|I|[1m[32m      | |_) | '_ \  __) |____ / _ \| |   | |_[0m
+|07:28:47|I|[1m[32m      |  __/| | | |/ __/_____/ ___ \ |___|  _|[0m
+|07:28:47|I|[1m[32m      |_|   |_| |_|_____|   /_/   \_\____|_|
+[0m
+|07:28:47|I|[1m[32m  ____ __  __ ____ ___ _____          _       _ ____    _    ___[0m
+|07:28:47|I|[1m[32m / ___|  \/  / ___|_ _|_   _| __ ___ (_)_ __ (_)  _ \  / \  / _ \[0m
+|07:28:47|I|[1m[32m| |   | |\/| \___ \| |  | || '_ ` _ \| | '_ \| | | | |/ _ \| | | |[0m
+|07:28:47|I|[1m[32m| |___| |  | |___) | |  | || | | | | | | | | | | |_| / ___ \ |_| |[0m
+|07:28:47|I|[1m[32m \____|_|  |_|____/___| |_||_| |_| |_|_|_| |_|_|____/_/   \_\__\_\
+[0m
+|07:28:47|I|[1m[35m@@@ Initializing the Hardware @@@[0m
+|07:28:47|I|[32mBootstrapping TCP Server...[0m
+|07:28:48|I|[32mTrying to connect to the Power Supply Server...[0m
+|07:28:48|I|[1m[34m	--> Operation completed[0m
+|07:28:48|D|Use default directory MonitorResults for file dump[0m
+|07:28:48|I|[1m[35m@@@ Configuring HW parsed from XML file @@@[0m
+|07:28:48|I|[32mFound an [1m[33mInner Tracker[0m[32m Readout-board[0m
+|07:28:48|I|[1m[34m	--> SW commit number : [1m[33m6385daf271b0cbdb97d5be6ae61558ab123f3f48[1m[34m -- SW tag : [1m[33mv6-24[0m
+|07:28:48|I|[1m[34m	--> FW version : [1m[33m5.0[1m[34m -- Date (yy/mm/dd) : [1m[33m25/1/20[1m[34m -- Time (hour:minute:sec) : [1m[33m19:25:43[0m
+|07:28:48|I|[1m[34m	--> Link type : [1m[33melectrical[1m[34m -- Optical speed : [1m[33m10 Gbit/s[1m[34m -- Frontend type : [1m[33mRD53B[0m
+|07:28:48|I|[1m[34m	--> L12 FMC type : [1m[33m1[1m[34m -- L08 FMC type : [1m[33m1[1m[34m (1=KSU, 2=CERN, 3=DIO5, 4=OPTO, 5=FERMI, 7=NONE, 0=Unspecified)[0m
+|07:28:48|I|[32mInitializing DIO5[0m
+|07:28:48|I|[1m[34m	--> Done[0m
+|07:28:48|I|[32mReading clock generator (CDCE62005) configuration[0m
+|07:28:48|I|[1m[34m	--> SPI register content: 0x[1m[33mEB020320[0m
+|07:28:48|I|[1m[34m	--> SPI register content: 0x[1m[33mEB020321[0m
+|07:28:48|I|[1m[34m	--> SPI register content: 0x[1m[33mEB840302[0m
+|07:28:48|I|[1m[34m	--> SPI register content: 0x[1m[33mEB840303[0m
+|07:28:48|I|[1m[34m	--> SPI register content: 0x[1m[33mEB140334[0m
+|07:28:48|I|[1m[34m	--> SPI register content: 0x[1m[33m10000EB5[0m
+|07:28:48|I|[1m[34m	--> SPI register content: 0x[1m[33m030E02E6[0m
+|07:28:48|I|[1m[34m	--> SPI register content: 0x[1m[33mBD800DF7[0m
+|07:28:48|I|[1m[34m	--> SPI register content: 0x[1m[33m40009D78[0m
+|07:28:48|W|[32mOptical link tx slow control status: [1m[31mnot ready[0m
+|07:28:48|W|[32mOptical link rx slow control status: [1m[31mnot ready[0m
+|07:28:48|I|[32mAurora speed set to: [1m[33m1.28 Gbit/s[0m
+|07:28:48|I|[32mInput clock frequency (could be either internal or external, should be ~40 MHz): [1m[33m40.079 MHz[0m
+|07:28:48|I|[32mGTX receiver clock frequency (~160 MHz (~320 MHz) for electrical (optical) readout): [1m[33m160.315 MHz[0m
+|07:28:48|I|[1m[35m@@@ Configuring frontend for Board Id: [1m[33m0[1m[35m @@@[0m
+|07:28:48|I|[32mInternal trigger frequency (if enabled): [1m[33m7461 Hz[0m
+|07:28:48|I|[36m=== Configuring FSM fast command block ===[0m
+|07:28:48|I|[32mChecking firmware status:[0m
+|07:28:48|I|[1m[34m	--> Clock generator is [1m[33mlocked[0m
+|07:28:48|I|[32mFast command block trigger source: [1m[33m2[0m[32m (1=IPBus, 2=Test-FSM, 3=TTC, 4=TLU, 5=External, 6=Hit-Or, 7=User-defined frequency)[0m
+|07:28:48|I|[32mFast command block trigger state: [1m[33m0[0m[32m (0=Idle, 2=Running)[0m
+|07:28:48|I|[32mFast command block check if configuraiton registers have been set: [1m[33mconfigured[0m
+|07:28:48|I|[32mFast command block error code (0=No error): [1m[33m0[0m
+|07:28:48|I|[32mTrigger counter: [1m[33m0[0m
+|07:28:48|I|[32mHybrid type: [1m[33m4[0m[32m (1=Single chip, 2=Dual chip, 4=Quad chip)[0m
+|07:28:48|I|[32mNumber of hybrids which can be potentially readout: [1m[33m5[0m
+|07:28:48|I|[36m================== Done ==================[0m
+|07:28:48|I|[32mInitializing board's registers[0m
+|07:28:48|I|[1m[34m	--> user.ctrl_regs.Aurora_block.self_trigger_en: 0x[1m[33m0 (0)[0m
+|07:28:48|I|[1m[34m	--> user.ctrl_regs.cnf_cmd_ctrl.nb_slow_cmd_before_pll: 0x[1m[33m0 (0)[0m
+|07:28:48|I|[1m[34m	--> user.ctrl_regs.cnf_cmd_ctrl.nb_slow_cmd_before_sync: 0x[1m[33m0 (0)[0m
+|07:28:48|I|[1m[34m	--> user.ctrl_regs.ext_tlu_reg1.dio5_ch1_thr: 0x[1m[33m80 (128)[0m
+|07:28:48|I|[1m[34m	--> user.ctrl_regs.ext_tlu_reg1.dio5_ch2_thr: 0x[1m[33m28 (40)[0m
+|07:28:48|I|[1m[34m	--> user.ctrl_regs.ext_tlu_reg2.dio5_ch3_thr: 0x[1m[33m80 (128)[0m
+|07:28:48|I|[1m[34m	--> user.ctrl_regs.ext_tlu_reg2.dio5_ch4_thr: 0x[1m[33m80 (128)[0m
+|07:28:48|I|[1m[34m	--> user.ctrl_regs.ext_tlu_reg2.dio5_ch5_thr: 0x[1m[33m80 (128)[0m
+|07:28:48|I|[1m[34m	--> user.ctrl_regs.ext_tlu_reg2.tlu_delay: 0x[1m[33m0 (0)[0m
+|07:28:48|I|[1m[34m	--> user.ctrl_regs.fast_cmd_reg_2.HitOr_enable_l12: 0x[1m[33m0 (0)[0m
+|07:28:48|I|[1m[34m	--> user.ctrl_regs.fast_cmd_reg_2.trigger_source: 0x[1m[33m2 (2)[0m
+|07:28:48|I|[1m[34m	--> user.ctrl_regs.fast_cmd_reg_3.triggers_to_accept: 0x[1m[33mA (10)[0m
+|07:28:48|I|[1m[34m	--> user.ctrl_regs.fast_cmd_reg_7.autozero_freq: 0x[1m[33m3E8 (1000)[0m
+|07:28:48|I|[1m[34m	--> user.ctrl_regs.reset_reg.ext_clk_en: 0x[1m[33m0 (0)[0m
+|07:28:48|I|[1m[34m	--> user.ctrl_regs.reset_reg.nb_of_pll_words: 0x[1m[33m2 (2)[0m
+|07:28:48|I|[1m[34m	--> user.ctrl_regs.reset_reg.nb_of_sync_words: 0x[1m[33m2 (2)[0m
+|07:28:48|I|[1m[34m	--> Done[0m
+|07:28:48|I|[32mChecking status of the optical links:[0m
+|07:28:48|I|[1m[34m	--> Optical link n. active LpGBT chip tx:  [1m[33m  0[1m[34m, i.e.: [1m[33m00000000[0m
+|07:28:48|I|[1m[34m	--> Optical link n. active LpGBT chip rx:  [1m[33m  0[1m[34m, i.e.: [1m[33m00000000[0m
+|07:28:48|I|[1m[34m	--> Optical link n. active LpGBT chip mgt: [1m[33m  0[1m[34m, i.e.: [1m[33m00000000[0m
+|07:28:48|I|[36m=== Configuring frontend chip communication ===[0m
+|07:28:48|I|[32mDown-link phase initialization...[0m
+|07:28:48|I|[1m[34m	--> Done[0m
+|07:28:48|I|[32mInitializing chip communication of hybrid: [1m[33m0[0m
+|07:28:48|I|[32mInitializing communication to/from RD53: [1m[33m15[0m
+|07:28:48|I|[32mConfiguring up-link lanes and monitoring...[0m
+|07:28:48|I|[1m[34m	--> Done[0m
+|07:28:48|I|[32mInitializing communication to/from RD53: [1m[33m14[0m
+|07:28:48|I|[32mConfiguring up-link lanes and monitoring...[0m
+|07:28:48|I|[1m[34m	--> Done[0m
+|07:28:48|I|[32mInitializing communication to/from RD53: [1m[33m13[0m
+|07:28:48|I|[32mConfiguring up-link lanes and monitoring...[0m
+|07:28:48|I|[1m[34m	--> Done[0m
+|07:28:48|I|[32mInitializing communication to/from RD53: [1m[33m12[0m
+|07:28:48|I|[32mConfiguring up-link lanes and monitoring...[0m
+|07:28:48|I|[1m[34m	--> Done[0m
+|07:28:48|I|[36m==================== Done =====================[0m
+|07:28:48|I|[32mChecking status communication RD53 --> FW[0m
+|07:28:48|I|[1m[34m	--> Total number of [1m[33mrequired[1m[34m data lanes: [1m[33m4[1m[34m, i.e. [1m[33m00000000000000000000000000001111[0m
+|07:28:48|I|[1m[34m	--> Total number of [1m[33mactive[1m[34m data lanes:   [1m[33m4[1m[34m, i.e. [1m[33m00000000000000000000000000001111[0m
+|07:28:48|I|[1m[34m	--> All enabled data lanes are active[0m
+|07:28:48|I|[36m===== Configuring frontend chip registers =====[0m
+|07:28:48|I|[32mConfiguring chips of hybrid: [1m[33m0[0m
+|07:28:48|I|[32mConfiguring RD53: [1m[33m15[0m
+|07:28:48|D|[1m[34m	--> Succesfully configured chip register [1m[33mDataConcentratorConf[0m
+|07:28:48|D|[1m[34m	--> Succesfully configured chip register [1m[33mCoreColEncoderConf[0m
+|07:28:48|D|[1m[34m	--> Succesfully configured chip register [1m[33mRingOscConfig[0m
+|07:28:48|D|[1m[34m	--> Succesfully configured chip register [1m[33mRingOscConfig[0m
+|07:28:48|D|[1m[34m	--> Succesfully configured chip register [1m[33mSelfTriggerMultiplier[0m
+|07:28:48|D|[1m[34m	--> Succesfully configured chip register [1m[33mCLK_DATA_DELAY[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIX_MODE[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_EN_OUT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_2[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_0[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mToTDualEdgeCount[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mSEL_CAL_RANGE[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHIT_SAMPLE_MODE[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mCDR_CONFIG_SEL_PD[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnOutputDataChipId[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mVOLTAGE_TRIM_ANA[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_3[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_ROUTE_1[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mToT6to4Mapping[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_0[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_1[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_GDAC_M_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_0[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_1[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mSelfTriggerEn[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_3[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_2_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_0[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_1[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_FC_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_2[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_2[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_1[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_0[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_COMP_TA_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_1[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_TR_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_0[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mSelfTriggerDelay[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_3[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_3[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_0[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_3[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIXELSEU_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mANALOG_INJ_MODE[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_3[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mTriggerConfig[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_2[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_GDAC_R_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mVCAL_HIGH[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mRDWRFIFOERROR_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_T_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_LDAC_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_R_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_REF_KRUM_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mCAL_EDGE_FINE_DELAY[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_1[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHitOrPatternLUT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_2[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_TL_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mSKIPPED_TRIGGER_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mREADTRIG_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_3[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mLOCKLOSS_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mBITFLIP_WNG_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mBITFLIP_ERR_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mCMDERR_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_ROUTE_0[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_M_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_3_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_1_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_0_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGLOBALCONFIGSEU_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_2[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mVCAL_MED[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_SEU_COUNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mVOLTAGE_TRIM_DIG[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_GDAC_L_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_1[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_L_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_COMP_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_2[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mMON_ADC_TRIM[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_KRUM_CURR_LIN[0m
+|07:28:49|I|[1m[34mParameters that the user should check from the database:[0m
+|07:28:49|I|[1m[34m	--> VOLTAGE_TRIM_DIG = [1m[33m10[0m
+|07:28:49|I|[1m[34m	--> VOLTAGE_TRIM_ANA = [1m[33m10[0m
+|07:28:49|I|[1m[34m	--> Wire bonded chip ID = [1m[33m15[0m
+|07:28:49|D|[32mChip Iref code: [1m[33m6[0m
+|07:28:49|I|[1m[34m	--> Wire bonded Iref = [1m[33m6[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIX_MODE[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEfusesConfig[0m
+|07:28:49|I|[1m[34m	--> Done[0m
+|07:28:49|I|[32me-fuse code: [1m[33m34913[0m
+|07:28:49|I|[32mNumber of masked pixels: [1m[33m145152[0m
+|07:28:49|I|[32mConfiguring RD53: [1m[33m14[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDataConcentratorConf[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mCoreColEncoderConf[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mRingOscConfig[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mRingOscConfig[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mSelfTriggerMultiplier[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mCLK_DATA_DELAY[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIX_MODE[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_EN_OUT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_2[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_0[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mToTDualEdgeCount[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mSEL_CAL_RANGE[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHIT_SAMPLE_MODE[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mCDR_CONFIG_SEL_PD[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnOutputDataChipId[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mVOLTAGE_TRIM_ANA[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_3[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_ROUTE_1[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mToT6to4Mapping[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_0[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_1[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_GDAC_M_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_0[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_1[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mSelfTriggerEn[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_3[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_2_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_0[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_1[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_FC_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_2[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_2[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_1[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_0[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_COMP_TA_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_1[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_TR_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_0[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mSelfTriggerDelay[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_3[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_3[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_0[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_3[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIXELSEU_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mANALOG_INJ_MODE[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_3[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mTriggerConfig[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_2[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_GDAC_R_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mVCAL_HIGH[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mRDWRFIFOERROR_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_T_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_LDAC_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_R_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_REF_KRUM_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mCAL_EDGE_FINE_DELAY[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_1[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHitOrPatternLUT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_2[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_TL_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mSKIPPED_TRIGGER_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mREADTRIG_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_3[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mLOCKLOSS_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mBITFLIP_WNG_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mBITFLIP_ERR_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mCMDERR_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_ROUTE_0[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_M_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_3_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_1_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_0_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGLOBALCONFIGSEU_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_2[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mVCAL_MED[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_SEU_COUNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mVOLTAGE_TRIM_DIG[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_GDAC_L_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_1[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_L_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_COMP_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_2[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mMON_ADC_TRIM[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_KRUM_CURR_LIN[0m
+|07:28:49|I|[1m[34mParameters that the user should check from the database:[0m
+|07:28:49|I|[1m[34m	--> VOLTAGE_TRIM_DIG = [1m[33m9[0m
+|07:28:49|I|[1m[34m	--> VOLTAGE_TRIM_ANA = [1m[33m9[0m
+|07:28:49|I|[1m[34m	--> Wire bonded chip ID = [1m[33m14[0m
+|07:28:49|D|[32mChip Iref code: [1m[33m6[0m
+|07:28:49|I|[1m[34m	--> Wire bonded Iref = [1m[33m6[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIX_MODE[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEfusesConfig[0m
+|07:28:49|I|[1m[34m	--> Done[0m
+|07:28:49|I|[32me-fuse code: [1m[33m34881[0m
+|07:28:49|I|[32mNumber of masked pixels: [1m[33m145152[0m
+|07:28:49|I|[32mConfiguring RD53: [1m[33m13[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDataConcentratorConf[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mCoreColEncoderConf[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mRingOscConfig[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mRingOscConfig[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mSelfTriggerMultiplier[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mCLK_DATA_DELAY[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIX_MODE[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_EN_OUT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_2[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_0[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mToTDualEdgeCount[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mSEL_CAL_RANGE[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHIT_SAMPLE_MODE[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mCDR_CONFIG_SEL_PD[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnOutputDataChipId[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mVOLTAGE_TRIM_ANA[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_3[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_ROUTE_1[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mToT6to4Mapping[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_0[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_1[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_GDAC_M_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_0[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_1[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mSelfTriggerEn[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_3[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_2_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_0[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_1[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_FC_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_2[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_2[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_1[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_0[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_COMP_TA_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_1[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_TR_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_0[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mSelfTriggerDelay[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_3[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_3[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_0[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_3[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIXELSEU_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mANALOG_INJ_MODE[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_3[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mTriggerConfig[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_2[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_GDAC_R_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mVCAL_HIGH[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mRDWRFIFOERROR_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_T_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_LDAC_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_R_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_REF_KRUM_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mCAL_EDGE_FINE_DELAY[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_1[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHitOrPatternLUT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_2[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_TL_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mSKIPPED_TRIGGER_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mREADTRIG_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_3[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mLOCKLOSS_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mBITFLIP_WNG_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mBITFLIP_ERR_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mCMDERR_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_ROUTE_0[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_M_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_3_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_1_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_0_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGLOBALCONFIGSEU_CNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_2[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mVCAL_MED[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_SEU_COUNT[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mVOLTAGE_TRIM_DIG[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_GDAC_L_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_1[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_L_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_COMP_LIN[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_2[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mMON_ADC_TRIM[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_KRUM_CURR_LIN[0m
+|07:28:49|I|[1m[34mParameters that the user should check from the database:[0m
+|07:28:49|I|[1m[34m	--> VOLTAGE_TRIM_DIG = [1m[33m11[0m
+|07:28:49|I|[1m[34m	--> VOLTAGE_TRIM_ANA = [1m[33m7[0m
+|07:28:49|I|[1m[34m	--> Wire bonded chip ID = [1m[33m13[0m
+|07:28:49|D|[32mChip Iref code: [1m[33m3[0m
+|07:28:49|I|[1m[34m	--> Wire bonded Iref = [1m[33m3[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIX_MODE[0m
+|07:28:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mEfusesConfig[0m
+|07:28:49|I|[1m[34m	--> Done[0m
+|07:28:49|I|[32me-fuse code: [1m[33m34929[0m
+|07:28:49|I|[32mNumber of masked pixels: [1m[33m145152[0m
+|07:28:49|I|[32mConfiguring RD53: [1m[33m12[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mDataConcentratorConf[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mCoreColEncoderConf[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mRingOscConfig[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mRingOscConfig[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mSelfTriggerMultiplier[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mCLK_DATA_DELAY[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIX_MODE[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_EN_OUT[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_2[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_0[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mToTDualEdgeCount[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mSEL_CAL_RANGE[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mHIT_SAMPLE_MODE[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mCDR_CONFIG_SEL_PD[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnOutputDataChipId[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mVOLTAGE_TRIM_ANA[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_3[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_ROUTE_1[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mToT6to4Mapping[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_0[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_1[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_GDAC_M_LIN[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_0[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_1[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mSelfTriggerEn[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_3[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_2_CNT[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_0[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_1[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_FC_LIN[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_2[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_2[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_1[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_0[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_COMP_TA_LIN[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_1[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_TR_LIN[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_0[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mSelfTriggerDelay[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_3[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_3[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_0[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mPrecisionToTEnable_3[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIXELSEU_CNT[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mANALOG_INJ_MODE[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_3[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mTriggerConfig[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnIsolatedHitRemoval_2[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_GDAC_R_LIN[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mVCAL_HIGH[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mRDWRFIFOERROR_CNT[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_T_LIN[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_LDAC_LIN[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_R_LIN[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_REF_KRUM_LIN[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mCAL_EDGE_FINE_DELAY[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_1[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mHitOrPatternLUT[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mEnHitsRemoval_2[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_TL_LIN[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mSKIPPED_TRIGGER_CNT[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mREADTRIG_CNT[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_MASK_3[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mLOCKLOSS_CNT[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mBITFLIP_WNG_CNT[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mBITFLIP_ERR_CNT[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mCMDERR_CNT[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_ROUTE_0[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_M_LIN[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_3_CNT[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_1_CNT[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mHITOR_0_CNT[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGLOBALCONFIGSEU_CNT[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_2[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mVCAL_MED[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_SEU_COUNT[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mVOLTAGE_TRIM_DIG[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_GDAC_L_LIN[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGP_LVDS_OUT_1[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_PREAMP_L_LIN[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_COMP_LIN[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mEN_CORE_COL_CAL_2[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mMON_ADC_TRIM[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_KRUM_CURR_LIN[0m
+|07:28:50|I|[1m[34mParameters that the user should check from the database:[0m
+|07:28:50|I|[1m[34m	--> VOLTAGE_TRIM_DIG = [1m[33m10[0m
+|07:28:50|I|[1m[34m	--> VOLTAGE_TRIM_ANA = [1m[33m8[0m
+|07:28:50|I|[1m[34m	--> Wire bonded chip ID = [1m[33m12[0m
+|07:28:50|D|[32mChip Iref code: [1m[33m6[0m
+|07:28:50|I|[1m[34m	--> Wire bonded Iref = [1m[33m6[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIX_MODE[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mEfusesConfig[0m
+|07:28:50|I|[1m[34m	--> Done[0m
+|07:28:50|I|[32me-fuse code: [1m[33m34945[0m
+|07:28:50|I|[32mNumber of masked pixels: [1m[33m145152[0m
+|07:28:50|I|[32mOptimizing up-link slave-chip phases (if any and if needed) for hybrid: [1m[33m0[0m
+|07:28:50|I|[1m[34m	--> Done[0m
+|07:28:50|I|[36m==================== Done =====================[0m
+|07:28:50|I|[32mUsing [1m[33m6[0m[32m threads for data decoding at runtime[0m
+|07:28:50|I|[32mStarting [1m[33mmonitoring[0m[32m thread[0m
+|07:28:50|I|[1m[35m@@@ Hardware initialization done @@@[0m
+|07:28:50|I|[0m
+|07:28:50|I|[1m[35m@@@ Performing Physics data taking @@@[0m
+|07:28:50|I|[32m[Physics::localConfigure] Starting run: [1m[33m0[0m
+|07:28:50|I|[32mMonitor data for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/15[0m[32m][0m
+|07:28:50|I|[1m[34m	--> Calibration initializing root file...[0m
+|07:28:50|I|[1m[34m	--> [1m[33mHybrid[1m[34m voltage: [1m[33m0.003 +/- 0.000[1m[34m V[0m
+|07:28:50|I|[1m[34m	--> [1m[33mHybrid[1m[34m temperature: [1m[33m-273.150 +/- -10.926[1m[34m C[0m
+|07:28:50|I|[32mMonitor data for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/14[0m[32m][0m
+|07:28:50|I|[1m[34m	--> [1m[33mHybrid[1m[34m voltage: [1m[33m0.003 +/- 0.000[1m[34m V[0m
+|07:28:50|I|[1m[34m	--> [1m[33mHybrid[1m[34m temperature: [1m[33m-273.150 +/- -10.926[1m[34m C[0m
+|07:28:50|I|[32mMonitor data for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/13[0m[32m][0m
+|07:28:50|I|[1m[34m	--> [1m[33mHybrid[1m[34m voltage: [1m[33m0.003 +/- 0.000[1m[34m V[0m
+|07:28:50|I|[1m[34m	--> [1m[33mHybrid[1m[34m temperature: [1m[33m-273.150 +/- -10.926[1m[34m C[0m
+|07:28:50|I|[32mMonitor data for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/12[0m[32m][0m
+|07:28:50|I|[1m[34m	--> [1m[33mHybrid[1m[34m voltage: [1m[33m0.003 +/- 0.000[1m[34m V[0m
+|07:28:50|I|[1m[34m	--> [1m[33mHybrid[1m[34m temperature: [1m[33m-273.150 +/- -10.926[1m[34m C[0m
+|07:28:50|I|[32mReading monitored data for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/15[0m[32m][0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:50|D|[1m[34mvirtual void Tool::Start(const StartInfo&) [163] fDirectoryName = [1m[33mResults[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:53|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:53|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:53|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:53|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:53|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:53|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:53|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:53|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:53|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:53|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:53|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:53|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:53|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:53|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:53|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:53|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:53|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:53|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:53|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:53|D|DAC_NTC: 102 NTC Volt: 10 NTC Curr: 213[0m
+|07:28:53|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:54|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:54|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:54|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:54|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:54|D|DAC_NTC: 204 NTC Volt: 71 NTC Curr: 481[0m
+|07:28:54|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:54|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:54|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:54|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:54|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:54|D|DAC_NTC: 306 NTC Volt: 137 NTC Curr: 757[0m
+|07:28:54|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:54|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:54|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:54|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:54|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:54|D|DAC_NTC: 408 NTC Volt: 205 NTC Curr: 1039[0m
+|07:28:54|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:54|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:54|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:54|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:54|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:54|D|DAC_NTC: 510 NTC Volt: 269 NTC Curr: 1319[0m
+|07:28:54|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:54|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:54|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:55|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:55|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:55|D|DAC_NTC: 612 NTC Volt: 335 NTC Curr: 1594[0m
+|07:28:55|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:55|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:55|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:55|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:55|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:55|D|DAC_NTC: 714 NTC Volt: 400 NTC Curr: 1869[0m
+|07:28:55|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:55|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:55|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:55|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:55|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:55|D|DAC_NTC: 816 NTC Volt: 465 NTC Curr: 2144[0m
+|07:28:55|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:55|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:55|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:55|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:55|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:55|D|DAC_NTC: 918 NTC Volt: 528 NTC Curr: 2400[0m
+|07:28:55|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:55|I|[1m[34m	--> [1m[33mINTERNAL_NTC_ABS[1m[34m: [1m[33m31.192 +/- 1.248[1m[34m C[0m
+|07:28:55|I|[32mReading monitored data for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/14[0m[32m][0m
+|07:28:55|D|[1m[34m	--> Succesfully configured chip register [1m[33mEfusesConfig[0m
+|07:28:55|D|[1m[34m	--> Succesfully configured chip register [1m[33mEfusesConfig[0m
+|07:28:55|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:55|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:55|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:56|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:56|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:56|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:56|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:56|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:56|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:56|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:56|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:56|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:56|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:56|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:56|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:56|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:56|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:56|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:56|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:56|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:56|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:56|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:56|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:56|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:57|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:57|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:57|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:57|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:57|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:57|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:57|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:57|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:57|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:57|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:57|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:57|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:57|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:57|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:57|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:57|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:57|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:57|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:57|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:57|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:57|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:57|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:58|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:58|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:58|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:58|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:58|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:58|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:58|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:58|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:58|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:58|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:58|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:58|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:58|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:58|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:58|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:58|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:58|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:58|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:58|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:58|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:59|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:59|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:59|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:59|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:59|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:59|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:59|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:59|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:59|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:59|D|DAC_NTC: 204 NTC Volt: 64 NTC Curr: 492[0m
+|07:28:59|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:59|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:59|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:59|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:59|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:59|D|DAC_NTC: 306 NTC Volt: 137 NTC Curr: 784[0m
+|07:28:59|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:59|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:59|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:59|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:59|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:28:59|D|DAC_NTC: 408 NTC Volt: 210 NTC Curr: 1079[0m
+|07:28:59|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:28:59|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:28:59|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:00|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:00|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:00|D|DAC_NTC: 510 NTC Volt: 282 NTC Curr: 1371[0m
+|07:29:00|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:00|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:00|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:00|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:00|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:00|D|DAC_NTC: 612 NTC Volt: 355 NTC Curr: 1659[0m
+|07:29:00|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:00|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:00|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:00|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:00|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:00|D|DAC_NTC: 714 NTC Volt: 426 NTC Curr: 1943[0m
+|07:29:00|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:00|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:00|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:00|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:00|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:00|D|DAC_NTC: 816 NTC Volt: 496 NTC Curr: 2217[0m
+|07:29:00|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:00|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:00|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:01|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:01|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:01|D|DAC_NTC: 918 NTC Volt: 564 NTC Curr: 2475[0m
+|07:29:01|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:01|I|[1m[34m	--> [1m[33mINTERNAL_NTC_ABS[1m[34m: [1m[33m29.605 +/- 1.184[1m[34m C[0m
+|07:29:01|I|[32mReading monitored data for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/13[0m[32m][0m
+|07:29:01|D|[1m[34m	--> Succesfully configured chip register [1m[33mEfusesConfig[0m
+|07:29:01|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:01|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:01|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:01|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:01|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:01|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:01|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:01|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:01|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:01|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:01|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:01|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:01|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:01|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:01|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:01|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:01|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:01|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:02|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:02|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:02|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:02|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:02|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:02|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:02|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:02|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:02|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:02|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:02|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:02|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:02|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:02|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:02|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:02|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:02|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:02|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:02|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:02|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:02|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:02|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:02|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:03|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:03|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:03|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:03|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:03|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:03|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:03|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:03|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:03|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:03|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:03|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:03|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:03|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:03|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:03|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:03|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:03|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:03|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:03|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:03|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:04|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:04|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:04|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:04|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:04|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:04|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:04|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:04|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:04|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:04|D|DAC_NTC: 102 NTC Volt: 21 NTC Curr: 224[0m
+|07:29:04|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:04|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:04|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:04|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:04|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:04|D|DAC_NTC: 204 NTC Volt: 85 NTC Curr: 488[0m
+|07:29:04|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:04|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:04|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:04|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:04|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:04|D|DAC_NTC: 306 NTC Volt: 151 NTC Curr: 762[0m
+|07:29:04|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:05|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:05|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:05|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:05|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:05|D|DAC_NTC: 408 NTC Volt: 219 NTC Curr: 1040[0m
+|07:29:05|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:05|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:05|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:05|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:05|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:05|D|DAC_NTC: 510 NTC Volt: 287 NTC Curr: 1315[0m
+|07:29:05|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:05|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:05|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:05|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:05|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:05|D|DAC_NTC: 612 NTC Volt: 353 NTC Curr: 1587[0m
+|07:29:05|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:05|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:05|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:05|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:05|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:05|D|DAC_NTC: 714 NTC Volt: 417 NTC Curr: 1850[0m
+|07:29:05|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:05|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:05|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:06|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:06|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:06|D|DAC_NTC: 816 NTC Volt: 480 NTC Curr: 2117[0m
+|07:29:06|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:06|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:06|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:06|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:06|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:06|D|DAC_NTC: 918 NTC Volt: 544 NTC Curr: 2363[0m
+|07:29:06|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:06|I|[1m[34m	--> [1m[33mINTERNAL_NTC_ABS[1m[34m: [1m[33m30.404 +/- 1.216[1m[34m C[0m
+|07:29:06|I|[32mReading monitored data for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/12[0m[32m][0m
+|07:29:06|D|[1m[34m	--> Succesfully configured chip register [1m[33mEfusesConfig[0m
+|07:29:06|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:06|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:06|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:06|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:06|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:06|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:06|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:06|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:06|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:06|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:06|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:06|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:06|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:07|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:07|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:07|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:07|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:07|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:07|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:07|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:07|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:07|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:07|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:07|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:07|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:07|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:07|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:07|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:07|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:07|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:07|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:07|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:07|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:08|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:08|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:08|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:08|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:08|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:08|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:08|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:08|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:08|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:08|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:08|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:08|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:08|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:08|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:08|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:08|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:08|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:08|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:08|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:08|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:08|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:08|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:08|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:09|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:09|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:09|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:09|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:09|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:09|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:09|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:09|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:09|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:09|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:09|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:09|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:09|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:09|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:09|D|DAC_NTC: 102 NTC Volt: 37 NTC Curr: 254[0m
+|07:29:09|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:09|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:09|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:09|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:09|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:09|D|DAC_NTC: 204 NTC Volt: 106 NTC Curr: 537[0m
+|07:29:09|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:10|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:10|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:10|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:10|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:10|D|DAC_NTC: 306 NTC Volt: 175 NTC Curr: 826[0m
+|07:29:10|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:10|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:10|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:10|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:10|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:10|D|DAC_NTC: 408 NTC Volt: 247 NTC Curr: 1124[0m
+|07:29:10|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:10|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:10|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:10|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:10|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:10|D|DAC_NTC: 510 NTC Volt: 318 NTC Curr: 1414[0m
+|07:29:10|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:10|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:10|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:10|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:10|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:10|D|DAC_NTC: 612 NTC Volt: 387 NTC Curr: 1701[0m
+|07:29:10|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:10|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:11|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:11|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:11|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:11|D|DAC_NTC: 714 NTC Volt: 457 NTC Curr: 1988[0m
+|07:29:11|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:11|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:11|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:11|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:11|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:11|D|DAC_NTC: 816 NTC Volt: 527 NTC Curr: 2270[0m
+|07:29:11|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:11|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:11|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:11|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:11|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:11|D|DAC_NTC: 918 NTC Volt: 592 NTC Curr: 2531[0m
+|07:29:11|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:11|I|[1m[34m	--> [1m[33mINTERNAL_NTC_ABS[1m[34m: [1m[33m30.468 +/- 1.219[1m[34m C[0m
+|07:29:12|I|[32m[Physics::Running] Starting run: [1m[33m0[0m
+|07:29:12|I|[32mMonitor data for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/15[0m[32m][0m
+|07:29:16|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIX_MODE[0m
+|07:29:16|W|[1m[31m		--> Very low voltage: either floating VDD sense-line or FMC not powered (voltage = [1m[33m0.000[1m[31m)[0m
+|07:29:16|I|[1m[34m	--> [1m[33mHybrid[1m[34m voltage: [1m[33m0.000 +/- 0.000[1m[34m V[0m
+|07:29:16|I|[1m[34m	--> [1m[33mHybrid[1m[34m temperature: [1m[33m-273.150 +/- -10.926[1m[34m C[0m
+|07:29:16|I|[32mMonitor data for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/14[0m[32m][0m
+|07:29:16|W|[1m[31m		--> Very low voltage: either floating VDD sense-line or FMC not powered (voltage = [1m[33m0.000[1m[31m)[0m
+|07:29:16|I|[1m[34m	--> [1m[33mHybrid[1m[34m voltage: [1m[33m0.000 +/- 0.000[1m[34m V[0m
+|07:29:17|I|[1m[34m	--> [1m[33mHybrid[1m[34m temperature: [1m[33m-273.150 +/- -10.926[1m[34m C[0m
+|07:29:17|I|[32mMonitor data for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/13[0m[32m][0m
+|07:29:17|W|[1m[31m		--> Very low voltage: either floating VDD sense-line or FMC not powered (voltage = [1m[33m0.000[1m[31m)[0m
+|07:29:17|I|[1m[34m	--> [1m[33mHybrid[1m[34m voltage: [1m[33m0.000 +/- 0.000[1m[34m V[0m
+|07:29:17|I|[1m[34m	--> [1m[33mHybrid[1m[34m temperature: [1m[33m-273.150 +/- -10.926[1m[34m C[0m
+|07:29:17|I|[32mMonitor data for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/12[0m[32m][0m
+|07:29:17|W|[1m[31m		--> Very low voltage: either floating VDD sense-line or FMC not powered (voltage = [1m[33m0.000[1m[31m)[0m
+|07:29:17|I|[1m[34m	--> [1m[33mHybrid[1m[34m voltage: [1m[33m0.000 +/- 0.000[1m[34m V[0m
+|07:29:17|I|[1m[34m	--> [1m[33mHybrid[1m[34m temperature: [1m[33m-273.150 +/- -10.926[1m[34m C[0m
+|07:29:17|I|[32mReading monitored data for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/15[0m[32m][0m
+|07:29:21|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIX_MODE[0m
+|07:29:21|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:22|I|[32m[Physics::Stop] Stopping[0m
+|07:29:22|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:22|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:22|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:22|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:22|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:22|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:22|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:22|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:22|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:22|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:22|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:22|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:22|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:22|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:22|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:22|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:22|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:22|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:22|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:22|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:23|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:23|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:23|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:23|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:23|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:23|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:23|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:23|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:23|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:23|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:23|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:23|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:23|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:23|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:23|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:23|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:23|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:23|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:23|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:23|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:24|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:24|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:24|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:24|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:24|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:24|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:24|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:24|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:24|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:24|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:24|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:24|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:24|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:24|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:24|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:24|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:24|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:24|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:24|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:24|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:24|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:24|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:25|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:25|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:25|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:25|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:25|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:25|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:25|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:25|D|DAC_NTC: 102 NTC Volt: 8 NTC Curr: 212[0m
+|07:29:25|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:25|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:25|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:25|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:25|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:25|D|DAC_NTC: 204 NTC Volt: 71 NTC Curr: 481[0m
+|07:29:25|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:25|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:25|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:25|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:25|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:25|D|DAC_NTC: 306 NTC Volt: 137 NTC Curr: 756[0m
+|07:29:25|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:25|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:25|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:26|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:26|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:26|D|DAC_NTC: 408 NTC Volt: 204 NTC Curr: 1038[0m
+|07:29:26|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:26|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:26|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:26|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:26|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:26|D|DAC_NTC: 510 NTC Volt: 269 NTC Curr: 1318[0m
+|07:29:26|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:26|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:26|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:26|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:26|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:26|D|DAC_NTC: 612 NTC Volt: 334 NTC Curr: 1592[0m
+|07:29:26|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:26|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:26|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:26|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:26|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:26|D|DAC_NTC: 714 NTC Volt: 401 NTC Curr: 1869[0m
+|07:29:26|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:26|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:26|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:27|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:27|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:27|D|DAC_NTC: 816 NTC Volt: 465 NTC Curr: 2140[0m
+|07:29:27|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:27|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:27|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:27|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:27|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:27|D|DAC_NTC: 918 NTC Volt: 527 NTC Curr: 2402[0m
+|07:29:27|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:27|I|[1m[34m	--> [1m[33mINTERNAL_NTC_ABS[1m[34m: [1m[33m31.153 +/- 1.246[1m[34m C[0m
+|07:29:27|I|[32mReading monitored data for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/14[0m[32m][0m
+|07:29:32|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIX_MODE[0m
+|07:29:32|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:32|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:32|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:32|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:32|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:32|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:32|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:32|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:32|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:32|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:32|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:32|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:32|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:32|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:32|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:32|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:33|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:33|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:33|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:33|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:33|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:33|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:33|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:33|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:33|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:33|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:33|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:33|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:33|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:33|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:33|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:33|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:33|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:33|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:33|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:33|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:34|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:34|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:34|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:34|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:34|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:34|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:34|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:34|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:34|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:34|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:34|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:34|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:34|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:34|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:34|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:34|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:34|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:34|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:34|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:34|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:35|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:35|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:35|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:35|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:35|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:35|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:35|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:35|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:35|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:35|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:35|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:35|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:35|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:35|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:35|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:35|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:35|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:35|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:35|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:35|D|DAC_NTC: 204 NTC Volt: 65 NTC Curr: 492[0m
+|07:29:35|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:36|D|DAC_NTC: 306 NTC Volt: 137 NTC Curr: 783[0m
+|07:29:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:36|D|DAC_NTC: 408 NTC Volt: 211 NTC Curr: 1079[0m
+|07:29:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:36|D|DAC_NTC: 510 NTC Volt: 283 NTC Curr: 1370[0m
+|07:29:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:36|D|DAC_NTC: 612 NTC Volt: 356 NTC Curr: 1658[0m
+|07:29:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:36|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:37|D|DAC_NTC: 714 NTC Volt: 427 NTC Curr: 1942[0m
+|07:29:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:37|D|DAC_NTC: 816 NTC Volt: 496 NTC Curr: 2218[0m
+|07:29:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:37|D|DAC_NTC: 918 NTC Volt: 564 NTC Curr: 2477[0m
+|07:29:37|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:37|I|[1m[34m	--> [1m[33mINTERNAL_NTC_ABS[1m[34m: [1m[33m29.659 +/- 1.186[1m[34m C[0m
+|07:29:37|I|[32mReading monitored data for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/13[0m[32m][0m
+|07:29:42|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIX_MODE[0m
+|07:29:42|I|[1m[34m[Physics::Running] --> Run started[0m
+|07:29:42|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:42|I|[1m[34m	--> Saving and/or shipping metadata...[0m
+|07:29:42|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:42|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:42|I|[1m[34m	--> Saving and/or shipping metadata...[0m
+|07:29:42|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:42|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:42|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:42|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:42|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:43|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:43|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:43|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:43|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:43|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:43|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:43|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:43|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:43|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:43|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:43|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:43|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:43|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:43|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:43|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:43|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:43|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:43|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:43|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:43|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:44|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:44|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:44|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:44|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:44|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:44|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:44|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:44|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:44|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:44|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:44|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:44|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:44|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:44|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:44|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:44|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:44|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:44|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:44|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:44|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:44|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:44|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:44|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:45|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:45|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:45|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:45|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:45|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:45|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:45|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:45|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:45|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:45|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:45|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:45|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:45|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:45|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:45|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:45|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:45|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:45|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:45|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:45|D|DAC_NTC: 102 NTC Volt: 21 NTC Curr: 225[0m
+|07:29:45|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:46|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:46|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:46|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:46|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:46|D|DAC_NTC: 204 NTC Volt: 87 NTC Curr: 489[0m
+|07:29:46|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:46|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:46|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:46|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:46|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:46|D|DAC_NTC: 306 NTC Volt: 152 NTC Curr: 760[0m
+|07:29:46|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:46|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:46|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:46|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:46|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:46|D|DAC_NTC: 408 NTC Volt: 220 NTC Curr: 1040[0m
+|07:29:46|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:46|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:46|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:46|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:46|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:46|D|DAC_NTC: 510 NTC Volt: 286 NTC Curr: 1315[0m
+|07:29:46|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:46|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:46|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:47|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:47|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:47|D|DAC_NTC: 612 NTC Volt: 351 NTC Curr: 1584[0m
+|07:29:47|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:47|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:47|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:47|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:47|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:47|D|DAC_NTC: 714 NTC Volt: 417 NTC Curr: 1850[0m
+|07:29:47|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:47|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:47|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:47|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:47|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:47|D|DAC_NTC: 816 NTC Volt: 482 NTC Curr: 2116[0m
+|07:29:47|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:47|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:47|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:47|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:47|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:47|D|DAC_NTC: 918 NTC Volt: 547 NTC Curr: 2364[0m
+|07:29:47|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:47|I|[1m[34m	--> [1m[33mINTERNAL_NTC_ABS[1m[34m: [1m[33m30.350 +/- 1.214[1m[34m C[0m
+|07:29:47|I|[32mReading monitored data for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/12[0m[32m][0m
+|07:29:47|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:47|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:47|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:48|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:48|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:48|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:48|I|[32mSplitting ROOT file [1m[33mResults/Run000000_Physics.root[0m[32m by Board & Hybrid[0m
+|07:29:48|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:48|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:48|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:48|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:48|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:48|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:48|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:48|I|[32m	--> Waiting for monitoring to be completed...[0m
+|07:29:48|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:48|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:48|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:48|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:48|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:48|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:48|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:48|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:48|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:48|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:48|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:49|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:50|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:51|D|DAC_NTC: 102 NTC Volt: 35 NTC Curr: 255[0m
+|07:29:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:51|D|DAC_NTC: 204 NTC Volt: 106 NTC Curr: 537[0m
+|07:29:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:51|D|DAC_NTC: 306 NTC Volt: 176 NTC Curr: 826[0m
+|07:29:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:51|D|DAC_NTC: 408 NTC Volt: 248 NTC Curr: 1124[0m
+|07:29:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:51|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:52|D|DAC_NTC: 510 NTC Volt: 317 NTC Curr: 1414[0m
+|07:29:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:52|D|DAC_NTC: 612 NTC Volt: 387 NTC Curr: 1704[0m
+|07:29:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:52|D|DAC_NTC: 714 NTC Volt: 458 NTC Curr: 1987[0m
+|07:29:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:52|D|DAC_NTC: 816 NTC Volt: 525 NTC Curr: 2269[0m
+|07:29:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:52|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:53|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseConf[0m
+|07:29:53|D|[1m[34m	--> Succesfully configured chip register [1m[33mGlobalPulseWidth[0m
+|07:29:53|D|DAC_NTC: 918 NTC Volt: 592 NTC Curr: 2530[0m
+|07:29:53|D|[1m[34m	--> Succesfully configured chip register [1m[33mDAC_NTC[0m
+|07:29:53|I|[1m[34m	--> [1m[33mINTERNAL_NTC_ABS[1m[34m: [1m[33m30.447 +/- 1.218[1m[34m C[0m
+|07:29:53|I|[32mSplitting ROOT file [1m[33mMonitorResults/MonitorDQM_2026-02-17_19-28-48.root[0m[32m by Board & Hybrid[0m
+|07:29:53|I|[32mClosing result file: [1m[33mResults/Run000000_Physics.root[0m
+|07:29:53|I|[32mReadout chip error report for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/15[0m[32m][0m
+|07:29:53|I|[1m[34mBCID_CNT            = [1m[33m 47193[0m
+|07:29:53|I|[1m[34mTRIG_CNT            = [1m[33m   100[0m
+|07:29:53|I|[1m[34mREADTRIG_CNT        = [1m[33m   100[0m
+|07:29:53|I|[1m[34mLOCKLOSS_CNT        = [1m[33m     0[0m
+|07:29:53|I|[1m[34mBITFLIP_WNG_CNT     = [1m[33m     0[0m
+|07:29:53|I|[1m[34mBITFLIP_ERR_CNT     = [1m[33m     0[0m
+|07:29:53|I|[1m[34mCMDERR_CNT          = [1m[33m     0[0m
+|07:29:53|I|[1m[34mRDWRFIFOERROR_CNT   = [1m[33m     0[0m
+|07:29:53|I|[1m[34mHITOR_0_CNT         = [1m[33m     0[0m
+|07:29:53|I|[1m[34mHITOR_1_CNT         = [1m[33m     0[0m
+|07:29:53|I|[1m[34mHITOR_2_CNT         = [1m[33m     0[0m
+|07:29:53|I|[1m[34mHITOR_3_CNT         = [1m[33m     0[0m
+|07:29:53|I|[1m[34mGatedHITOR_0_CNT    = [1m[33m     0[0m
+|07:29:53|I|[1m[34mGatedHITOR_1_CNT    = [1m[33m     0[0m
+|07:29:53|I|[1m[34mPIXELSEU_CNT        = [1m[33m     0[0m
+|07:29:53|I|[1m[34mGLOBALCONFIGSEU_CNT = [1m[33m     0[0m
+|07:29:53|I|[1m[34mSKIPPED_TRIGGER_CNT = [1m[33m     0[0m
+|07:29:53|I|[32mReadout chip error report for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/14[0m[32m][0m
+|07:29:53|I|[1m[34mBCID_CNT            = [1m[33m 58373[0m
+|07:29:53|I|[1m[34mTRIG_CNT            = [1m[33m   100[0m
+|07:29:53|I|[1m[34mREADTRIG_CNT        = [1m[33m   100[0m
+|07:29:53|I|[1m[34mLOCKLOSS_CNT        = [1m[33m     0[0m
+|07:29:53|I|[1m[34mBITFLIP_WNG_CNT     = [1m[33m     0[0m
+|07:29:53|I|[1m[34mBITFLIP_ERR_CNT     = [1m[33m     0[0m
+|07:29:53|I|[1m[34mCMDERR_CNT          = [1m[33m     0[0m
+|07:29:53|I|[1m[34mRDWRFIFOERROR_CNT   = [1m[33m     0[0m
+|07:29:53|I|[1m[34mHITOR_0_CNT         = [1m[33m     0[0m
+|07:29:53|I|[1m[34mHITOR_1_CNT         = [1m[33m     0[0m
+|07:29:53|I|[1m[34mHITOR_2_CNT         = [1m[33m     0[0m
+|07:29:53|I|[1m[34mHITOR_3_CNT         = [1m[33m     0[0m
+|07:29:53|I|[1m[34mGatedHITOR_0_CNT    = [1m[33m     0[0m
+|07:29:53|I|[1m[34mGatedHITOR_1_CNT    = [1m[33m     0[0m
+|07:29:53|I|[1m[34mPIXELSEU_CNT        = [1m[33m     0[0m
+|07:29:53|I|[1m[34mGLOBALCONFIGSEU_CNT = [1m[33m     0[0m
+|07:29:53|I|[1m[34mSKIPPED_TRIGGER_CNT = [1m[33m     0[0m
+|07:29:53|I|[32mReadout chip error report for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/13[0m[32m][0m
+|07:29:53|I|[1m[34mBCID_CNT            = [1m[33m 61401[0m
+|07:29:53|I|[1m[34mTRIG_CNT            = [1m[33m   100[0m
+|07:29:53|I|[1m[34mREADTRIG_CNT        = [1m[33m   100[0m
+|07:29:53|I|[1m[34mLOCKLOSS_CNT        = [1m[33m     0[0m
+|07:29:53|I|[1m[34mBITFLIP_WNG_CNT     = [1m[33m     0[0m
+|07:29:53|I|[1m[34mBITFLIP_ERR_CNT     = [1m[33m     0[0m
+|07:29:53|I|[1m[34mCMDERR_CNT          = [1m[33m     0[0m
+|07:29:53|I|[1m[34mRDWRFIFOERROR_CNT   = [1m[33m     0[0m
+|07:29:53|I|[1m[34mHITOR_0_CNT         = [1m[33m     0[0m
+|07:29:53|I|[1m[34mHITOR_1_CNT         = [1m[33m     0[0m
+|07:29:53|I|[1m[34mHITOR_2_CNT         = [1m[33m     0[0m
+|07:29:53|I|[1m[34mHITOR_3_CNT         = [1m[33m     0[0m
+|07:29:53|I|[1m[34mGatedHITOR_0_CNT    = [1m[33m     0[0m
+|07:29:53|I|[1m[34mGatedHITOR_1_CNT    = [1m[33m     0[0m
+|07:29:53|I|[1m[34mPIXELSEU_CNT        = [1m[33m     0[0m
+|07:29:53|I|[1m[34mGLOBALCONFIGSEU_CNT = [1m[33m     0[0m
+|07:29:53|I|[1m[34mSKIPPED_TRIGGER_CNT = [1m[33m     0[0m
+|07:29:53|I|[32mReadout chip error report for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/12[0m[32m][0m
+|07:29:53|I|[1m[34mBCID_CNT            = [1m[33m 47001[0m
+|07:29:53|I|[1m[34mTRIG_CNT            = [1m[33m   100[0m
+|07:29:53|I|[1m[34mREADTRIG_CNT        = [1m[33m   100[0m
+|07:29:53|I|[1m[34mLOCKLOSS_CNT        = [1m[33m     0[0m
+|07:29:53|I|[1m[34mBITFLIP_WNG_CNT     = [1m[33m     0[0m
+|07:29:53|I|[1m[34mBITFLIP_ERR_CNT     = [1m[33m     0[0m
+|07:29:53|I|[1m[34mCMDERR_CNT          = [1m[33m     0[0m
+|07:29:53|I|[1m[34mRDWRFIFOERROR_CNT   = [1m[33m     0[0m
+|07:29:53|I|[1m[34mHITOR_0_CNT         = [1m[33m     0[0m
+|07:29:53|I|[1m[34mHITOR_1_CNT         = [1m[33m     0[0m
+|07:29:53|I|[1m[34mHITOR_2_CNT         = [1m[33m     0[0m
+|07:29:53|I|[1m[34mHITOR_3_CNT         = [1m[33m     0[0m
+|07:29:53|I|[1m[34mGatedHITOR_0_CNT    = [1m[33m     0[0m
+|07:29:53|I|[1m[34mGatedHITOR_1_CNT    = [1m[33m     0[0m
+|07:29:53|I|[1m[34mPIXELSEU_CNT        = [1m[33m     0[0m
+|07:29:53|I|[1m[34mGLOBALCONFIGSEU_CNT = [1m[33m     0[0m
+|07:29:53|I|[1m[34mSKIPPED_TRIGGER_CNT = [1m[33m     0[0m
+|07:29:53|I|[32mCurrent calibration saved the configuration file for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/15[0m[32m] [1m[33m/home/muon/dirigent-production/dirigent/run_P-1009-17022026/Run000000_H0_ROC15.txt[0m
+|07:29:53|I|[32mCurrent calibration saved the configuration file for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/14[0m[32m] [1m[33m/home/muon/dirigent-production/dirigent/run_P-1009-17022026/Run000000_H0_ROC14.txt[0m
+|07:29:53|I|[32mCurrent calibration saved the configuration file for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/13[0m[32m] [1m[33m/home/muon/dirigent-production/dirigent/run_P-1009-17022026/Run000000_H0_ROC13.txt[0m
+|07:29:53|I|[32mCurrent calibration saved the configuration file for [board/opticalGroup/hybrid/chip = [1m[33m0/0/0/12[0m[32m] [1m[33m/home/muon/dirigent-production/dirigent/run_P-1009-17022026/Run000000_H0_ROC12.txt[0m
+|07:29:53|I|[32m[Physics::Stop] Stopped[0m
+|07:29:53|I|[1m[34m	--> Total number of recorded events (i.e. bunch crossings): [1m[33m0[0m
+|07:29:53|I|[1m[34m	--> Total number of received triggers: [1m[33m0[0m
+|07:29:53|I|[1m[34m	--> Total number of corrupted bunch crossings: [1m[33m0 (-nan%)[0m
+|07:29:53|I|[32mSplitting ROOT file [1m[33mMonitorResults/MonitorDQM_2026-02-17_19-28-48.root[0m[32m by Board & Hybrid[0m
+|07:29:53|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIX_MODE[0m
+|07:29:53|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIX_MODE[0m
+|07:29:53|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIX_MODE[0m
+|07:29:53|D|[1m[34m	--> Succesfully configured chip register [1m[33mPIX_MODE[0m
+|07:29:53|I|[1m[31m>>> Destroying interfaces <<<[0m
+|07:29:53|I|[1m[31m>>> Destroying monitoring <<<[0m
+|07:29:53|I|[32mClosing monitor result file: [1m[33mMonitorResults/MonitorDQM_2026-02-17_19-28-48.root[0m
+|07:29:53|I|[32mTrying to shutdown Calibration DQM Server...[0m
+|07:29:53|I|[1m[34m	--> Operation completed[0m
+|07:29:53|I|[32mTrying to shutdown Monitor DQM Server...[0m
+|07:29:53|I|[1m[34m	--> Operation completed[0m
+|07:29:53|I|[1m[31m>>> Interfaces  destroyed <<<[0m
+|07:29:53|I|[1m[35m@@@ End of CMSIT miniDAQ @@@[0m
